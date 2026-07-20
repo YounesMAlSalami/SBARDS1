@@ -1,0 +1,10 @@
+{
+  "file_path": "C:\\Users\\pc\\AppData\\Local\\Temp\\tmpoth_znc6\\safe.txt",
+  "exists": true,
+  "file_hash": "d0674361b3642ed30581f73acb7f363698f9b9650359f755367e32a6b08dfee1",
+  "malicious": 0,
+  "suspicious": 0,
+  "benign": 0,
+  "unknown": 1,
+  "sources": []
+}

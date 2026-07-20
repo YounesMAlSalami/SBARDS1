@@ -1,0 +1,3 @@
+2025-05-11T20:53:57.644303 - Scanned: E:\Work\Free\Students\CyperSecurity\SBARDSProject\scanner_core\python\../../samples\test_sample.txt - Matches: ['ExampleRule', 'PotentialRansomware']
+2025-05-11T20:54:22.633160 - Scanned: E:\Work\Free\Students\CyperSecurity\SBARDSProject\scanner_core\python\../../samples\test_sample.txt - Matches: ['ExampleRule', 'PotentialRansomware']
+2025-05-11T21:02:26.483541 - Scanned: E:\Work\Free\Students\CyperSecurity\SBARDSProject\samples\test_sample.txt - Matches: ['ExampleRule', 'PotentialRansomware']

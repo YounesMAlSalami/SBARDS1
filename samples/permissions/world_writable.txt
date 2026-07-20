@@ -1,0 +1,21 @@
+WORLD WRITABLE FILE
+===================
+
+This file simulates a world-writable file (777 permissions).
+It is used to test permission scanning in security tools.
+
+World-writable files are a security risk because they can be modified by any user on the system.
+This can lead to:
+- Data corruption
+- Information disclosure
+- Privilege escalation
+- Malware infection
+
+In a secure system, files should have the minimum necessary permissions.
+For example:
+- Configuration files: 644 (rw-r--r--)
+- Executable files: 755 (rwxr-xr-x)
+- Private data: 600 (rw-------)
+
+This file is for testing permission scanning only.
+No actual security risks are present in this file content.

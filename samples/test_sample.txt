@@ -1,0 +1,4 @@
+This is a test file that contains the word malicious to trigger our YARA rule.
+It does not contain any actual malware but is used for testing the scanner functionality.
+
+The file also mentions the words encrypt and decrypt to potentially trigger the PotentialRansomware rule.

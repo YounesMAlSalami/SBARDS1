@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "timestamp": "2025-05-13T06:50:46.921490",
+    "hostname": "DESKTOP-RND1M49",
+    "scanner_version": "1.0.0",
+    "platform": "win32"
+  },
+  "scan_result": {
+    "file_path": "samples/highly_malicious.bat",
+    "recommendation": "Quarantine",
+    "threats": [
+      "Suspicious file extension: .bat",
+      "Found suspicious patterns: powershell, system32, netsh, Invoke-WebRequest, Invoke-Expression, ExecutionPolicy Bypass, Hidden, Run, http://, encrypt"
+    ],
+    "file_type": "bat script"
+  }
+}

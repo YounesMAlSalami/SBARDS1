@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "timestamp": "2025-05-13T05:55:49.741008",
+    "hostname": "DESKTOP-RND1M49",
+    "scanner_version": "1.0.0",
+    "platform": "win32"
+  },
+  "statistics": {
+    "total": 1,
+    "threats": 0,
+    "investigate": 0,
+    "monitor": 0,
+    "safe": 0,
+    "errors": 1,
+    "unknown": 0
+  },
+  "scan_results": [
+    {
+      "directory": "samples",
+      "status": "error",
+      "error": "name 'DummyOrchestrator' is not defined",
+      "recommendation": "Error"
+    }
+  ]
+}

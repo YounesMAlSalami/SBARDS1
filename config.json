@@ -1,0 +1,134 @@
+{
+  "scanner": {
+    "version": "1.0.0",
+    "name": "SBARDS Security Scanner",
+    "description": "Comprehensive Security Analysis Tool"
+  },
+  "paths": {
+    "rules_dir": "rules",
+    "samples_dir": "samples",
+    "output_dir": "output",
+    "logs_dir": "logs"
+  },
+  "scan_options": {
+    "max_file_size": 104857600,
+    "default_recursive": true,
+    "parallel_scan": true,
+    "max_workers": 4,
+    "timeout_seconds": 300,
+    "deep_scan": true,
+    "memory_limit_mb": 1024,
+    "follow_symlinks": false,
+    "scan_archives": true,
+    "extract_nested_archives": true,
+    "max_archive_depth": 3,
+    "max_archive_size": 52428800,
+    "max_archive_files": 1000
+  },
+  "yara": {
+    "enabled": true,
+    "max_strings_per_rule": 10000,
+    "stack_size": 16384,
+    "timeout_seconds": 60
+  },
+  "file_types": {
+    "scan_all": true,
+    "excluded_extensions": [],
+    "high_risk_extensions": [
+      ".exe", ".dll", ".sys", ".bat", ".cmd", ".ps1", ".vbs", ".js",
+      ".jar", ".apk", ".deb", ".rpm", ".msi", ".sh", ".py", ".php",
+      ".asp", ".aspx", ".jsp", ".jspx", ".pl", ".rb", ".cgi", ".scr",
+      ".hta", ".com", ".pif", ".gadget", ".application", ".msc", ".lnk"
+    ],
+    "medium_risk_extensions": [
+      ".doc", ".docx", ".xls", ".xlsx", ".ppt", ".pptx", ".pdf",
+      ".rtf", ".chm", ".xml", ".html", ".htm", ".url", ".reg",
+      ".zip", ".rar", ".7z", ".tar", ".gz", ".tgz", ".bz2", ".iso"
+    ],
+    "low_risk_extensions": [
+      ".txt", ".csv", ".log", ".ini", ".cfg", ".conf", ".json", ".yaml",
+      ".yml", ".md", ".markdown", ".css", ".scss", ".less", ".svg",
+      ".eml", ".msg", ".ics", ".vcf"
+    ],
+    "binary_file_headers": {
+      "exe": ["4D5A"],
+      "elf": ["7F454C46"],
+      "pdf": ["25504446"],
+      "zip": ["504B0304"],
+      "office": ["D0CF11E0"],
+      "png": ["89504E47"],
+      "jpg": ["FFD8FF"],
+      "gif": ["474946"],
+      "class": ["CAFEBABE"]
+    }
+  },
+  "threat_intel": {
+    "enabled": true,
+    "cache_results": true,
+    "cache_expiry_days": 7,
+    "sources": [
+      {
+        "name": "VirusTotal",
+        "enabled": false,
+        "api_key": "",
+        "url": "https://www.virustotal.com/api/v3/",
+        "min_detection_ratio": 0.1
+      },
+      {
+        "name": "AbuseIPDB",
+        "enabled": false,
+        "api_key": "",
+        "url": "https://api.abuseipdb.com/api/v2/",
+        "min_confidence_score": 80
+      }
+    ]
+  },
+  "reporting": {
+    "save_json": true,
+    "save_html": false,
+    "save_pdf": false,
+    "include_clean_files": true,
+    "include_file_info": true,
+    "include_scan_details": true
+  },
+  "logging": {
+    "level": "INFO",
+    "max_log_files": 10,
+    "max_file_size_mb": 10,
+    "log_to_console": true
+  },
+  "actions": {
+    "quarantine_enabled": true,
+    "quarantine_dir": "quarantine",
+    "notify_on_threats": true,
+    "auto_update_rules": true,
+    "backup_before_quarantine": true,
+    "backup_dir": "backup",
+    "max_backup_size_mb": 1024,
+    "max_backups": 100
+  },
+  "content_analysis": {
+    "enabled": true,
+    "analyze_text_files": true,
+    "analyze_binary_files": true,
+    "analyze_scripts": true,
+    "analyze_documents": true,
+    "analyze_archives": true,
+    "analyze_images": true,
+    "analyze_executables": true,
+    "entropy_analysis": true,
+    "high_entropy_threshold": 7.8,
+    "suspicious_entropy_threshold": 7.2
+  },
+  "permissions_check": {
+    "enabled": true,
+    "check_owner": true,
+    "check_group": true,
+    "check_world_writable": true,
+    "check_setuid": true,
+    "check_setgid": true,
+    "check_sticky_bit": true,
+    "check_hidden_files": true,
+    "check_alternate_data_streams": true
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "timestamp": "2025-05-15T04:01:46.855432",
+    "hostname": "DESKTOP-RND1M49",
+    "scanner_version": "1.0.0",
+    "platform": "win32"
+  },
+  "statistics": {
+    "total": 3,
+    "threats": 2,
+    "investigate": 1,
+    "monitor": 0,
+    "safe": 0,
+    "errors": 0,
+    "unknown": 0
+  },
+  "scan_results": [
+    {
+      "file_path": "samples\\malicious\\backdoor.js",
+      "recommendation": "Investigate",
+      "threats": [
+        "Suspicious file extension: .js",
+        "Found suspicious patterns: base64, encrypt, backdoor"
+      ],
+      "file_type": "js script"
+    },
+    {
+      "file_path": "samples\\malicious\\keylogger.bat",
+      "recommendation": "Quarantine",
+      "threats": [
+        "Suspicious file extension: .bat",
+        "Found suspicious patterns: powershell, system32, ExecutionPolicy Bypass, Hidden, Run, http://"
+      ],
+      "file_type": "bat script"
+    },
+    {
+      "file_path": "samples\\malicious\\ransomware_script.py",
+      "recommendation": "Quarantine",
+      "threats": [
+        "Suspicious file extension: .py",
+        "Found suspicious patterns: http://, base64, encrypt, decrypt"
+      ],
+      "file_type": "py script"
+    }
+  ]
+}

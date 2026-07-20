@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "timestamp": "2025-05-15T05:07:11.530819",
+    "hostname": "DESKTOP-RND1M49",
+    "scanner_version": "1.0.0",
+    "platform": "win32"
+  },
+  "statistics": {
+    "total": 6,
+    "threats": 4,
+    "investigate": 2,
+    "monitor": 0,
+    "safe": 0,
+    "errors": 0,
+    "unknown": 0
+  },
+  "scan_results": [
+    {
+      "file_path": "samples\\malicious\\backdoor.js",
+      "recommendation": "Investigate",
+      "threats": [
+        "Suspicious file extension: .js",
+        "Found suspicious patterns: base64, encrypt, backdoor"
+      ],
+      "file_type": "js script"
+    },
+    {
+      "file_path": "samples\\malicious\\keylogger.bat",
+      "recommendation": "Quarantine",
+      "threats": [
+        "Suspicious file extension: .bat",
+        "Found suspicious patterns: powershell, system32, ExecutionPolicy Bypass, Hidden, Run, http://"
+      ],
+      "file_type": "bat script"
+    },
+    {
+      "file_path": "samples\\malicious\\crypto_miner.py",
+      "recommendation": "Quarantine",
+      "threats": [
+        "Suspicious file extension: .py",
+        "Found suspicious patterns: Hidden, Run, http://, base64, hack"
+      ],
+      "file_type": "py script"
+    },
+    {
+      "file_path": "samples\\malicious\\malicious_script.bat",
+      "recommendation": "Quarantine",
+      "threats": [
+        "Suspicious file extension: .bat",
+        "Found suspicious patterns: powershell, system32, netsh, Invoke-WebRequest, ExecutionPolicy Bypass, Hidden, Run, http://, base64, encrypt"
+      ],
+      "file_type": "bat script"
+    },
+    {
+      "file_path": "samples\\malicious\\malicious_commands.txt",
+      "recommendation": "Investigate",
+      "threats": [
+        "Found suspicious patterns: powershell, cmd.exe, system32, netsh, Invoke-WebRequest, IEX, ExecutionPolicy Bypass, chmod 777, /etc/passwd, /etc/shadow, iptables, encrypt, malicious, backdoor, ransomware, keylogger, hack"
+      ],
+      "file_type": "txt file"
+    },
+    {
+      "file_path": "samples\\malicious\\ransomware_script.py",
+      "recommendation": "Quarantine",
+      "threats": [
+        "Suspicious file extension: .py",
+        "Found suspicious patterns: http://, base64, encrypt, decrypt"
+      ],
+      "file_type": "py script"
+    }
+  ]
+}

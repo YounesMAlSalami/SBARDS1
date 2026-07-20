@@ -1,0 +1,16 @@
+{
+  "metadata": {
+    "timestamp": "2025-05-15T06:58:42.299334",
+    "hostname": "DESKTOP-RND1M49",
+    "scanner_version": "1.0.0",
+    "platform": "win32"
+  },
+  "scan_result": {
+    "file_path": "samples/test_sample.txt",
+    "recommendation": "Investigate",
+    "threats": [
+      "Found suspicious patterns: encrypt, decrypt, malicious, ransomware"
+    ],
+    "file_type": "txt file"
+  }
+}

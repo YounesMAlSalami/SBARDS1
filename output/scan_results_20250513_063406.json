@@ -1,0 +1,16 @@
+{
+  "metadata": {
+    "timestamp": "2025-05-13T06:34:06.137744",
+    "hostname": "DESKTOP-RND1M49",
+    "scanner_version": "1.0.0",
+    "platform": "win32"
+  },
+  "scan_result": {
+    "file_path": "samples/malicious.exe.txt",
+    "recommendation": "Investigate",
+    "threats": [
+      "Found suspicious patterns: powershell, ExecutionPolicy Bypass, eval(, base64_decode, encrypt, decrypt, malicious, backdoor, trojan, ransomware, keylogger, botnet"
+    ],
+    "file_type": "txt file"
+  }
+}

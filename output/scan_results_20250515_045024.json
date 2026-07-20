@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "timestamp": "2025-05-15T04:50:24.967670",
+    "hostname": "DESKTOP-RND1M49",
+    "scanner_version": "1.0.0",
+    "platform": "win32"
+  },
+  "statistics": {
+    "total": 4,
+    "threats": 0,
+    "investigate": 1,
+    "monitor": 3,
+    "safe": 0,
+    "errors": 0,
+    "unknown": 0
+  },
+  "scan_results": [
+    {
+      "file_path": "samples\\injected\\document_with_macro.txt",
+      "recommendation": "Investigate",
+      "threats": [
+        "Found suspicious patterns: powershell, Invoke-WebRequest, ExecutionPolicy Bypass, malicious"
+      ],
+      "file_type": "txt file"
+    },
+    {
+      "file_path": "samples\\injected\\html_with_malicious_script.html",
+      "recommendation": "Monitor",
+      "threats": [
+        "Found suspicious patterns: malicious"
+      ],
+      "file_type": "html file"
+    },
+    {
+      "file_path": "samples\\injected\\image_metadata.jpg.txt",
+      "recommendation": "Monitor",
+      "threats": [
+        "Found suspicious patterns: malicious"
+      ],
+      "file_type": "txt file"
+    },
+    {
+      "file_path": "samples\\injected\\image_with_script.txt",
+      "recommendation": "Monitor",
+      "threats": [
+        "Found suspicious patterns: malicious"
+      ],
+      "file_type": "txt file"
+    }
+  ]
+}

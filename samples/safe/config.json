@@ -1,0 +1,37 @@
+{
+    "application": {
+        "name": "Safe Application",
+        "version": "1.0.0",
+        "description": "A completely safe application with no malicious code",
+        "author": "Security Researcher",
+        "license": "MIT"
+    },
+    "settings": {
+        "theme": "light",
+        "language": "en",
+        "notifications": true,
+        "autoUpdate": true,
+        "telemetry": false
+    },
+    "database": {
+        "host": "localhost",
+        "port": 5432,
+        "name": "safe_db",
+        "user": "app_user"
+    },
+    "logging": {
+        "level": "info",
+        "file": "app.log",
+        "maxSize": 10485760,
+        "maxFiles": 5,
+        "console": true
+    },
+    "features": {
+        "dashboard": true,
+        "reports": true,
+        "analytics": true,
+        "export": true,
+        "import": true,
+        "userManagement": true
+    }
+}

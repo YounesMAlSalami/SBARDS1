@@ -1,0 +1,1178 @@
+2025-05-13 04:25:35,795 - SBARDSScanner - INFO - Directory structure verified
+2025-05-13 04:26:15,192 - SBARDSScanner - INFO - Directory structure verified
+2025-05-13 04:26:15,193 - SBARDSScanner - INFO - Scanning file: samples/test_sample.txt
+2025-05-13 04:26:15,194 - SBARDSScanner - INFO - Scan completed for samples/test_sample.txt: Unknown (missing dependencies)
+2025-05-13 04:26:15,196 - SBARDSScanner - INFO - Scan results saved to output\latest_results.json
+2025-05-13 04:26:44,169 - SBARDSScanner - INFO - Directory structure verified
+2025-05-13 04:26:44,170 - SBARDSScanner - INFO - Scanning directory: samples (recursive: False)
+2025-05-13 04:26:44,171 - SBARDSScanner - INFO - Scan completed for directory samples: 1 files scanned, 0 threats detected
+2025-05-13 04:26:44,174 - SBARDSScanner - INFO - Scan results saved to output\latest_results.json
+2025-05-13 04:28:12,038 - SBARDSScanner - INFO - Directory structure verified
+2025-05-13 04:28:12,039 - SBARDSScanner - INFO - Scanning directory: samples (recursive: False)
+2025-05-13 04:28:12,040 - SBARDSScanner - INFO - Scan completed for directory samples: 1 files scanned, 0 threats detected
+2025-05-13 04:28:12,043 - SBARDSScanner - INFO - Scan results saved to output\latest_results.json
+2025-05-13 04:29:29,563 - SBARDSScanner - INFO - Directory structure verified
+2025-05-13 04:29:29,564 - SBARDSScanner - INFO - Scanning directory: samples (recursive: False)
+2025-05-13 04:29:29,565 - SBARDSScanner - INFO - Scan completed for directory samples: 1 files scanned, 0 threats detected
+2025-05-13 04:29:29,567 - SBARDSScanner - INFO - Scan results saved to output\latest_results.json
+2025-05-13 04:30:34,819 - SBARDSScanner - INFO - Directory structure verified
+2025-05-13 04:30:34,820 - SBARDSScanner - INFO - Scanning file: samples/suspicious_script.js
+2025-05-13 04:30:34,821 - SBARDSScanner - INFO - Scan completed for samples/suspicious_script.js: Unknown (missing dependencies)
+2025-05-13 04:30:34,826 - SBARDSScanner - INFO - Scan results saved to output\latest_results.json
+2025-05-13 04:30:52,375 - SBARDSScanner - INFO - Directory structure verified
+2025-05-13 04:30:52,376 - SBARDSScanner - INFO - Scanning directory: samples (recursive: False)
+2025-05-13 04:30:52,377 - SBARDSScanner - INFO - Scan completed for directory samples: 2 files scanned, 0 threats detected
+2025-05-13 04:30:52,379 - SBARDSScanner - INFO - Scan results saved to output\latest_results.json
+2025-05-13 04:32:30,579 - SBARDSScanner - INFO - Directory structure verified
+2025-05-13 04:32:30,580 - SBARDSScanner - INFO - Scanning directory: samples (recursive: False)
+2025-05-13 04:32:30,581 - SBARDSScanner - INFO - Scan completed for directory samples: 2 files scanned, 0 threats detected
+2025-05-13 04:32:30,584 - SBARDSScanner - INFO - Scan results saved to output\latest_results.json
+2025-05-13 04:33:30,347 - SBARDSScanner - INFO - Directory structure verified
+2025-05-13 04:33:30,348 - SBARDSScanner - INFO - Scanning directory: samples (recursive: False)
+2025-05-13 04:33:30,349 - SBARDSScanner - INFO - Scan completed for directory samples: 2 files scanned, 0 threats detected
+2025-05-13 04:33:30,352 - SBARDSScanner - INFO - Scan results saved to output\latest_results.json
+2025-05-13 04:34:36,329 - SBARDSScanner - INFO - Directory structure verified
+2025-05-13 04:34:36,330 - SBARDSScanner - INFO - Scanning directory: samples (recursive: False)
+2025-05-13 04:34:36,331 - SBARDSScanner - INFO - Scan completed for directory samples: 2 files scanned, 0 threats detected
+2025-05-13 04:34:36,333 - SBARDSScanner - INFO - Scan results saved to output\latest_results.json
+2025-05-13 04:35:19,570 - SBARDSScanner - INFO - Directory structure verified
+2025-05-13 04:35:19,571 - SBARDSScanner - INFO - Scanning directory: samples (recursive: False)
+2025-05-13 04:35:19,572 - SBARDSScanner - INFO - Scan completed for directory samples: 3 files scanned, 0 threats detected
+2025-05-13 04:35:19,574 - SBARDSScanner - INFO - Scan results saved to output\latest_results.json
+2025-05-13 04:36:39,118 - SBARDSScanner - INFO - Directory structure verified
+2025-05-13 04:36:39,119 - SBARDSScanner - INFO - Scanning directory: samples (recursive: False)
+2025-05-13 04:36:39,122 - SBARDSScanner - INFO - Scan completed for directory samples: 3 files scanned, 0 threats detected
+2025-05-13 04:36:39,128 - SBARDSScanner - INFO - Scan results saved to output\latest_results.json
+2025-05-13 05:20:19,454 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 05:20:19,456 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 05:20:19,458 - SBARDSScanner - INFO - Directory structure verified
+2025-05-13 05:20:19,458 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-13 05:20:19,459 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250513_052019.json
+2025-05-13 05:20:19,460 - SBARDSScanner - INFO - Scanning all files in samples directory
+2025-05-13 05:20:19,461 - SBARDSScanner - INFO - Scanning directory: samples (recursive: False)
+2025-05-13 05:20:19,462 - SBARDSScanner - INFO - Scan completed for directory samples: 3 files scanned, 0 threats detected
+2025-05-13 05:20:19,463 - SBARDSScanner - INFO - Scan completed in 0.00 seconds
+2025-05-13 05:20:19,486 - SBARDSScanner - ERROR - Unhandled exception: 'int' object has no attribute 'center'
+2025-05-13 05:21:02,003 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 05:21:02,005 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 05:21:02,006 - SBARDSScanner - INFO - Directory structure verified
+2025-05-13 05:21:02,007 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-13 05:21:02,008 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250513_052102.json
+2025-05-13 05:21:02,008 - SBARDSScanner - INFO - Scanning all files in samples directory
+2025-05-13 05:21:02,009 - SBARDSScanner - INFO - Scanning directory: samples (recursive: False)
+2025-05-13 05:21:02,010 - SBARDSScanner - INFO - Scan completed for directory samples: 3 files scanned, 0 threats detected
+2025-05-13 05:21:02,010 - SBARDSScanner - INFO - Scan completed in 0.00 seconds
+2025-05-13 05:21:02,025 - SBARDSScanner - INFO - Saving results to output\scan_results_20250513_052102.json
+2025-05-13 05:21:02,027 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250513_052102.json
+2025-05-13 05:21:02,028 - SBARDSScanner - INFO - Scan completed successfully, no threats detected
+2025-05-13 05:21:02,028 - SBARDSScanner - INFO - Total execution time: 0.03 seconds
+2025-05-13 05:40:53,688 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-13 05:40:53,688 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 05:40:53,690 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-13 05:40:53,691 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 05:40:53,692 - SBARDSScanner - INFO - Directory structure verified
+2025-05-13 05:40:53,692 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-13 05:40:53,693 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250513_054053.json
+2025-05-13 05:40:53,693 - SBARDSScanner - INFO - Scanning all files in samples directory
+2025-05-13 05:40:53,694 - SBARDSScanner - INFO - Scanning directory: samples (recursive: False)
+2025-05-13 05:40:53,697 - SBARDSScanner - INFO - Scan completed for directory samples: 6 files scanned, 0 threats detected
+2025-05-13 05:40:53,697 - SBARDSScanner - INFO - Scan completed in 0.00 seconds
+2025-05-13 05:40:53,713 - SBARDSScanner - INFO - Saving results to output\scan_results_20250513_054053.json
+2025-05-13 05:40:53,717 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250513_054053.json
+2025-05-13 05:40:53,718 - SBARDSScanner - INFO - Scan completed successfully, no threats detected
+2025-05-13 05:40:53,718 - SBARDSScanner - INFO - Total execution time: 0.03 seconds
+2025-05-13 05:42:13,404 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-13 05:42:13,405 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 05:42:13,406 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-13 05:42:13,407 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 05:42:13,409 - SBARDSScanner - INFO - Directory structure verified
+2025-05-13 05:42:13,409 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-13 05:42:13,410 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250513_054213.json
+2025-05-13 05:42:13,410 - SBARDSScanner - INFO - Scanning all files in samples directory
+2025-05-13 05:42:13,411 - SBARDSScanner - INFO - Scanning directory: samples (recursive: False)
+2025-05-13 05:42:13,416 - SBARDSScanner - INFO - Scan completed for directory samples: 6 files scanned, 2 threats detected
+2025-05-13 05:42:13,416 - SBARDSScanner - INFO - Scan completed in 0.01 seconds
+2025-05-13 05:42:13,440 - SBARDSScanner - INFO - Saving results to output\scan_results_20250513_054213.json
+2025-05-13 05:42:13,442 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250513_054213.json
+2025-05-13 05:42:13,443 - SBARDSScanner - WARNING - Scan completed with 2 threats detected
+2025-05-13 05:42:13,443 - SBARDSScanner - INFO - Total execution time: 0.04 seconds
+2025-05-13 05:43:32,695 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-13 05:43:32,696 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 05:43:32,697 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-13 05:43:32,698 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 05:43:32,699 - SBARDSScanner - INFO - Directory structure verified
+2025-05-13 05:43:32,699 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-13 05:43:32,700 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250513_054332.json
+2025-05-13 05:43:32,701 - SBARDSScanner - INFO - Scanning all files in samples directory
+2025-05-13 05:43:32,701 - SBARDSScanner - INFO - Scanning directory: samples (recursive: False)
+2025-05-13 05:43:32,710 - SBARDSScanner - INFO - Scan completed for directory samples: 6 files scanned, 2 threats detected
+2025-05-13 05:43:32,710 - SBARDSScanner - INFO - Scan completed in 0.01 seconds
+2025-05-13 05:43:32,735 - SBARDSScanner - INFO - Saving results to output\scan_results_20250513_054332.json
+2025-05-13 05:43:32,737 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250513_054332.json
+2025-05-13 05:43:32,738 - SBARDSScanner - WARNING - Scan completed with 2 threats detected
+2025-05-13 05:43:32,738 - SBARDSScanner - INFO - Total execution time: 0.05 seconds
+2025-05-13 05:55:49,507 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-13 05:55:49,507 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 05:55:49,509 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-13 05:55:49,509 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 05:55:49,510 - SBARDSScanner - INFO - Directory structure verified
+2025-05-13 05:55:49,510 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-13 05:55:49,723 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250513_055549.json
+2025-05-13 05:55:49,724 - SBARDSScanner - INFO - Scanning all files in samples directory
+2025-05-13 05:55:49,724 - SBARDSScanner - INFO - Scanning directory: samples (recursive: False)
+2025-05-13 05:55:49,724 - SBARDSScanner - ERROR - Error scanning directory samples: name 'DummyOrchestrator' is not defined
+2025-05-13 05:55:49,724 - SBARDSScanner - INFO - Scan completed in 0.00 seconds
+2025-05-13 05:55:49,740 - SBARDSScanner - INFO - Saving results to output\scan_results_20250513_055549.json
+2025-05-13 05:55:49,742 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250513_055549.json
+2025-05-13 05:55:49,742 - SBARDSScanner - WARNING - Scan completed with 1 errors
+2025-05-13 05:55:49,742 - SBARDSScanner - INFO - Total execution time: 0.24 seconds
+2025-05-13 05:59:42,359 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-13 05:59:42,361 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 05:59:42,363 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-13 05:59:42,363 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 05:59:42,364 - SBARDSScanner - INFO - Directory structure verified
+2025-05-13 05:59:42,364 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-13 05:59:42,365 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250513_055942.json
+2025-05-13 05:59:42,365 - SBARDSScanner - INFO - Scanning all files in samples directory
+2025-05-13 05:59:42,365 - SBARDSScanner - INFO - Scanning directory: samples (recursive: False)
+2025-05-13 05:59:42,374 - SBARDSScanner - INFO - Scan completed for directory samples: 6 files scanned, 2 threats detected
+2025-05-13 05:59:42,375 - SBARDSScanner - INFO - Scan completed in 0.01 seconds
+2025-05-13 05:59:42,400 - SBARDSScanner - INFO - Saving results to output\scan_results_20250513_055942.json
+2025-05-13 05:59:42,402 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250513_055942.json
+2025-05-13 05:59:42,402 - SBARDSScanner - WARNING - Scan completed with 2 threats detected
+2025-05-13 05:59:42,402 - SBARDSScanner - INFO - Total execution time: 0.05 seconds
+2025-05-13 06:01:11,953 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-13 06:01:11,954 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:01:11,955 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-13 06:01:11,956 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:01:11,956 - SBARDSScanner - INFO - Directory structure verified
+2025-05-13 06:01:11,956 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-13 06:01:11,957 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250513_060111.json
+2025-05-13 06:01:11,957 - SBARDSScanner - INFO - Scanning all files in samples directory
+2025-05-13 06:01:11,957 - SBARDSScanner - INFO - Scanning directory: samples (recursive: False)
+2025-05-13 06:01:11,968 - SBARDSScanner - INFO - Scan completed for directory samples: 9 files scanned, 3 threats detected
+2025-05-13 06:01:11,968 - SBARDSScanner - INFO - Scan completed in 0.01 seconds
+2025-05-13 06:01:11,997 - SBARDSScanner - INFO - Saving results to output\scan_results_20250513_060111.json
+2025-05-13 06:01:11,998 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250513_060111.json
+2025-05-13 06:01:11,999 - SBARDSScanner - WARNING - Scan completed with 3 threats detected
+2025-05-13 06:01:11,999 - SBARDSScanner - INFO - Total execution time: 0.05 seconds
+2025-05-13 06:04:56,421 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-13 06:04:56,422 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:04:56,423 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-13 06:04:56,424 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:04:56,425 - SBARDSScanner - INFO - Directory structure verified
+2025-05-13 06:04:56,425 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-13 06:04:56,425 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250513_060456.json
+2025-05-13 06:04:56,426 - SBARDSScanner - INFO - Scanning all files in samples directory
+2025-05-13 06:04:56,426 - SBARDSScanner - INFO - Scanning directory: samples (recursive: False)
+2025-05-13 06:04:56,439 - SBARDSScanner - INFO - Scan completed for directory samples: 9 files scanned, 4 threats detected
+2025-05-13 06:04:56,439 - SBARDSScanner - INFO - Scan completed in 0.01 seconds
+2025-05-13 06:04:56,476 - SBARDSScanner - INFO - Saving results to output\scan_results_20250513_060456.json
+2025-05-13 06:04:56,479 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250513_060456.json
+2025-05-13 06:04:56,479 - SBARDSScanner - WARNING - Scan completed with 4 threats detected
+2025-05-13 06:04:56,480 - SBARDSScanner - INFO - Total execution time: 0.06 seconds
+2025-05-13 06:05:58,065 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-13 06:05:58,065 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:05:58,066 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-13 06:05:58,067 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:05:58,068 - SBARDSScanner - INFO - Directory structure verified
+2025-05-13 06:05:58,068 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-13 06:05:58,068 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250513_060558.json
+2025-05-13 06:05:58,068 - SBARDSScanner - INFO - Scanning all files in samples directory
+2025-05-13 06:05:58,069 - SBARDSScanner - INFO - Scanning directory: samples (recursive: False)
+2025-05-13 06:05:58,080 - SBARDSScanner - INFO - Scan completed for directory samples: 10 files scanned, 4 threats detected
+2025-05-13 06:05:58,081 - SBARDSScanner - INFO - Scan completed in 0.01 seconds
+2025-05-13 06:05:58,107 - SBARDSScanner - INFO - Saving results to output\scan_results_20250513_060558.json
+2025-05-13 06:05:58,110 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250513_060558.json
+2025-05-13 06:05:58,111 - SBARDSScanner - WARNING - Scan completed with 4 threats detected
+2025-05-13 06:05:58,111 - SBARDSScanner - INFO - Total execution time: 0.05 seconds
+2025-05-13 06:23:16,979 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-13 06:23:16,980 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:23:16,981 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-13 06:23:16,982 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:23:16,982 - SBARDSScanner - INFO - Directory structure verified
+2025-05-13 06:23:16,983 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-13 06:23:16,983 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250513_062316.json
+2025-05-13 06:23:16,983 - SBARDSScanner - INFO - Scanning all files in samples directory
+2025-05-13 06:23:16,984 - SBARDSScanner - INFO - Scanning directory: samples (recursive: False)
+2025-05-13 06:23:16,996 - SBARDSScanner - INFO - Scan completed for directory samples: 10 files scanned, 4 threats detected
+2025-05-13 06:23:16,997 - SBARDSScanner - INFO - Scan completed in 0.01 seconds
+2025-05-13 06:23:17,027 - SBARDSScanner - INFO - Saving results to output\scan_results_20250513_062316.json
+2025-05-13 06:23:17,029 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250513_062316.json
+2025-05-13 06:23:17,030 - SBARDSScanner - WARNING - Scan completed with 4 threats detected
+2025-05-13 06:23:17,030 - SBARDSScanner - INFO - Total execution time: 0.05 seconds
+2025-05-13 06:26:42,061 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-13 06:26:42,062 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:26:42,063 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-13 06:26:42,063 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:26:42,064 - SBARDSScanner - INFO - Directory structure verified
+2025-05-13 06:26:42,064 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-13 06:26:42,064 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250513_062642.json
+2025-05-13 06:26:42,065 - SBARDSScanner - INFO - Scanning file: samples/highly_malicious.bat
+2025-05-13 06:26:42,065 - SBARDSScanner - INFO - Scanning file: samples/highly_malicious.bat
+2025-05-13 06:26:42,066 - SBARDSScanner - WARNING - Threats detected in samples/highly_malicious.bat: ['Suspicious file extension: .bat', 'Found suspicious patterns: powershell, system32, netsh, Invoke-WebRequest, Invoke-Expression, ExecutionPolicy Bypass, Hidden, Run, http://, encrypt']
+2025-05-13 06:26:42,066 - SBARDSScanner - INFO - Scan completed in 0.00 seconds
+2025-05-13 06:26:42,080 - SBARDSScanner - INFO - Saving results to output\scan_results_20250513_062642.json
+2025-05-13 06:26:42,081 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250513_062642.json
+2025-05-13 06:26:42,082 - SBARDSScanner - WARNING - Scan completed, threats detected
+2025-05-13 06:26:42,082 - SBARDSScanner - INFO - Total execution time: 0.02 seconds
+2025-05-13 06:27:29,761 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-13 06:27:29,762 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:27:29,763 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-13 06:27:29,763 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:27:29,764 - SBARDSScanner - INFO - Directory structure verified
+2025-05-13 06:27:29,764 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-13 06:27:29,765 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250513_062729.json
+2025-05-13 06:27:29,765 - SBARDSScanner - INFO - Scanning file: samples/pure_safe.txt
+2025-05-13 06:27:29,765 - SBARDSScanner - INFO - Scanning file: samples/pure_safe.txt
+2025-05-13 06:27:29,765 - SBARDSScanner - INFO - Scan completed for samples/pure_safe.txt: Safe
+2025-05-13 06:27:29,765 - SBARDSScanner - INFO - Scan completed in 0.00 seconds
+2025-05-13 06:27:29,780 - SBARDSScanner - INFO - Saving results to output\scan_results_20250513_062729.json
+2025-05-13 06:27:29,781 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250513_062729.json
+2025-05-13 06:27:29,782 - SBARDSScanner - INFO - Scan completed successfully, no threats detected
+2025-05-13 06:27:29,782 - SBARDSScanner - INFO - Total execution time: 0.02 seconds
+2025-05-13 06:27:55,632 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-13 06:27:55,633 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:27:55,634 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-13 06:27:55,635 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:27:55,635 - SBARDSScanner - INFO - Directory structure verified
+2025-05-13 06:27:55,635 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-13 06:27:55,636 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250513_062755.json
+2025-05-13 06:27:55,636 - SBARDSScanner - INFO - Scanning file: samples/suspicious_config.json
+2025-05-13 06:27:55,637 - SBARDSScanner - INFO - Scanning file: samples/suspicious_config.json
+2025-05-13 06:27:55,637 - SBARDSScanner - INFO - Scan completed for samples/suspicious_config.json: Monitor
+2025-05-13 06:27:55,637 - SBARDSScanner - INFO - Scan completed in 0.00 seconds
+2025-05-13 06:27:55,652 - SBARDSScanner - INFO - Saving results to output\scan_results_20250513_062755.json
+2025-05-13 06:27:55,653 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250513_062755.json
+2025-05-13 06:27:55,654 - SBARDSScanner - INFO - Scan completed successfully, no threats detected
+2025-05-13 06:27:55,654 - SBARDSScanner - INFO - Total execution time: 0.02 seconds
+2025-05-13 06:28:31,241 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-13 06:28:31,242 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:28:31,243 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-13 06:28:31,243 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:28:31,244 - SBARDSScanner - INFO - Directory structure verified
+2025-05-13 06:28:31,244 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-13 06:28:31,245 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250513_062831.json
+2025-05-13 06:28:31,245 - SBARDSScanner - INFO - Scanning file: samples/malicious_script.ps1
+2025-05-13 06:28:31,245 - SBARDSScanner - INFO - Scanning file: samples/malicious_script.ps1
+2025-05-13 06:28:31,245 - SBARDSScanner - WARNING - Threats detected in samples/malicious_script.ps1: ['Suspicious file extension: .ps1', 'Found suspicious patterns: powershell, system32, Invoke-WebRequest, Invoke-Expression, Run, http://, encrypt']
+2025-05-13 06:28:31,246 - SBARDSScanner - INFO - Scan completed in 0.00 seconds
+2025-05-13 06:28:31,261 - SBARDSScanner - INFO - Saving results to output\scan_results_20250513_062831.json
+2025-05-13 06:28:31,262 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250513_062831.json
+2025-05-13 06:28:31,262 - SBARDSScanner - WARNING - Scan completed, threats detected
+2025-05-13 06:28:31,262 - SBARDSScanner - INFO - Total execution time: 0.02 seconds
+2025-05-13 06:28:57,516 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-13 06:28:57,517 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:28:57,518 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-13 06:28:57,519 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:28:57,519 - SBARDSScanner - INFO - Directory structure verified
+2025-05-13 06:28:57,520 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-13 06:28:57,520 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250513_062857.json
+2025-05-13 06:28:57,520 - SBARDSScanner - INFO - Scanning file: samples/unauthorized_permissions.sh
+2025-05-13 06:28:57,521 - SBARDSScanner - INFO - Scanning file: samples/unauthorized_permissions.sh
+2025-05-13 06:28:57,521 - SBARDSScanner - WARNING - Threats detected in samples/unauthorized_permissions.sh: ['Suspicious file extension: .sh', 'Found suspicious patterns: chmod 777, chown, sudo, useradd, /etc/passwd, /etc/shadow, /etc/sudoers, iptables, systemctl, nc , backdoor, hack']
+2025-05-13 06:28:57,521 - SBARDSScanner - INFO - Scan completed in 0.00 seconds
+2025-05-13 06:28:57,536 - SBARDSScanner - INFO - Saving results to output\scan_results_20250513_062857.json
+2025-05-13 06:28:57,538 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250513_062857.json
+2025-05-13 06:28:57,538 - SBARDSScanner - WARNING - Scan completed, threats detected
+2025-05-13 06:28:57,539 - SBARDSScanner - INFO - Total execution time: 0.03 seconds
+2025-05-13 06:29:28,683 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-13 06:29:28,684 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:29:28,685 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-13 06:29:28,685 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:29:28,686 - SBARDSScanner - INFO - Directory structure verified
+2025-05-13 06:29:28,686 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-13 06:29:28,686 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250513_062928.json
+2025-05-13 06:29:28,687 - SBARDSScanner - INFO - Scanning all files in samples directory
+2025-05-13 06:29:28,687 - SBARDSScanner - INFO - Scanning directory: samples (recursive: False)
+2025-05-13 06:29:28,702 - SBARDSScanner - INFO - Scan completed for directory samples: 10 files scanned, 4 threats detected
+2025-05-13 06:29:28,702 - SBARDSScanner - INFO - Scan completed in 0.02 seconds
+2025-05-13 06:29:28,732 - SBARDSScanner - INFO - Saving results to output\scan_results_20250513_062928.json
+2025-05-13 06:29:28,736 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250513_062928.json
+2025-05-13 06:29:28,737 - SBARDSScanner - WARNING - Scan completed with 4 threats detected
+2025-05-13 06:29:28,737 - SBARDSScanner - INFO - Total execution time: 0.06 seconds
+2025-05-13 06:30:22,716 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-13 06:30:22,716 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:30:22,717 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-13 06:30:22,718 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:30:22,718 - SBARDSScanner - INFO - Directory structure verified
+2025-05-13 06:30:22,719 - SBARDSScanner - INFO - Updating YARA rules...
+2025-05-13 06:30:22,719 - SBARDSScanner - INFO - Updating YARA rules...
+2025-05-13 06:30:22,719 - SBARDSScanner - ERROR - Unhandled exception: 'RuleUpdater' object has no attribute 'update_rules'
+2025-05-13 06:30:53,645 - Orchestrator - INFO - Scanning directory: C:\Users\pc\AppData\Local\Temp\tmpoth_znc6 (recursive: False)
+2025-05-13 06:30:53,645 - Orchestrator - INFO - Scanning file: C:\Users\pc\AppData\Local\Temp\tmpoth_znc6\safe.txt
+2025-05-13 06:30:54,137 - ThreatIntelligence - INFO - Checking file: C:\Users\pc\AppData\Local\Temp\tmpoth_znc6\safe.txt
+2025-05-13 06:30:54,138 - Orchestrator - INFO - Scanning file: C:\Users\pc\AppData\Local\Temp\tmpoth_znc6\suspicious.txt
+2025-05-13 06:30:54,374 - ThreatIntelligence - INFO - Checking file: C:\Users\pc\AppData\Local\Temp\tmpoth_znc6\suspicious.txt
+2025-05-13 06:30:54,561 - Orchestrator - INFO - Scanning file: C:\Users\pc\AppData\Local\Temp\tmpujlnz416\safe.txt
+2025-05-13 06:30:54,800 - ThreatIntelligence - INFO - Checking file: C:\Users\pc\AppData\Local\Temp\tmpujlnz416\safe.txt
+2025-05-13 06:30:54,801 - ThreatIntelligence - INFO - Using cached result for C:\Users\pc\AppData\Local\Temp\tmpujlnz416\safe.txt
+2025-05-13 06:30:54,983 - Orchestrator - INFO - Scanning file: C:\Users\pc\AppData\Local\Temp\tmp7jx2xnvf\suspicious.txt
+2025-05-13 06:30:55,204 - ThreatIntelligence - INFO - Checking file: C:\Users\pc\AppData\Local\Temp\tmp7jx2xnvf\suspicious.txt
+2025-05-13 06:30:55,204 - ThreatIntelligence - INFO - Using cached result for C:\Users\pc\AppData\Local\Temp\tmp7jx2xnvf\suspicious.txt
+2025-05-13 06:32:53,475 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-13 06:32:53,476 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:32:53,477 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-13 06:32:53,478 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:32:53,479 - SBARDSScanner - INFO - Directory structure verified
+2025-05-13 06:32:53,479 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-13 06:32:53,479 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250513_063253.json
+2025-05-13 06:32:53,480 - SBARDSScanner - INFO - Scanning file: samples/highly_malicious.bat
+2025-05-13 06:32:53,480 - SBARDSScanner - INFO - Scanning file: samples/highly_malicious.bat
+2025-05-13 06:32:53,480 - SBARDSScanner - WARNING - Threats detected in samples/highly_malicious.bat: ['Suspicious file extension: .bat', 'Found suspicious patterns: powershell, system32, netsh, Invoke-WebRequest, Invoke-Expression, ExecutionPolicy Bypass, Hidden, Run, http://, encrypt']
+2025-05-13 06:32:53,481 - SBARDSScanner - INFO - Scan completed in 0.00 seconds
+2025-05-13 06:32:53,494 - SBARDSScanner - INFO - Saving results to output\scan_results_20250513_063253.json
+2025-05-13 06:32:53,496 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250513_063253.json
+2025-05-13 06:32:53,496 - SBARDSScanner - WARNING - Scan completed, threats detected
+2025-05-13 06:32:53,496 - SBARDSScanner - INFO - Total execution time: 0.02 seconds
+2025-05-13 06:33:16,281 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-13 06:33:16,282 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:33:16,283 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-13 06:33:16,284 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:33:16,284 - SBARDSScanner - INFO - Directory structure verified
+2025-05-13 06:33:16,284 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-13 06:33:16,285 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250513_063316.json
+2025-05-13 06:33:16,285 - SBARDSScanner - INFO - Scanning file: samples/pure_safe.txt
+2025-05-13 06:33:16,285 - SBARDSScanner - INFO - Scanning file: samples/pure_safe.txt
+2025-05-13 06:33:16,286 - SBARDSScanner - INFO - Scan completed for samples/pure_safe.txt: Safe
+2025-05-13 06:33:16,286 - SBARDSScanner - INFO - Scan completed in 0.00 seconds
+2025-05-13 06:33:16,301 - SBARDSScanner - INFO - Saving results to output\scan_results_20250513_063316.json
+2025-05-13 06:33:16,302 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250513_063316.json
+2025-05-13 06:33:16,303 - SBARDSScanner - INFO - Scan completed successfully, no threats detected
+2025-05-13 06:33:16,303 - SBARDSScanner - INFO - Total execution time: 0.03 seconds
+2025-05-13 06:33:45,907 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-13 06:33:45,908 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:33:45,908 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-13 06:33:45,909 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:33:45,910 - SBARDSScanner - INFO - Directory structure verified
+2025-05-13 06:33:45,910 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-13 06:33:45,910 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250513_063345.json
+2025-05-13 06:33:45,910 - SBARDSScanner - INFO - Scanning file: samples/suspicious_config.json
+2025-05-13 06:33:45,911 - SBARDSScanner - INFO - Scanning file: samples/suspicious_config.json
+2025-05-13 06:33:45,911 - SBARDSScanner - INFO - Scan completed for samples/suspicious_config.json: Monitor
+2025-05-13 06:33:45,911 - SBARDSScanner - INFO - Scan completed in 0.00 seconds
+2025-05-13 06:33:45,926 - SBARDSScanner - INFO - Saving results to output\scan_results_20250513_063345.json
+2025-05-13 06:33:45,927 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250513_063345.json
+2025-05-13 06:33:45,927 - SBARDSScanner - INFO - Scan completed successfully, no threats detected
+2025-05-13 06:33:45,928 - SBARDSScanner - INFO - Total execution time: 0.02 seconds
+2025-05-13 06:34:06,116 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-13 06:34:06,117 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:34:06,118 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-13 06:34:06,118 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:34:06,119 - SBARDSScanner - INFO - Directory structure verified
+2025-05-13 06:34:06,119 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-13 06:34:06,119 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250513_063406.json
+2025-05-13 06:34:06,120 - SBARDSScanner - INFO - Scanning file: samples/malicious.exe.txt
+2025-05-13 06:34:06,120 - SBARDSScanner - INFO - Scanning file: samples/malicious.exe.txt
+2025-05-13 06:34:06,120 - SBARDSScanner - INFO - Scan completed for samples/malicious.exe.txt: Investigate
+2025-05-13 06:34:06,120 - SBARDSScanner - INFO - Scan completed in 0.00 seconds
+2025-05-13 06:34:06,137 - SBARDSScanner - INFO - Saving results to output\scan_results_20250513_063406.json
+2025-05-13 06:34:06,138 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250513_063406.json
+2025-05-13 06:34:06,138 - SBARDSScanner - INFO - Scan completed successfully, no threats detected
+2025-05-13 06:34:06,139 - SBARDSScanner - INFO - Total execution time: 0.03 seconds
+2025-05-13 06:34:31,250 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-13 06:34:31,251 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:34:31,253 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-13 06:34:31,253 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:34:31,254 - SBARDSScanner - INFO - Directory structure verified
+2025-05-13 06:34:31,254 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-13 06:34:31,254 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250513_063431.json
+2025-05-13 06:34:31,255 - SBARDSScanner - INFO - Scanning file: samples/malicious_script.ps1
+2025-05-13 06:34:31,255 - SBARDSScanner - INFO - Scanning file: samples/malicious_script.ps1
+2025-05-13 06:34:31,255 - SBARDSScanner - WARNING - Threats detected in samples/malicious_script.ps1: ['Suspicious file extension: .ps1', 'Found suspicious patterns: powershell, system32, Invoke-WebRequest, Invoke-Expression, Run, http://, encrypt']
+2025-05-13 06:34:31,255 - SBARDSScanner - INFO - Scan completed in 0.00 seconds
+2025-05-13 06:34:31,269 - SBARDSScanner - INFO - Saving results to output\scan_results_20250513_063431.json
+2025-05-13 06:34:31,271 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250513_063431.json
+2025-05-13 06:34:31,272 - SBARDSScanner - WARNING - Scan completed, threats detected
+2025-05-13 06:34:31,272 - SBARDSScanner - INFO - Total execution time: 0.02 seconds
+2025-05-13 06:34:52,460 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-13 06:34:52,461 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:34:52,462 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-13 06:34:52,463 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:34:52,463 - SBARDSScanner - INFO - Directory structure verified
+2025-05-13 06:34:52,463 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-13 06:34:52,464 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250513_063452.json
+2025-05-13 06:34:52,464 - SBARDSScanner - INFO - Scanning file: samples/unauthorized_permissions.sh
+2025-05-13 06:34:52,464 - SBARDSScanner - INFO - Scanning file: samples/unauthorized_permissions.sh
+2025-05-13 06:34:52,465 - SBARDSScanner - WARNING - Threats detected in samples/unauthorized_permissions.sh: ['Suspicious file extension: .sh', 'Found suspicious patterns: chmod 777, chown, sudo, useradd, /etc/passwd, /etc/shadow, /etc/sudoers, iptables, systemctl, nc , backdoor, hack']
+2025-05-13 06:34:52,465 - SBARDSScanner - INFO - Scan completed in 0.00 seconds
+2025-05-13 06:34:52,479 - SBARDSScanner - INFO - Saving results to output\scan_results_20250513_063452.json
+2025-05-13 06:34:52,480 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250513_063452.json
+2025-05-13 06:34:52,480 - SBARDSScanner - WARNING - Scan completed, threats detected
+2025-05-13 06:34:52,480 - SBARDSScanner - INFO - Total execution time: 0.02 seconds
+2025-05-13 06:35:12,792 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-13 06:35:12,793 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:35:12,794 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-13 06:35:12,795 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:35:12,796 - SBARDSScanner - INFO - Directory structure verified
+2025-05-13 06:35:12,796 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-13 06:35:12,797 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250513_063512.json
+2025-05-13 06:35:12,798 - SBARDSScanner - INFO - Scanning file: samples/suspicious_script.js
+2025-05-13 06:35:12,798 - SBARDSScanner - INFO - Scanning file: samples/suspicious_script.js
+2025-05-13 06:35:12,799 - SBARDSScanner - WARNING - Threats detected in samples/suspicious_script.js: ['Suspicious file extension: .js', 'Found suspicious patterns: Run, http://, eval(, base64, encrypt, decrypt']
+2025-05-13 06:35:12,799 - SBARDSScanner - INFO - Scan completed in 0.00 seconds
+2025-05-13 06:35:12,815 - SBARDSScanner - INFO - Saving results to output\scan_results_20250513_063512.json
+2025-05-13 06:35:12,817 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250513_063512.json
+2025-05-13 06:35:12,817 - SBARDSScanner - WARNING - Scan completed, threats detected
+2025-05-13 06:35:12,817 - SBARDSScanner - INFO - Total execution time: 0.03 seconds
+2025-05-13 06:35:34,460 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-13 06:35:34,461 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:35:34,462 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-13 06:35:34,462 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:35:34,463 - SBARDSScanner - INFO - Directory structure verified
+2025-05-13 06:35:34,463 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-13 06:35:34,464 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250513_063534.json
+2025-05-13 06:35:34,464 - SBARDSScanner - INFO - Scanning all files in samples directory
+2025-05-13 06:35:34,464 - SBARDSScanner - INFO - Scanning directory: samples (recursive: False)
+2025-05-13 06:35:34,476 - SBARDSScanner - INFO - Scan completed for directory samples: 10 files scanned, 4 threats detected
+2025-05-13 06:35:34,476 - SBARDSScanner - INFO - Scan completed in 0.01 seconds
+2025-05-13 06:35:34,506 - SBARDSScanner - INFO - Saving results to output\scan_results_20250513_063534.json
+2025-05-13 06:35:34,508 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250513_063534.json
+2025-05-13 06:35:34,508 - SBARDSScanner - WARNING - Scan completed with 4 threats detected
+2025-05-13 06:35:34,508 - SBARDSScanner - INFO - Total execution time: 0.05 seconds
+2025-05-13 06:36:09,842 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-13 06:36:09,843 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:36:09,844 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-13 06:36:09,845 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:36:09,845 - SBARDSScanner - INFO - Directory structure verified
+2025-05-13 06:36:09,845 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-13 06:36:09,846 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250513_063609.json
+2025-05-13 06:36:09,846 - SBARDSScanner - INFO - Scanning file: samples/highly_malicious.bat
+2025-05-13 06:36:09,847 - SBARDSScanner - INFO - Scanning file: samples/highly_malicious.bat
+2025-05-13 06:36:09,847 - SBARDSScanner - WARNING - Threats detected in samples/highly_malicious.bat: ['Suspicious file extension: .bat', 'Found suspicious patterns: powershell, system32, netsh, Invoke-WebRequest, Invoke-Expression, ExecutionPolicy Bypass, Hidden, Run, http://, encrypt']
+2025-05-13 06:36:09,847 - SBARDSScanner - INFO - Scan completed in 0.00 seconds
+2025-05-13 06:36:09,860 - SBARDSScanner - INFO - Saving results to output\scan_results_20250513_063609.json
+2025-05-13 06:36:09,861 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250513_063609.json
+2025-05-13 06:36:09,861 - SBARDSScanner - WARNING - Scan completed, threats detected
+2025-05-13 06:36:09,862 - SBARDSScanner - INFO - Total execution time: 0.02 seconds
+2025-05-13 06:37:53,517 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-13 06:37:53,517 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:37:53,518 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-13 06:37:53,519 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:37:53,520 - SBARDSScanner - INFO - Directory structure verified
+2025-05-13 06:37:53,520 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-13 06:37:53,520 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250513_063753.json
+2025-05-13 06:37:53,521 - SBARDSScanner - INFO - Scanning file: samples/highly_malicious.bat
+2025-05-13 06:37:53,521 - SBARDSScanner - INFO - Scanning file: samples/highly_malicious.bat
+2025-05-13 06:37:53,521 - SBARDSScanner - WARNING - Threats detected in samples/highly_malicious.bat: ['Suspicious file extension: .bat', 'Found suspicious patterns: powershell, system32, netsh, Invoke-WebRequest, Invoke-Expression, ExecutionPolicy Bypass, Hidden, Run, http://, encrypt']
+2025-05-13 06:37:53,521 - SBARDSScanner - INFO - Scan completed in 0.00 seconds
+2025-05-13 06:37:53,537 - SBARDSScanner - WARNING - Scan completed, threats detected
+2025-05-13 06:37:53,537 - SBARDSScanner - INFO - Total execution time: 0.02 seconds
+2025-05-13 06:38:18,661 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-13 06:38:18,661 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:38:18,662 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-13 06:38:18,663 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:38:18,663 - SBARDSScanner - INFO - Directory structure verified
+2025-05-13 06:38:18,664 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-13 06:38:18,664 - SBARDSScanner - INFO - Output will be saved to custom_output.json
+2025-05-13 06:38:18,664 - SBARDSScanner - INFO - Scanning file: samples/highly_malicious.bat
+2025-05-13 06:38:18,664 - SBARDSScanner - INFO - Scanning file: samples/highly_malicious.bat
+2025-05-13 06:38:18,665 - SBARDSScanner - WARNING - Threats detected in samples/highly_malicious.bat: ['Suspicious file extension: .bat', 'Found suspicious patterns: powershell, system32, netsh, Invoke-WebRequest, Invoke-Expression, ExecutionPolicy Bypass, Hidden, Run, http://, encrypt']
+2025-05-13 06:38:18,665 - SBARDSScanner - INFO - Scan completed in 0.00 seconds
+2025-05-13 06:38:18,679 - SBARDSScanner - INFO - Saving results to custom_output.json
+2025-05-13 06:38:18,680 - SBARDSScanner - ERROR - Error saving results to custom_output.json: [WinError 3] The system cannot find the path specified: ''
+2025-05-13 06:38:18,680 - SBARDSScanner - WARNING - Scan completed, threats detected
+2025-05-13 06:38:18,680 - SBARDSScanner - INFO - Total execution time: 0.02 seconds
+2025-05-13 06:38:38,529 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-13 06:38:38,530 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:38:38,531 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-13 06:38:38,532 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:38:38,532 - SBARDSScanner - INFO - Directory structure verified
+2025-05-13 06:38:38,532 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-13 06:38:38,533 - SBARDSScanner - INFO - Output will be saved to output/custom_output.json
+2025-05-13 06:38:38,533 - SBARDSScanner - INFO - Scanning file: samples/highly_malicious.bat
+2025-05-13 06:38:38,533 - SBARDSScanner - INFO - Scanning file: samples/highly_malicious.bat
+2025-05-13 06:38:38,534 - SBARDSScanner - WARNING - Threats detected in samples/highly_malicious.bat: ['Suspicious file extension: .bat', 'Found suspicious patterns: powershell, system32, netsh, Invoke-WebRequest, Invoke-Expression, ExecutionPolicy Bypass, Hidden, Run, http://, encrypt']
+2025-05-13 06:38:38,534 - SBARDSScanner - INFO - Scan completed in 0.00 seconds
+2025-05-13 06:38:38,547 - SBARDSScanner - INFO - Saving results to output/custom_output.json
+2025-05-13 06:38:38,549 - SBARDSScanner - INFO - Scan results saved to output/custom_output.json
+2025-05-13 06:38:38,549 - SBARDSScanner - WARNING - Scan completed, threats detected
+2025-05-13 06:38:38,550 - SBARDSScanner - INFO - Total execution time: 0.02 seconds
+2025-05-13 06:40:03,647 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-13 06:40:03,647 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:40:03,649 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-13 06:40:03,649 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:40:03,650 - SBARDSScanner - INFO - Directory structure verified
+2025-05-13 06:40:03,650 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-13 06:40:03,650 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250513_064003.json
+2025-05-13 06:40:03,651 - SBARDSScanner - INFO - Scanning directory: samples
+2025-05-13 06:40:03,651 - SBARDSScanner - INFO - Scanning directory: samples (recursive: True)
+2025-05-13 06:40:03,663 - SBARDSScanner - INFO - Scan completed for directory samples: 10 files scanned, 4 threats detected
+2025-05-13 06:40:03,663 - SBARDSScanner - INFO - Scan completed in 0.01 seconds
+2025-05-13 06:40:03,697 - SBARDSScanner - INFO - Saving results to output\scan_results_20250513_064003.json
+2025-05-13 06:40:03,699 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250513_064003.json
+2025-05-13 06:40:03,699 - SBARDSScanner - WARNING - Scan completed with 4 threats detected
+2025-05-13 06:40:03,699 - SBARDSScanner - INFO - Total execution time: 0.06 seconds
+2025-05-13 06:42:05,101 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-13 06:42:05,102 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:42:05,103 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-13 06:42:05,104 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:42:05,104 - SBARDSScanner - INFO - Directory structure verified
+2025-05-13 06:42:05,104 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-13 06:42:05,105 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250513_064205.json
+2025-05-13 06:42:05,105 - SBARDSScanner - INFO - Scanning directory: samples
+2025-05-13 06:42:05,105 - SBARDSScanner - INFO - Scanning directory: samples (recursive: True)
+2025-05-13 06:42:05,118 - SBARDSScanner - INFO - Scan completed for directory samples: 10 files scanned, 4 threats detected
+2025-05-13 06:42:05,118 - SBARDSScanner - INFO - Scan completed in 0.01 seconds
+2025-05-13 06:42:05,148 - SBARDSScanner - INFO - Saving results to output\scan_results_20250513_064205.json
+2025-05-13 06:42:05,150 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250513_064205.json
+2025-05-13 06:42:05,151 - SBARDSScanner - WARNING - Scan completed with 4 threats detected
+2025-05-13 06:42:05,151 - SBARDSScanner - INFO - Total execution time: 0.05 seconds
+2025-05-13 06:47:11,388 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-13 06:47:11,389 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:47:11,391 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-13 06:47:11,391 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:47:11,392 - SBARDSScanner - INFO - Directory structure verified
+2025-05-13 06:47:11,392 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-13 06:47:11,392 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250513_064711.json
+2025-05-13 06:47:11,393 - SBARDSScanner - INFO - Scanning directory: samples
+2025-05-13 06:47:11,393 - SBARDSScanner - INFO - Scanning directory: samples (recursive: True)
+2025-05-13 06:47:11,407 - SBARDSScanner - INFO - Scan completed for directory samples: 11 files scanned, 4 threats detected
+2025-05-13 06:47:11,407 - SBARDSScanner - INFO - Scan completed in 0.01 seconds
+2025-05-13 06:47:11,445 - SBARDSScanner - INFO - Saving results to output\scan_results_20250513_064711.json
+2025-05-13 06:47:11,449 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250513_064711.json
+2025-05-13 06:47:11,449 - SBARDSScanner - WARNING - Scan completed with 4 threats detected
+2025-05-13 06:47:11,449 - SBARDSScanner - INFO - Total execution time: 0.06 seconds
+2025-05-13 06:48:38,813 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-13 06:48:38,813 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:48:38,814 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-13 06:48:38,815 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:48:38,815 - SBARDSScanner - INFO - Directory structure verified
+2025-05-13 06:48:38,816 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-13 06:48:38,816 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250513_064838.json
+2025-05-13 06:48:38,816 - SBARDSScanner - INFO - Scanning directory: samples
+2025-05-13 06:48:38,816 - SBARDSScanner - INFO - Scanning directory: samples (recursive: True)
+2025-05-13 06:48:38,831 - SBARDSScanner - INFO - Scan completed for directory samples: 11 files scanned, 4 threats detected
+2025-05-13 06:48:38,831 - SBARDSScanner - INFO - Scan completed in 0.01 seconds
+2025-05-13 06:48:38,864 - SBARDSScanner - INFO - Saving results to output\scan_results_20250513_064838.json
+2025-05-13 06:48:38,866 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250513_064838.json
+2025-05-13 06:48:38,866 - SBARDSScanner - WARNING - Scan completed with 4 threats detected
+2025-05-13 06:48:38,866 - SBARDSScanner - INFO - Total execution time: 0.06 seconds
+2025-05-13 06:50:22,670 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-13 06:50:22,670 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:50:22,672 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-13 06:50:22,672 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:50:22,673 - SBARDSScanner - INFO - Directory structure verified
+2025-05-13 06:50:22,673 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-13 06:50:22,674 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250513_065022.json
+2025-05-13 06:50:22,674 - SBARDSScanner - INFO - Scanning directory: samples
+2025-05-13 06:50:22,674 - SBARDSScanner - INFO - Scanning directory: samples (recursive: True)
+2025-05-13 06:50:22,690 - SBARDSScanner - INFO - Scan completed for directory samples: 12 files scanned, 4 threats detected
+2025-05-13 06:50:22,691 - SBARDSScanner - INFO - Scan completed in 0.02 seconds
+2025-05-13 06:50:22,724 - SBARDSScanner - INFO - Saving results to output\scan_results_20250513_065022.json
+2025-05-13 06:50:22,726 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250513_065022.json
+2025-05-13 06:50:22,727 - SBARDSScanner - WARNING - Scan completed with 4 threats detected
+2025-05-13 06:50:22,727 - SBARDSScanner - INFO - Total execution time: 0.06 seconds
+2025-05-13 06:50:46,903 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-13 06:50:46,903 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:50:46,904 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-13 06:50:46,905 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:50:46,905 - SBARDSScanner - INFO - Directory structure verified
+2025-05-13 06:50:46,906 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-13 06:50:46,906 - SBARDSScanner - INFO - Output will be saved to output/custom_output2.json
+2025-05-13 06:50:46,906 - SBARDSScanner - INFO - Scanning file: samples/highly_malicious.bat
+2025-05-13 06:50:46,906 - SBARDSScanner - INFO - Scanning file: samples/highly_malicious.bat
+2025-05-13 06:50:46,907 - SBARDSScanner - WARNING - Threats detected in samples/highly_malicious.bat: ['Suspicious file extension: .bat', 'Found suspicious patterns: powershell, system32, netsh, Invoke-WebRequest, Invoke-Expression, ExecutionPolicy Bypass, Hidden, Run, http://, encrypt']
+2025-05-13 06:50:46,907 - SBARDSScanner - INFO - Scan completed in 0.00 seconds
+2025-05-13 06:50:46,921 - SBARDSScanner - INFO - Saving results to output/custom_output2.json
+2025-05-13 06:50:46,922 - SBARDSScanner - INFO - Scan results saved to output/custom_output2.json
+2025-05-13 06:50:46,922 - SBARDSScanner - WARNING - Scan completed, threats detected
+2025-05-13 06:50:46,922 - SBARDSScanner - INFO - Total execution time: 0.02 seconds
+2025-05-13 06:52:12,564 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-13 06:52:12,565 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:52:12,566 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-13 06:52:12,566 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:52:12,567 - SBARDSScanner - INFO - Directory structure verified
+2025-05-13 06:52:12,567 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-13 06:52:12,568 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250513_065212.json
+2025-05-13 06:52:12,568 - SBARDSScanner - INFO - Scanning file: samples/highly_malicious.bat
+2025-05-13 06:52:12,568 - SBARDSScanner - INFO - Scanning file: samples/highly_malicious.bat
+2025-05-13 06:52:12,569 - SBARDSScanner - WARNING - Threats detected in samples/highly_malicious.bat: ['Suspicious file extension: .bat', 'Found suspicious patterns: powershell, system32, netsh, Invoke-WebRequest, Invoke-Expression, ExecutionPolicy Bypass, Hidden, Run, http://, encrypt']
+2025-05-13 06:52:12,569 - SBARDSScanner - INFO - Scan completed in 0.00 seconds
+2025-05-13 06:52:12,585 - SBARDSScanner - WARNING - Scan completed, threats detected
+2025-05-13 06:52:12,585 - SBARDSScanner - INFO - Total execution time: 0.02 seconds
+2025-05-13 06:52:39,643 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-13 06:52:39,644 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:52:39,645 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-13 06:52:39,645 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:52:39,646 - SBARDSScanner - INFO - Directory structure verified
+2025-05-13 06:52:39,646 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-13 06:52:39,646 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250513_065239.json
+2025-05-13 06:52:39,647 - SBARDSScanner - ERROR - Target not found: non_existent_file.txt
+2025-05-13 06:53:01,965 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-13 06:53:01,966 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:53:01,967 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-13 06:53:01,967 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:53:01,968 - SBARDSScanner - INFO - Directory structure verified
+2025-05-13 06:53:01,968 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-13 06:53:01,968 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250513_065301.json
+2025-05-13 06:53:01,969 - SBARDSScanner - ERROR - Target not found: non_existent_directory
+2025-05-13 06:53:57,294 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-13 06:53:57,295 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:53:57,296 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-13 06:53:57,296 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 06:53:57,297 - SBARDSScanner - INFO - Directory structure verified
+2025-05-13 06:53:57,297 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-13 06:53:57,298 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250513_065357.json
+2025-05-13 06:53:57,298 - SBARDSScanner - INFO - Scanning directory: empty_directory
+2025-05-13 06:53:57,298 - SBARDSScanner - INFO - Scanning directory: empty_directory (recursive: False)
+2025-05-13 06:53:57,299 - SBARDSScanner - INFO - Scan completed for directory empty_directory: 0 files scanned, 0 threats detected
+2025-05-13 06:53:57,299 - SBARDSScanner - INFO - Scan completed in 0.00 seconds
+2025-05-13 06:53:57,316 - SBARDSScanner - INFO - Saving results to output\scan_results_20250513_065357.json
+2025-05-13 06:53:57,317 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250513_065357.json
+2025-05-13 06:53:57,317 - SBARDSScanner - INFO - Scan completed successfully, no threats detected
+2025-05-13 06:53:57,318 - SBARDSScanner - INFO - Total execution time: 0.03 seconds
+2025-05-13 07:04:42,320 - Orchestrator - INFO - Scanning directory: C:\Users\pc\AppData\Local\Temp\tmp5kg1awf4 (recursive: False)
+2025-05-13 07:04:42,321 - Orchestrator - INFO - Scanning file: C:\Users\pc\AppData\Local\Temp\tmp5kg1awf4\safe.txt
+2025-05-13 07:04:42,763 - ThreatIntelligence - INFO - Checking file: C:\Users\pc\AppData\Local\Temp\tmp5kg1awf4\safe.txt
+2025-05-13 07:04:42,764 - ThreatIntelligence - INFO - Using cached result for C:\Users\pc\AppData\Local\Temp\tmp5kg1awf4\safe.txt
+2025-05-13 07:04:42,764 - Orchestrator - INFO - Scanning file: C:\Users\pc\AppData\Local\Temp\tmp5kg1awf4\suspicious.txt
+2025-05-13 07:04:42,987 - ThreatIntelligence - INFO - Checking file: C:\Users\pc\AppData\Local\Temp\tmp5kg1awf4\suspicious.txt
+2025-05-13 07:04:42,987 - ThreatIntelligence - INFO - Using cached result for C:\Users\pc\AppData\Local\Temp\tmp5kg1awf4\suspicious.txt
+2025-05-13 07:04:43,169 - Orchestrator - INFO - Scanning file: C:\Users\pc\AppData\Local\Temp\tmpmkufnypc\safe.txt
+2025-05-13 07:04:43,397 - ThreatIntelligence - INFO - Checking file: C:\Users\pc\AppData\Local\Temp\tmpmkufnypc\safe.txt
+2025-05-13 07:04:43,398 - ThreatIntelligence - INFO - Using cached result for C:\Users\pc\AppData\Local\Temp\tmpmkufnypc\safe.txt
+2025-05-13 07:04:43,780 - Orchestrator - INFO - Scanning file: C:\Users\pc\AppData\Local\Temp\tmpomzk3h3b\suspicious.txt
+2025-05-13 07:04:44,009 - ThreatIntelligence - INFO - Checking file: C:\Users\pc\AppData\Local\Temp\tmpomzk3h3b\suspicious.txt
+2025-05-13 07:04:44,010 - ThreatIntelligence - INFO - Using cached result for C:\Users\pc\AppData\Local\Temp\tmpomzk3h3b\suspicious.txt
+2025-05-13 07:06:00,097 - Orchestrator - INFO - Scanning directory: C:\Users\pc\AppData\Local\Temp\tmp2y51maij (recursive: False)
+2025-05-13 07:06:00,097 - Orchestrator - INFO - Scanning file: C:\Users\pc\AppData\Local\Temp\tmp2y51maij\safe.txt
+2025-05-13 07:06:00,432 - ThreatIntelligence - INFO - Checking file: C:\Users\pc\AppData\Local\Temp\tmp2y51maij\safe.txt
+2025-05-13 07:06:00,433 - ThreatIntelligence - INFO - Using cached result for C:\Users\pc\AppData\Local\Temp\tmp2y51maij\safe.txt
+2025-05-13 07:06:00,433 - Orchestrator - INFO - Scanning file: C:\Users\pc\AppData\Local\Temp\tmp2y51maij\suspicious.txt
+2025-05-13 07:06:00,663 - ThreatIntelligence - INFO - Checking file: C:\Users\pc\AppData\Local\Temp\tmp2y51maij\suspicious.txt
+2025-05-13 07:06:00,664 - ThreatIntelligence - INFO - Using cached result for C:\Users\pc\AppData\Local\Temp\tmp2y51maij\suspicious.txt
+2025-05-13 07:06:00,900 - Orchestrator - INFO - Scanning file: C:\Users\pc\AppData\Local\Temp\tmplj0xr6a4\safe.txt
+2025-05-13 07:06:01,134 - ThreatIntelligence - INFO - Checking file: C:\Users\pc\AppData\Local\Temp\tmplj0xr6a4\safe.txt
+2025-05-13 07:06:01,134 - ThreatIntelligence - INFO - Using cached result for C:\Users\pc\AppData\Local\Temp\tmplj0xr6a4\safe.txt
+2025-05-13 07:06:01,327 - Orchestrator - INFO - Scanning file: C:\Users\pc\AppData\Local\Temp\tmpf5qb2zr1\suspicious.txt
+2025-05-13 07:06:01,545 - ThreatIntelligence - INFO - Checking file: C:\Users\pc\AppData\Local\Temp\tmpf5qb2zr1\suspicious.txt
+2025-05-13 07:06:01,546 - ThreatIntelligence - INFO - Using cached result for C:\Users\pc\AppData\Local\Temp\tmpf5qb2zr1\suspicious.txt
+2025-05-13 07:06:40,730 - Orchestrator - INFO - Scanning directory: C:\Users\pc\AppData\Local\Temp\tmpg3mz27e6 (recursive: False)
+2025-05-13 07:06:40,731 - Orchestrator - INFO - Scanning file: C:\Users\pc\AppData\Local\Temp\tmpg3mz27e6\safe.txt
+2025-05-13 07:06:41,033 - ThreatIntelligence - INFO - Checking file: C:\Users\pc\AppData\Local\Temp\tmpg3mz27e6\safe.txt
+2025-05-13 07:06:41,033 - ThreatIntelligence - INFO - Using cached result for C:\Users\pc\AppData\Local\Temp\tmpg3mz27e6\safe.txt
+2025-05-13 07:06:41,034 - Orchestrator - INFO - Scanning file: C:\Users\pc\AppData\Local\Temp\tmpg3mz27e6\suspicious.txt
+2025-05-13 07:06:41,257 - ThreatIntelligence - INFO - Checking file: C:\Users\pc\AppData\Local\Temp\tmpg3mz27e6\suspicious.txt
+2025-05-13 07:06:41,258 - ThreatIntelligence - INFO - Using cached result for C:\Users\pc\AppData\Local\Temp\tmpg3mz27e6\suspicious.txt
+2025-05-13 07:06:41,454 - Orchestrator - INFO - Scanning file: C:\Users\pc\AppData\Local\Temp\tmpetia9e3w\safe.txt
+2025-05-13 07:06:41,706 - ThreatIntelligence - INFO - Checking file: C:\Users\pc\AppData\Local\Temp\tmpetia9e3w\safe.txt
+2025-05-13 07:06:41,707 - ThreatIntelligence - INFO - Using cached result for C:\Users\pc\AppData\Local\Temp\tmpetia9e3w\safe.txt
+2025-05-13 07:06:41,904 - Orchestrator - INFO - Scanning file: C:\Users\pc\AppData\Local\Temp\tmp2oaz0ck6\suspicious.txt
+2025-05-13 07:06:42,124 - ThreatIntelligence - INFO - Checking file: C:\Users\pc\AppData\Local\Temp\tmp2oaz0ck6\suspicious.txt
+2025-05-13 07:06:42,124 - ThreatIntelligence - INFO - Using cached result for C:\Users\pc\AppData\Local\Temp\tmp2oaz0ck6\suspicious.txt
+2025-05-13 08:36:06,088 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 08:36:06,089 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-13 08:36:06,090 - SBARDSScanner - INFO - Directory structure verified
+2025-05-13 08:36:06,090 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-13 08:36:06,091 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250513_083606.json
+2025-05-13 08:36:06,091 - SBARDSScanner - INFO - Scanning all files in samples directory
+2025-05-13 08:36:06,091 - SBARDSScanner - INFO - Scanning directory: samples (recursive: False)
+2025-05-13 08:36:06,102 - SBARDSScanner - INFO - Scan completed for directory samples: 10 files scanned, 4 threats detected
+2025-05-13 08:36:06,102 - SBARDSScanner - INFO - Scan completed in 0.01 seconds
+2025-05-13 08:36:06,122 - SBARDSScanner - INFO - Saving results to output\scan_results_20250513_083606.json
+2025-05-13 08:36:06,123 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250513_083606.json
+2025-05-13 08:36:06,124 - SBARDSScanner - WARNING - Scan completed with 4 threats detected
+2025-05-13 08:36:06,124 - SBARDSScanner - INFO - Total execution time: 0.04 seconds
+2025-05-15 01:42:02,512 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 01:42:02,515 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 01:42:02,516 - SBARDSScanner - INFO - Directory structure verified
+2025-05-15 01:42:02,516 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-15 01:42:02,516 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250515_014202.json
+2025-05-15 01:42:02,516 - SBARDSScanner - INFO - Scanning all files in samples directory
+2025-05-15 01:42:02,517 - SBARDSScanner - INFO - Scanning directory: samples (recursive: False)
+2025-05-15 01:42:12,588 - SBARDSScanner - INFO - Scan completed for directory samples: 10 files scanned, 4 threats detected
+2025-05-15 01:42:12,588 - SBARDSScanner - INFO - Scan completed in 10.07 seconds
+2025-05-15 01:42:12,611 - SBARDSScanner - INFO - Saving results to output\scan_results_20250515_014202.json
+2025-05-15 01:42:12,613 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250515_014202.json
+2025-05-15 01:42:12,614 - SBARDSScanner - WARNING - Scan completed with 4 threats detected
+2025-05-15 01:42:12,614 - SBARDSScanner - INFO - Total execution time: 10.11 seconds
+2025-05-15 02:46:19,198 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-15 02:46:19,199 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 02:46:19,200 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-15 02:46:19,201 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 02:46:19,201 - SBARDSScanner - INFO - Directory structure verified
+2025-05-15 02:46:19,201 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-15 02:46:19,202 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250515_024619.json
+2025-05-15 02:46:19,202 - SBARDSScanner - INFO - Scanning all files in samples directory
+2025-05-15 02:46:19,202 - SBARDSScanner - INFO - Scanning directory: samples (recursive: False)
+2025-05-15 02:46:19,215 - SBARDSScanner - INFO - Scan completed for directory samples: 10 files scanned, 4 threats detected
+2025-05-15 02:46:19,215 - SBARDSScanner - INFO - Scan completed in 0.01 seconds
+2025-05-15 02:46:19,244 - SBARDSScanner - INFO - Saving results to output\scan_results_20250515_024619.json
+2025-05-15 02:46:19,246 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250515_024619.json
+2025-05-15 02:46:19,247 - SBARDSScanner - WARNING - Scan completed with 4 threats detected
+2025-05-15 02:46:19,247 - SBARDSScanner - INFO - Total execution time: 0.05 seconds
+2025-05-15 02:50:49,994 - Orchestrator - INFO - Scanning directory: C:\Users\pc\AppData\Local\Temp\tmp_vgl8_93 (recursive: False)
+2025-05-15 02:50:49,994 - Orchestrator - INFO - Scanning file: C:\Users\pc\AppData\Local\Temp\tmp_vgl8_93\safe.txt
+2025-05-15 02:50:50,438 - ThreatIntelligence - INFO - Checking file: C:\Users\pc\AppData\Local\Temp\tmp_vgl8_93\safe.txt
+2025-05-15 02:50:50,439 - ThreatIntelligence - INFO - Using cached result for C:\Users\pc\AppData\Local\Temp\tmp_vgl8_93\safe.txt
+2025-05-15 02:50:50,439 - Orchestrator - INFO - Scanning file: C:\Users\pc\AppData\Local\Temp\tmp_vgl8_93\suspicious.txt
+2025-05-15 02:50:50,662 - ThreatIntelligence - INFO - Checking file: C:\Users\pc\AppData\Local\Temp\tmp_vgl8_93\suspicious.txt
+2025-05-15 02:50:50,663 - ThreatIntelligence - INFO - Using cached result for C:\Users\pc\AppData\Local\Temp\tmp_vgl8_93\suspicious.txt
+2025-05-15 02:50:50,847 - Orchestrator - INFO - Scanning file: C:\Users\pc\AppData\Local\Temp\tmpbl896og1\safe.txt
+2025-05-15 02:50:51,082 - ThreatIntelligence - INFO - Checking file: C:\Users\pc\AppData\Local\Temp\tmpbl896og1\safe.txt
+2025-05-15 02:50:51,083 - ThreatIntelligence - INFO - Using cached result for C:\Users\pc\AppData\Local\Temp\tmpbl896og1\safe.txt
+2025-05-15 02:50:51,266 - Orchestrator - INFO - Scanning file: C:\Users\pc\AppData\Local\Temp\tmpp4hyal4t\suspicious.txt
+2025-05-15 02:50:51,484 - ThreatIntelligence - INFO - Checking file: C:\Users\pc\AppData\Local\Temp\tmpp4hyal4t\suspicious.txt
+2025-05-15 02:50:51,485 - ThreatIntelligence - INFO - Using cached result for C:\Users\pc\AppData\Local\Temp\tmpp4hyal4t\suspicious.txt
+2025-05-15 02:51:11,263 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-15 02:51:11,264 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 02:51:11,265 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-15 02:51:11,265 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 02:51:11,266 - SBARDSScanner - INFO - Directory structure verified
+2025-05-15 02:51:11,266 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-15 02:51:11,266 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250515_025111.json
+2025-05-15 02:51:11,267 - SBARDSScanner - INFO - Scanning all files in samples directory
+2025-05-15 02:51:11,267 - SBARDSScanner - INFO - Scanning directory: samples (recursive: False)
+2025-05-15 02:51:11,281 - SBARDSScanner - INFO - Scan completed for directory samples: 10 files scanned, 4 threats detected
+2025-05-15 02:51:11,281 - SBARDSScanner - INFO - Scan completed in 0.01 seconds
+2025-05-15 02:51:11,314 - SBARDSScanner - INFO - Saving results to output\scan_results_20250515_025111.json
+2025-05-15 02:51:11,318 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250515_025111.json
+2025-05-15 02:51:11,318 - SBARDSScanner - WARNING - Scan completed with 4 threats detected
+2025-05-15 02:51:11,318 - SBARDSScanner - INFO - Total execution time: 0.06 seconds
+2025-05-15 02:57:32,418 - Orchestrator - INFO - Scanning directory: C:\Users\pc\AppData\Local\Temp\tmpj13oztif (recursive: False)
+2025-05-15 02:57:32,418 - Orchestrator - INFO - Scanning file: C:\Users\pc\AppData\Local\Temp\tmpj13oztif\safe.txt
+2025-05-15 02:57:32,892 - ThreatIntelligence - INFO - Checking file: C:\Users\pc\AppData\Local\Temp\tmpj13oztif\safe.txt
+2025-05-15 02:57:32,893 - ThreatIntelligence - INFO - Using cached result for C:\Users\pc\AppData\Local\Temp\tmpj13oztif\safe.txt
+2025-05-15 02:57:32,893 - Orchestrator - INFO - Scanning file: C:\Users\pc\AppData\Local\Temp\tmpj13oztif\suspicious.txt
+2025-05-15 02:57:33,111 - ThreatIntelligence - INFO - Checking file: C:\Users\pc\AppData\Local\Temp\tmpj13oztif\suspicious.txt
+2025-05-15 02:57:33,112 - ThreatIntelligence - INFO - Using cached result for C:\Users\pc\AppData\Local\Temp\tmpj13oztif\suspicious.txt
+2025-05-15 02:57:33,289 - Orchestrator - INFO - Scanning file: C:\Users\pc\AppData\Local\Temp\tmpfrb9ogk2\safe.txt
+2025-05-15 02:57:33,511 - ThreatIntelligence - INFO - Checking file: C:\Users\pc\AppData\Local\Temp\tmpfrb9ogk2\safe.txt
+2025-05-15 02:57:33,512 - ThreatIntelligence - INFO - Using cached result for C:\Users\pc\AppData\Local\Temp\tmpfrb9ogk2\safe.txt
+2025-05-15 02:57:33,701 - Orchestrator - INFO - Scanning file: C:\Users\pc\AppData\Local\Temp\tmpz_vtwi3h\suspicious.txt
+2025-05-15 02:57:33,919 - ThreatIntelligence - INFO - Checking file: C:\Users\pc\AppData\Local\Temp\tmpz_vtwi3h\suspicious.txt
+2025-05-15 02:57:33,920 - ThreatIntelligence - INFO - Using cached result for C:\Users\pc\AppData\Local\Temp\tmpz_vtwi3h\suspicious.txt
+2025-05-15 02:57:55,716 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-15 02:57:55,717 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 02:57:55,718 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-15 02:57:55,718 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 02:57:55,719 - SBARDSScanner - INFO - Directory structure verified
+2025-05-15 02:57:55,719 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-15 02:57:55,719 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250515_025755.json
+2025-05-15 02:57:55,720 - SBARDSScanner - INFO - Scanning all files in samples directory
+2025-05-15 02:57:55,720 - SBARDSScanner - INFO - Scanning directory: samples (recursive: False)
+2025-05-15 02:57:55,733 - SBARDSScanner - INFO - Scan completed for directory samples: 10 files scanned, 4 threats detected
+2025-05-15 02:57:55,733 - SBARDSScanner - INFO - Scan completed in 0.01 seconds
+2025-05-15 02:57:55,761 - SBARDSScanner - INFO - Saving results to output\scan_results_20250515_025755.json
+2025-05-15 02:57:55,766 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250515_025755.json
+2025-05-15 02:57:55,767 - SBARDSScanner - WARNING - Scan completed with 4 threats detected
+2025-05-15 02:57:55,767 - SBARDSScanner - INFO - Total execution time: 0.05 seconds
+2025-05-15 02:59:13,129 - Orchestrator - INFO - Scanning directory: C:\Users\pc\AppData\Local\Temp\tmpsj6wpxd_ (recursive: False)
+2025-05-15 02:59:13,130 - Orchestrator - INFO - Scanning file: C:\Users\pc\AppData\Local\Temp\tmpsj6wpxd_\safe.txt
+2025-05-15 02:59:13,596 - ThreatIntelligence - INFO - Checking file: C:\Users\pc\AppData\Local\Temp\tmpsj6wpxd_\safe.txt
+2025-05-15 02:59:13,597 - ThreatIntelligence - INFO - Using cached result for C:\Users\pc\AppData\Local\Temp\tmpsj6wpxd_\safe.txt
+2025-05-15 02:59:13,597 - Orchestrator - INFO - Scanning file: C:\Users\pc\AppData\Local\Temp\tmpsj6wpxd_\suspicious.txt
+2025-05-15 02:59:13,845 - ThreatIntelligence - INFO - Checking file: C:\Users\pc\AppData\Local\Temp\tmpsj6wpxd_\suspicious.txt
+2025-05-15 02:59:13,846 - ThreatIntelligence - INFO - Using cached result for C:\Users\pc\AppData\Local\Temp\tmpsj6wpxd_\suspicious.txt
+2025-05-15 02:59:14,024 - Orchestrator - INFO - Scanning file: C:\Users\pc\AppData\Local\Temp\tmp53xfn03y\safe.txt
+2025-05-15 02:59:14,260 - ThreatIntelligence - INFO - Checking file: C:\Users\pc\AppData\Local\Temp\tmp53xfn03y\safe.txt
+2025-05-15 02:59:14,261 - ThreatIntelligence - INFO - Using cached result for C:\Users\pc\AppData\Local\Temp\tmp53xfn03y\safe.txt
+2025-05-15 02:59:14,449 - Orchestrator - INFO - Scanning file: C:\Users\pc\AppData\Local\Temp\tmp487d2snc\suspicious.txt
+2025-05-15 02:59:14,666 - ThreatIntelligence - INFO - Checking file: C:\Users\pc\AppData\Local\Temp\tmp487d2snc\suspicious.txt
+2025-05-15 02:59:14,667 - ThreatIntelligence - INFO - Using cached result for C:\Users\pc\AppData\Local\Temp\tmp487d2snc\suspicious.txt
+2025-05-15 02:59:35,140 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-15 02:59:35,141 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 02:59:35,142 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-15 02:59:35,143 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 02:59:35,143 - SBARDSScanner - INFO - Directory structure verified
+2025-05-15 02:59:35,143 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-15 02:59:35,144 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250515_025935.json
+2025-05-15 02:59:35,144 - SBARDSScanner - INFO - Scanning all files in samples directory
+2025-05-15 02:59:35,145 - SBARDSScanner - INFO - Scanning directory: samples (recursive: False)
+2025-05-15 02:59:35,156 - SBARDSScanner - INFO - Scan completed for directory samples: 10 files scanned, 4 threats detected
+2025-05-15 02:59:35,156 - SBARDSScanner - INFO - Scan completed in 0.01 seconds
+2025-05-15 02:59:35,269 - SBARDSScanner - INFO - Saving results to output\scan_results_20250515_025935.json
+2025-05-15 02:59:35,271 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250515_025935.json
+2025-05-15 02:59:35,272 - SBARDSScanner - WARNING - Scan completed with 4 threats detected
+2025-05-15 02:59:35,272 - SBARDSScanner - INFO - Total execution time: 0.13 seconds
+2025-05-15 03:06:10,402 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-15 03:06:10,403 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 03:06:10,404 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-15 03:06:10,405 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 03:06:10,405 - SBARDSScanner - INFO - Directory structure verified
+2025-05-15 03:06:10,405 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-15 03:06:10,406 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250515_030610.json
+2025-05-15 03:06:10,406 - SBARDSScanner - INFO - Scanning all files in samples directory
+2025-05-15 03:06:10,406 - SBARDSScanner - INFO - Scanning directory: samples (recursive: False)
+2025-05-15 03:06:10,419 - SBARDSScanner - INFO - Scan completed for directory samples: 10 files scanned, 4 threats detected
+2025-05-15 03:06:10,419 - SBARDSScanner - INFO - Scan completed in 0.01 seconds
+2025-05-15 03:06:10,450 - SBARDSScanner - INFO - Saving results to output\scan_results_20250515_030610.json
+2025-05-15 03:06:10,452 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250515_030610.json
+2025-05-15 03:06:10,453 - SBARDSScanner - WARNING - Scan completed with 4 threats detected
+2025-05-15 03:06:10,453 - SBARDSScanner - INFO - Total execution time: 0.05 seconds
+2025-05-15 04:00:49,289 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-15 04:00:49,290 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 04:00:49,291 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-15 04:00:49,292 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 04:00:49,292 - SBARDSScanner - INFO - Directory structure verified
+2025-05-15 04:00:49,293 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-15 04:00:49,293 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250515_040049.json
+2025-05-15 04:00:49,293 - SBARDSScanner - INFO - Scanning all files in samples directory
+2025-05-15 04:00:49,294 - SBARDSScanner - INFO - Scanning directory: samples (recursive: False)
+2025-05-15 04:00:49,306 - SBARDSScanner - INFO - Scan completed for directory samples: 10 files scanned, 4 threats detected
+2025-05-15 04:00:49,307 - SBARDSScanner - INFO - Scan completed in 0.01 seconds
+2025-05-15 04:00:49,337 - SBARDSScanner - INFO - Saving results to output\scan_results_20250515_040049.json
+2025-05-15 04:00:49,339 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250515_040049.json
+2025-05-15 04:00:49,339 - SBARDSScanner - WARNING - Scan completed with 4 threats detected
+2025-05-15 04:00:49,340 - SBARDSScanner - INFO - Total execution time: 0.05 seconds
+2025-05-15 04:01:46,826 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-15 04:01:46,827 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 04:01:46,828 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-15 04:01:46,828 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 04:01:46,829 - SBARDSScanner - INFO - Directory structure verified
+2025-05-15 04:01:46,829 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-15 04:01:46,829 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250515_040146.json
+2025-05-15 04:01:46,829 - SBARDSScanner - INFO - Scanning directory: samples\malicious
+2025-05-15 04:01:46,830 - SBARDSScanner - INFO - Scanning directory: samples\malicious (recursive: True)
+2025-05-15 04:01:46,836 - SBARDSScanner - INFO - Scan completed for directory samples\malicious: 3 files scanned, 2 threats detected
+2025-05-15 04:01:46,836 - SBARDSScanner - INFO - Scan completed in 0.01 seconds
+2025-05-15 04:01:46,855 - SBARDSScanner - INFO - Saving results to output\scan_results_20250515_040146.json
+2025-05-15 04:01:46,856 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250515_040146.json
+2025-05-15 04:01:46,857 - SBARDSScanner - WARNING - Scan completed with 2 threats detected
+2025-05-15 04:01:46,857 - SBARDSScanner - INFO - Total execution time: 0.03 seconds
+2025-05-15 04:02:20,500 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-15 04:02:20,501 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 04:02:20,502 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-15 04:02:20,502 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 04:02:20,505 - SBARDSScanner - INFO - Directory structure verified
+2025-05-15 04:02:20,505 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-15 04:02:20,505 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250515_040220.json
+2025-05-15 04:02:20,506 - SBARDSScanner - INFO - Scanning directory: samples\suspicious
+2025-05-15 04:02:20,506 - SBARDSScanner - INFO - Scanning directory: samples\suspicious (recursive: True)
+2025-05-15 04:02:20,512 - SBARDSScanner - INFO - Scan completed for directory samples\suspicious: 3 files scanned, 1 threats detected
+2025-05-15 04:02:20,513 - SBARDSScanner - INFO - Scan completed in 0.01 seconds
+2025-05-15 04:02:20,532 - SBARDSScanner - INFO - Saving results to output\scan_results_20250515_040220.json
+2025-05-15 04:02:20,534 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250515_040220.json
+2025-05-15 04:02:20,534 - SBARDSScanner - WARNING - Scan completed with 1 threats detected
+2025-05-15 04:02:20,534 - SBARDSScanner - INFO - Total execution time: 0.04 seconds
+2025-05-15 04:02:54,983 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-15 04:02:54,984 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 04:02:54,985 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-15 04:02:54,985 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 04:02:54,986 - SBARDSScanner - INFO - Directory structure verified
+2025-05-15 04:02:54,986 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-15 04:02:54,987 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250515_040254.json
+2025-05-15 04:02:54,987 - SBARDSScanner - INFO - Scanning directory: samples\safe
+2025-05-15 04:02:54,987 - SBARDSScanner - INFO - Scanning directory: samples\safe (recursive: True)
+2025-05-15 04:02:54,992 - SBARDSScanner - INFO - Scan completed for directory samples\safe: 3 files scanned, 0 threats detected
+2025-05-15 04:02:54,992 - SBARDSScanner - INFO - Scan completed in 0.01 seconds
+2025-05-15 04:02:55,010 - SBARDSScanner - INFO - Saving results to output\scan_results_20250515_040254.json
+2025-05-15 04:02:55,011 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250515_040254.json
+2025-05-15 04:02:55,012 - SBARDSScanner - INFO - Scan completed successfully, no threats detected
+2025-05-15 04:02:55,012 - SBARDSScanner - INFO - Total execution time: 0.03 seconds
+2025-05-15 04:03:34,814 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-15 04:03:34,814 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 04:03:34,816 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-15 04:03:34,816 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 04:03:34,817 - SBARDSScanner - INFO - Directory structure verified
+2025-05-15 04:03:34,817 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-15 04:03:34,817 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250515_040334.json
+2025-05-15 04:03:34,818 - SBARDSScanner - INFO - Scanning directory: samples\permissions
+2025-05-15 04:03:34,818 - SBARDSScanner - INFO - Scanning directory: samples\permissions (recursive: True)
+2025-05-15 04:03:34,824 - SBARDSScanner - INFO - Scan completed for directory samples\permissions: 3 files scanned, 0 threats detected
+2025-05-15 04:03:34,824 - SBARDSScanner - INFO - Scan completed in 0.01 seconds
+2025-05-15 04:03:34,842 - SBARDSScanner - INFO - Saving results to output\scan_results_20250515_040334.json
+2025-05-15 04:03:34,843 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250515_040334.json
+2025-05-15 04:03:34,844 - SBARDSScanner - INFO - Scan completed successfully, no threats detected
+2025-05-15 04:03:34,844 - SBARDSScanner - INFO - Total execution time: 0.03 seconds
+2025-05-15 04:04:00,255 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-15 04:04:00,255 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 04:04:00,257 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-15 04:04:00,257 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 04:04:00,258 - SBARDSScanner - INFO - Directory structure verified
+2025-05-15 04:04:00,258 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-15 04:04:00,258 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250515_040400.json
+2025-05-15 04:04:00,259 - SBARDSScanner - INFO - Scanning directory: samples\injected
+2025-05-15 04:04:00,259 - SBARDSScanner - INFO - Scanning directory: samples\injected (recursive: True)
+2025-05-15 04:04:00,263 - SBARDSScanner - INFO - Scan completed for directory samples\injected: 2 files scanned, 0 threats detected
+2025-05-15 04:04:00,264 - SBARDSScanner - INFO - Scan completed in 0.01 seconds
+2025-05-15 04:04:00,280 - SBARDSScanner - INFO - Saving results to output\scan_results_20250515_040400.json
+2025-05-15 04:04:00,281 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250515_040400.json
+2025-05-15 04:04:00,281 - SBARDSScanner - INFO - Scan completed successfully, no threats detected
+2025-05-15 04:04:00,282 - SBARDSScanner - INFO - Total execution time: 0.03 seconds
+2025-05-15 04:46:14,880 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-15 04:46:14,881 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 04:46:14,882 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-15 04:46:14,882 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 04:46:14,883 - SBARDSScanner - INFO - Directory structure verified
+2025-05-15 04:46:14,883 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-15 04:46:14,884 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250515_044614.json
+2025-05-15 04:46:14,884 - SBARDSScanner - INFO - Scanning directory: samples\malicious
+2025-05-15 04:46:14,884 - SBARDSScanner - INFO - Scanning directory: samples\malicious (recursive: True)
+2025-05-15 04:46:14,902 - SBARDSScanner - INFO - Scan completed for directory samples\malicious: 6 files scanned, 4 threats detected
+2025-05-15 04:46:14,903 - SBARDSScanner - INFO - Scan completed in 0.02 seconds
+2025-05-15 04:46:14,931 - SBARDSScanner - INFO - Saving results to output\scan_results_20250515_044614.json
+2025-05-15 04:46:14,934 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250515_044614.json
+2025-05-15 04:46:14,934 - SBARDSScanner - WARNING - Scan completed with 4 threats detected
+2025-05-15 04:46:14,934 - SBARDSScanner - INFO - Total execution time: 0.06 seconds
+2025-05-15 04:46:43,113 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-15 04:46:43,113 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 04:46:43,115 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-15 04:46:43,115 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 04:46:43,116 - SBARDSScanner - INFO - Directory structure verified
+2025-05-15 04:46:43,116 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-15 04:46:43,116 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250515_044643.json
+2025-05-15 04:46:43,117 - SBARDSScanner - INFO - Scanning directory: samples\suspicious
+2025-05-15 04:46:43,117 - SBARDSScanner - INFO - Scanning directory: samples\suspicious (recursive: True)
+2025-05-15 04:46:43,128 - SBARDSScanner - INFO - Scan completed for directory samples\suspicious: 6 files scanned, 1 threats detected
+2025-05-15 04:46:43,128 - SBARDSScanner - INFO - Scan completed in 0.01 seconds
+2025-05-15 04:46:43,151 - SBARDSScanner - INFO - Saving results to output\scan_results_20250515_044643.json
+2025-05-15 04:46:43,153 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250515_044643.json
+2025-05-15 04:46:43,153 - SBARDSScanner - WARNING - Scan completed with 1 threats detected
+2025-05-15 04:46:43,153 - SBARDSScanner - INFO - Total execution time: 0.04 seconds
+2025-05-15 04:48:03,682 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-15 04:48:03,683 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 04:48:03,684 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-15 04:48:03,684 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 04:48:03,685 - SBARDSScanner - INFO - Directory structure verified
+2025-05-15 04:48:03,685 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-15 04:48:03,686 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250515_044803.json
+2025-05-15 04:48:03,686 - SBARDSScanner - INFO - Scanning directory: samples\safe
+2025-05-15 04:48:03,686 - SBARDSScanner - INFO - Scanning directory: samples\safe (recursive: True)
+2025-05-15 04:48:03,694 - SBARDSScanner - INFO - Scan completed for directory samples\safe: 6 files scanned, 0 threats detected
+2025-05-15 04:48:03,694 - SBARDSScanner - INFO - Scan completed in 0.01 seconds
+2025-05-15 04:48:03,712 - SBARDSScanner - INFO - Saving results to output\scan_results_20250515_044803.json
+2025-05-15 04:48:03,714 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250515_044803.json
+2025-05-15 04:48:03,715 - SBARDSScanner - INFO - Scan completed successfully, no threats detected
+2025-05-15 04:48:03,715 - SBARDSScanner - INFO - Total execution time: 0.04 seconds
+2025-05-15 04:48:31,873 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-15 04:48:31,874 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 04:48:31,876 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-15 04:48:31,876 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 04:48:31,877 - SBARDSScanner - INFO - Directory structure verified
+2025-05-15 04:48:31,877 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-15 04:48:31,878 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250515_044831.json
+2025-05-15 04:48:31,878 - SBARDSScanner - INFO - Scanning directory: samples\permissions
+2025-05-15 04:48:31,878 - SBARDSScanner - INFO - Scanning directory: samples\permissions (recursive: True)
+2025-05-15 04:48:31,886 - SBARDSScanner - INFO - Scan completed for directory samples\permissions: 6 files scanned, 0 threats detected
+2025-05-15 04:48:31,887 - SBARDSScanner - INFO - Scan completed in 0.01 seconds
+2025-05-15 04:48:31,906 - SBARDSScanner - INFO - Saving results to output\scan_results_20250515_044831.json
+2025-05-15 04:48:31,908 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250515_044831.json
+2025-05-15 04:48:31,909 - SBARDSScanner - INFO - Scan completed successfully, no threats detected
+2025-05-15 04:48:31,909 - SBARDSScanner - INFO - Total execution time: 0.04 seconds
+2025-05-15 04:50:24,931 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-15 04:50:24,932 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 04:50:24,933 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-15 04:50:24,934 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 04:50:24,935 - SBARDSScanner - INFO - Directory structure verified
+2025-05-15 04:50:24,935 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-15 04:50:24,935 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250515_045024.json
+2025-05-15 04:50:24,936 - SBARDSScanner - INFO - Scanning directory: samples\injected
+2025-05-15 04:50:24,936 - SBARDSScanner - INFO - Scanning directory: samples\injected (recursive: True)
+2025-05-15 04:50:24,947 - SBARDSScanner - INFO - Scan completed for directory samples\injected: 4 files scanned, 0 threats detected
+2025-05-15 04:50:24,947 - SBARDSScanner - INFO - Scan completed in 0.01 seconds
+2025-05-15 04:50:24,967 - SBARDSScanner - INFO - Saving results to output\scan_results_20250515_045024.json
+2025-05-15 04:50:24,969 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250515_045024.json
+2025-05-15 04:50:24,970 - SBARDSScanner - INFO - Scan completed successfully, no threats detected
+2025-05-15 04:50:24,970 - SBARDSScanner - INFO - Total execution time: 0.04 seconds
+2025-05-15 05:07:11,481 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-15 05:07:11,482 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 05:07:11,483 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-15 05:07:11,484 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 05:07:11,484 - SBARDSScanner - INFO - Directory structure verified
+2025-05-15 05:07:11,485 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-15 05:07:11,485 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250515_050711.json
+2025-05-15 05:07:11,485 - SBARDSScanner - INFO - Scanning directory: samples\malicious
+2025-05-15 05:07:11,486 - SBARDSScanner - INFO - Scanning directory: samples\malicious (recursive: True)
+2025-05-15 05:07:11,502 - SBARDSScanner - INFO - Scan completed for directory samples\malicious: 6 files scanned, 4 threats detected
+2025-05-15 05:07:11,502 - SBARDSScanner - INFO - Scan completed in 0.02 seconds
+2025-05-15 05:07:11,530 - SBARDSScanner - INFO - Saving results to output\scan_results_20250515_050711.json
+2025-05-15 05:07:11,531 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250515_050711.json
+2025-05-15 05:07:11,532 - SBARDSScanner - WARNING - Scan completed with 4 threats detected
+2025-05-15 05:07:11,532 - SBARDSScanner - INFO - Total execution time: 0.05 seconds
+2025-05-15 05:07:37,204 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-15 05:07:37,205 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 05:07:37,206 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-15 05:07:37,207 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 05:07:37,207 - SBARDSScanner - INFO - Directory structure verified
+2025-05-15 05:07:37,207 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-15 05:07:37,208 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250515_050737.json
+2025-05-15 05:07:37,208 - SBARDSScanner - INFO - Scanning directory: samples\suspicious
+2025-05-15 05:07:37,208 - SBARDSScanner - INFO - Scanning directory: samples\suspicious (recursive: True)
+2025-05-15 05:07:37,218 - SBARDSScanner - INFO - Scan completed for directory samples\suspicious: 6 files scanned, 1 threats detected
+2025-05-15 05:07:37,218 - SBARDSScanner - INFO - Scan completed in 0.01 seconds
+2025-05-15 05:07:37,238 - SBARDSScanner - INFO - Saving results to output\scan_results_20250515_050737.json
+2025-05-15 05:07:37,240 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250515_050737.json
+2025-05-15 05:07:37,241 - SBARDSScanner - WARNING - Scan completed with 1 threats detected
+2025-05-15 05:07:37,241 - SBARDSScanner - INFO - Total execution time: 0.04 seconds
+2025-05-15 05:08:00,917 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-15 05:08:00,917 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 05:08:00,918 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-15 05:08:00,919 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 05:08:00,919 - SBARDSScanner - INFO - Directory structure verified
+2025-05-15 05:08:00,920 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-15 05:08:00,920 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250515_050800.json
+2025-05-15 05:08:00,920 - SBARDSScanner - INFO - Scanning directory: samples\injected
+2025-05-15 05:08:00,920 - SBARDSScanner - INFO - Scanning directory: samples\injected (recursive: True)
+2025-05-15 05:08:00,932 - SBARDSScanner - INFO - Scan completed for directory samples\injected: 4 files scanned, 0 threats detected
+2025-05-15 05:08:00,932 - SBARDSScanner - INFO - Scan completed in 0.01 seconds
+2025-05-15 05:08:00,946 - SBARDSScanner - INFO - Saving results to output\scan_results_20250515_050800.json
+2025-05-15 05:08:00,948 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250515_050800.json
+2025-05-15 05:08:00,948 - SBARDSScanner - INFO - Scan completed successfully, no threats detected
+2025-05-15 05:08:00,948 - SBARDSScanner - INFO - Total execution time: 0.03 seconds
+2025-05-15 05:32:31,199 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-15 05:32:31,199 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 05:32:31,200 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-15 05:32:31,201 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 05:32:31,202 - SBARDSScanner - INFO - Directory structure verified
+2025-05-15 05:32:31,202 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-15 05:32:31,202 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250515_053231.json
+2025-05-15 05:32:31,203 - SBARDSScanner - INFO - Scanning directory: samples\malicious
+2025-05-15 05:32:31,203 - SBARDSScanner - INFO - Scanning directory: samples\malicious (recursive: True)
+2025-05-15 05:32:31,220 - SBARDSScanner - INFO - Scan completed for directory samples\malicious: 6 files scanned, 4 threats detected
+2025-05-15 05:32:31,220 - SBARDSScanner - INFO - Scan completed in 0.02 seconds
+2025-05-15 05:32:31,250 - SBARDSScanner - INFO - Saving results to output\scan_results_20250515_053231.json
+2025-05-15 05:32:31,252 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250515_053231.json
+2025-05-15 05:32:31,253 - SBARDSScanner - WARNING - Scan completed with 4 threats detected
+2025-05-15 05:32:31,253 - SBARDSScanner - INFO - Total execution time: 0.06 seconds
+2025-05-15 05:32:58,833 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-15 05:32:58,833 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 05:32:58,834 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-15 05:32:58,835 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 05:32:58,836 - SBARDSScanner - INFO - Directory structure verified
+2025-05-15 05:32:58,836 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-15 05:32:58,836 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250515_053258.json
+2025-05-15 05:32:58,837 - SBARDSScanner - INFO - Scanning directory: samples\suspicious
+2025-05-15 05:32:58,837 - SBARDSScanner - INFO - Scanning directory: samples\suspicious (recursive: True)
+2025-05-15 05:32:58,846 - SBARDSScanner - INFO - Scan completed for directory samples\suspicious: 6 files scanned, 1 threats detected
+2025-05-15 05:32:58,846 - SBARDSScanner - INFO - Scan completed in 0.01 seconds
+2025-05-15 05:32:58,866 - SBARDSScanner - INFO - Saving results to output\scan_results_20250515_053258.json
+2025-05-15 05:32:58,868 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250515_053258.json
+2025-05-15 05:32:58,868 - SBARDSScanner - WARNING - Scan completed with 1 threats detected
+2025-05-15 05:32:58,869 - SBARDSScanner - INFO - Total execution time: 0.04 seconds
+2025-05-15 05:33:39,642 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-15 05:33:39,643 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 05:33:39,644 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-15 05:33:39,644 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 05:33:39,645 - SBARDSScanner - INFO - Directory structure verified
+2025-05-15 05:33:39,645 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-15 05:33:39,646 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250515_053339.json
+2025-05-15 05:33:39,646 - SBARDSScanner - INFO - Scanning directory: samples\safe
+2025-05-15 05:33:39,646 - SBARDSScanner - INFO - Scanning directory: samples\safe (recursive: True)
+2025-05-15 05:33:39,654 - SBARDSScanner - INFO - Scan completed for directory samples\safe: 6 files scanned, 0 threats detected
+2025-05-15 05:33:39,654 - SBARDSScanner - INFO - Scan completed in 0.01 seconds
+2025-05-15 05:33:39,670 - SBARDSScanner - INFO - Saving results to output\scan_results_20250515_053339.json
+2025-05-15 05:33:39,673 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250515_053339.json
+2025-05-15 05:33:39,673 - SBARDSScanner - INFO - Scan completed successfully, no threats detected
+2025-05-15 05:33:39,673 - SBARDSScanner - INFO - Total execution time: 0.03 seconds
+2025-05-15 05:34:30,116 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-15 05:34:30,117 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 05:34:30,118 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-15 05:34:30,119 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 05:34:30,122 - SBARDSScanner - INFO - Directory structure verified
+2025-05-15 05:34:30,122 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-15 05:34:30,122 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250515_053430.json
+2025-05-15 05:34:30,123 - SBARDSScanner - INFO - Scanning directory: samples\permissions
+2025-05-15 05:34:30,123 - SBARDSScanner - INFO - Scanning directory: samples\permissions (recursive: True)
+2025-05-15 05:34:30,132 - SBARDSScanner - INFO - Scan completed for directory samples\permissions: 6 files scanned, 0 threats detected
+2025-05-15 05:34:30,132 - SBARDSScanner - INFO - Scan completed in 0.01 seconds
+2025-05-15 05:34:30,152 - SBARDSScanner - INFO - Saving results to output\scan_results_20250515_053430.json
+2025-05-15 05:34:30,157 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250515_053430.json
+2025-05-15 05:34:30,158 - SBARDSScanner - INFO - Scan completed successfully, no threats detected
+2025-05-15 05:34:30,159 - SBARDSScanner - INFO - Total execution time: 0.05 seconds
+2025-05-15 05:34:56,892 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-15 05:34:56,892 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 05:34:56,894 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-15 05:34:56,894 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 05:34:56,895 - SBARDSScanner - INFO - Directory structure verified
+2025-05-15 05:34:56,895 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-15 05:34:56,895 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250515_053456.json
+2025-05-15 05:34:56,896 - SBARDSScanner - INFO - Scanning directory: samples\injected
+2025-05-15 05:34:56,896 - SBARDSScanner - INFO - Scanning directory: samples\injected (recursive: True)
+2025-05-15 05:34:56,906 - SBARDSScanner - INFO - Scan completed for directory samples\injected: 4 files scanned, 0 threats detected
+2025-05-15 05:34:56,906 - SBARDSScanner - INFO - Scan completed in 0.01 seconds
+2025-05-15 05:34:56,926 - SBARDSScanner - INFO - Saving results to output\scan_results_20250515_053456.json
+2025-05-15 05:34:56,928 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250515_053456.json
+2025-05-15 05:34:56,928 - SBARDSScanner - INFO - Scan completed successfully, no threats detected
+2025-05-15 05:34:56,929 - SBARDSScanner - INFO - Total execution time: 0.04 seconds
+2025-05-15 05:54:16,678 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-15 05:54:16,679 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 05:54:16,680 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-15 05:54:16,680 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 05:54:16,681 - SBARDSScanner - INFO - Directory structure verified
+2025-05-15 05:54:16,681 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-15 05:54:16,681 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250515_055416.json
+2025-05-15 05:54:16,682 - SBARDSScanner - INFO - Scanning directory: samples\safe
+2025-05-15 05:54:16,682 - SBARDSScanner - INFO - Scanning directory: samples\safe (recursive: True)
+2025-05-15 05:54:16,690 - SBARDSScanner - INFO - Scan completed for directory samples\safe: 6 files scanned, 0 threats detected
+2025-05-15 05:54:16,690 - SBARDSScanner - INFO - Scan completed in 0.01 seconds
+2025-05-15 05:54:16,710 - SBARDSScanner - INFO - Saving results to output\scan_results_20250515_055416.json
+2025-05-15 05:54:16,711 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250515_055416.json
+2025-05-15 05:54:16,712 - SBARDSScanner - INFO - Scan completed successfully, no threats detected
+2025-05-15 05:54:16,712 - SBARDSScanner - INFO - Total execution time: 0.04 seconds
+2025-05-15 06:01:16,887 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-15 06:01:16,888 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 06:01:16,889 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-15 06:01:16,890 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 06:01:16,890 - SBARDSScanner - INFO - Directory structure verified
+2025-05-15 06:01:16,891 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-15 06:01:16,891 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250515_060116.json
+2025-05-15 06:01:16,891 - SBARDSScanner - INFO - Scanning directory: samples\safe
+2025-05-15 06:01:16,892 - SBARDSScanner - INFO - Scanning directory: samples\safe (recursive: True)
+2025-05-15 06:01:16,901 - SBARDSScanner - INFO - Scan completed for directory samples\safe: 6 files scanned, 0 threats detected
+2025-05-15 06:01:16,902 - SBARDSScanner - INFO - Scan completed in 0.01 seconds
+2025-05-15 06:01:16,922 - SBARDSScanner - INFO - Saving results to output\scan_results_20250515_060116.json
+2025-05-15 06:01:16,924 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250515_060116.json
+2025-05-15 06:01:16,924 - SBARDSScanner - INFO - Scan completed successfully, no threats detected
+2025-05-15 06:01:16,924 - SBARDSScanner - INFO - Total execution time: 0.04 seconds
+2025-05-15 06:01:38,940 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-15 06:01:38,941 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 06:01:38,942 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-15 06:01:38,943 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 06:01:38,943 - SBARDSScanner - INFO - Directory structure verified
+2025-05-15 06:01:38,944 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-15 06:01:38,944 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250515_060138.json
+2025-05-15 06:01:38,945 - SBARDSScanner - INFO - Scanning directory: samples\malicious
+2025-05-15 06:01:38,945 - SBARDSScanner - INFO - Scanning directory: samples\malicious (recursive: True)
+2025-05-15 06:01:38,962 - SBARDSScanner - INFO - Scan completed for directory samples\malicious: 6 files scanned, 4 threats detected
+2025-05-15 06:01:38,962 - SBARDSScanner - INFO - Scan completed in 0.02 seconds
+2025-05-15 06:01:38,987 - SBARDSScanner - INFO - Saving results to output\scan_results_20250515_060138.json
+2025-05-15 06:01:38,990 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250515_060138.json
+2025-05-15 06:01:38,990 - SBARDSScanner - WARNING - Scan completed with 4 threats detected
+2025-05-15 06:01:38,990 - SBARDSScanner - INFO - Total execution time: 0.05 seconds
+2025-05-15 06:52:54,778 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-15 06:52:54,779 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 06:52:54,780 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-15 06:52:54,780 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 06:52:54,781 - SBARDSScanner - INFO - Directory structure verified
+2025-05-15 06:52:54,781 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-15 06:52:54,782 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250515_065254.json
+2025-05-15 06:52:54,782 - SBARDSScanner - INFO - Scanning file: samples/test_sample.txt
+2025-05-15 06:52:54,782 - SBARDSScanner - INFO - Scanning file: samples/test_sample.txt
+2025-05-15 06:52:54,782 - SBARDSScanner - INFO - Scan completed for samples/test_sample.txt: Investigate
+2025-05-15 06:52:54,783 - SBARDSScanner - INFO - Scan completed in 0.00 seconds
+2025-05-15 06:52:54,797 - SBARDSScanner - INFO - Saving results to output\scan_results_20250515_065254.json
+2025-05-15 06:52:54,799 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250515_065254.json
+2025-05-15 06:52:54,799 - SBARDSScanner - INFO - Scan completed successfully, no threats detected
+2025-05-15 06:52:54,799 - SBARDSScanner - INFO - Total execution time: 0.02 seconds
+2025-05-15 06:58:42,278 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-15 06:58:42,279 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 06:58:42,280 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-15 06:58:42,281 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 06:58:42,281 - SBARDSScanner - INFO - Directory structure verified
+2025-05-15 06:58:42,281 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-15 06:58:42,282 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250515_065842.json
+2025-05-15 06:58:42,282 - SBARDSScanner - INFO - Scanning file: samples/test_sample.txt
+2025-05-15 06:58:42,282 - SBARDSScanner - INFO - Scanning file: samples/test_sample.txt
+2025-05-15 06:58:42,283 - SBARDSScanner - INFO - Scan completed for samples/test_sample.txt: Investigate
+2025-05-15 06:58:42,283 - SBARDSScanner - INFO - Scan completed in 0.00 seconds
+2025-05-15 06:58:42,298 - SBARDSScanner - INFO - Saving results to output\scan_results_20250515_065842.json
+2025-05-15 06:58:42,300 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250515_065842.json
+2025-05-15 06:58:42,300 - SBARDSScanner - INFO - Scan completed successfully, no threats detected
+2025-05-15 06:58:42,300 - SBARDSScanner - INFO - Total execution time: 0.03 seconds
+2025-05-15 06:59:21,428 - SBARDSScanner - DEBUG - Verbose logging enabled
+2025-05-15 06:59:21,429 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 06:59:21,430 - SBARDSScanner - DEBUG - Signal handlers registered
+2025-05-15 06:59:21,430 - SBARDSScanner - INFO - Configuration loaded from G:\SBARDS1\SBARDSProject\config.json
+2025-05-15 06:59:21,432 - SBARDSScanner - INFO - Directory structure verified
+2025-05-15 06:59:21,432 - SBARDSScanner - INFO - Initializing scanner orchestrator
+2025-05-15 06:59:21,433 - SBARDSScanner - INFO - Output will be saved to output\scan_results_20250515_065921.json
+2025-05-15 06:59:21,433 - SBARDSScanner - INFO - Scanning file: samples/safe_file.txt
+2025-05-15 06:59:21,433 - SBARDSScanner - INFO - Scanning file: samples/safe_file.txt
+2025-05-15 06:59:21,434 - SBARDSScanner - INFO - Scan completed for samples/safe_file.txt: Monitor
+2025-05-15 06:59:21,434 - SBARDSScanner - INFO - Scan completed in 0.00 seconds
+2025-05-15 06:59:21,450 - SBARDSScanner - INFO - Saving results to output\scan_results_20250515_065921.json
+2025-05-15 06:59:21,452 - SBARDSScanner - INFO - Scan results saved to output\scan_results_20250515_065921.json
+2025-05-15 06:59:21,453 - SBARDSScanner - INFO - Scan completed successfully, no threats detected
+2025-05-15 06:59:21,453 - SBARDSScanner - INFO - Total execution time: 0.03 seconds

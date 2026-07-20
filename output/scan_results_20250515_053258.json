@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "timestamp": "2025-05-15T05:32:58.866854",
+    "hostname": "DESKTOP-RND1M49",
+    "scanner_version": "1.0.0",
+    "platform": "win32"
+  },
+  "statistics": {
+    "total": 6,
+    "threats": 1,
+    "investigate": 2,
+    "monitor": 1,
+    "safe": 0,
+    "errors": 0,
+    "unknown": 2
+  },
+  "scan_results": [
+    {
+      "file_path": "samples\\suspicious\\data_exfiltration.cpp",
+      "recommendation": "Unknown (missing dependencies)",
+      "threats": [
+        "Cannot fully scan due to missing dependencies"
+      ],
+      "file_type": "unknown"
+    },
+    {
+      "file_path": "samples\\suspicious\\network_scanner.py",
+      "recommendation": "Investigate",
+      "threats": [
+        "Suspicious file extension: .py",
+        "Found suspicious patterns: vulnerability"
+      ],
+      "file_type": "py script"
+    },
+    {
+      "file_path": "samples\\suspicious\\network_scan_results.csv",
+      "recommendation": "Unknown (missing dependencies)",
+      "threats": [
+        "Cannot fully scan due to missing dependencies"
+      ],
+      "file_type": "unknown"
+    },
+    {
+      "file_path": "samples\\suspicious\\suspicious_config.json",
+      "recommendation": "Monitor",
+      "threats": [
+        "Found suspicious patterns: encrypt, keylogger"
+      ],
+      "file_type": "json file"
+    },
+    {
+      "file_path": "samples\\suspicious\\obfuscated_code.js",
+      "recommendation": "Investigate",
+      "threats": [
+        "Suspicious file extension: .js",
+        "Found suspicious patterns: eval(, base64"
+      ],
+      "file_type": "js script"
+    },
+    {
+      "file_path": "samples\\suspicious\\system_info.ps1",
+      "recommendation": "Quarantine",
+      "threats": [
+        "Suspicious file extension: .ps1",
+        "Found suspicious patterns: powershell, Invoke-WebRequest, ExecutionPolicy Bypass, Hidden, Run, http://"
+      ],
+      "file_type": "ps1 script"
+    }
+  ]
+}

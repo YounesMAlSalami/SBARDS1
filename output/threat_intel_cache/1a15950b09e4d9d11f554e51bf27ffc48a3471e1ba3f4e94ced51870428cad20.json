@@ -1,0 +1,10 @@
+{
+  "file_path": "C:\\Users\\pc\\AppData\\Local\\Temp\\tmpoth_znc6\\suspicious.txt",
+  "exists": true,
+  "file_hash": "1a15950b09e4d9d11f554e51bf27ffc48a3471e1ba3f4e94ced51870428cad20",
+  "malicious": 0,
+  "suspicious": 0,
+  "benign": 0,
+  "unknown": 1,
+  "sources": []
+}

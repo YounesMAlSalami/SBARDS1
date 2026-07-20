@@ -1,0 +1,28 @@
+{
+    "scan_results": [
+        {
+            "file_path": "samples\\malicious.exe.txt",
+            "recommendation": "Unknown (missing dependencies)",
+            "threats": [
+                "Cannot scan due to missing dependencies"
+            ],
+            "file_type": "unknown"
+        },
+        {
+            "file_path": "samples\\suspicious_script.js",
+            "recommendation": "Unknown (missing dependencies)",
+            "threats": [
+                "Cannot scan due to missing dependencies"
+            ],
+            "file_type": "unknown"
+        },
+        {
+            "file_path": "samples\\test_sample.txt",
+            "recommendation": "Unknown (missing dependencies)",
+            "threats": [
+                "Cannot scan due to missing dependencies"
+            ],
+            "file_type": "unknown"
+        }
+    ]
+}

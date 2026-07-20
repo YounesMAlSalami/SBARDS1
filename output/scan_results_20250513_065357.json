@@ -1,0 +1,18 @@
+{
+  "metadata": {
+    "timestamp": "2025-05-13T06:53:57.316480",
+    "hostname": "DESKTOP-RND1M49",
+    "scanner_version": "1.0.0",
+    "platform": "win32"
+  },
+  "statistics": {
+    "total": 0,
+    "threats": 0,
+    "investigate": 0,
+    "monitor": 0,
+    "safe": 0,
+    "errors": 0,
+    "unknown": 0
+  },
+  "scan_results": []
+}

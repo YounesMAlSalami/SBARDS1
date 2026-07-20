@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "timestamp": "2025-05-13T06:35:12.816279",
+    "hostname": "DESKTOP-RND1M49",
+    "scanner_version": "1.0.0",
+    "platform": "win32"
+  },
+  "scan_result": {
+    "file_path": "samples/suspicious_script.js",
+    "recommendation": "Quarantine",
+    "threats": [
+      "Suspicious file extension: .js",
+      "Found suspicious patterns: Run, http://, eval(, base64, encrypt, decrypt"
+    ],
+    "file_type": "js script"
+  }
+}

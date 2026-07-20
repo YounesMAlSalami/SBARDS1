@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "timestamp": "2025-05-15T04:03:34.842728",
+    "hostname": "DESKTOP-RND1M49",
+    "scanner_version": "1.0.0",
+    "platform": "win32"
+  },
+  "statistics": {
+    "total": 3,
+    "threats": 0,
+    "investigate": 2,
+    "monitor": 0,
+    "safe": 1,
+    "errors": 0,
+    "unknown": 0
+  },
+  "scan_results": [
+    {
+      "file_path": "samples\\permissions\\setuid_script.py",
+      "recommendation": "Investigate",
+      "threats": [
+        "Suspicious file extension: .py",
+        "Found suspicious patterns: Run, /etc/shadow"
+      ],
+      "file_type": "py script"
+    },
+    {
+      "file_path": "samples\\permissions\\executable.sh",
+      "recommendation": "Investigate",
+      "threats": [
+        "Suspicious file extension: .sh",
+        "Found suspicious patterns: Run, /etc/passwd"
+      ],
+      "file_type": "sh script"
+    },
+    {
+      "file_path": "samples\\permissions\\world_writable.txt",
+      "recommendation": "Safe",
+      "threats": [
+        "Cannot fully scan due to missing dependencies"
+      ],
+      "file_type": "txt file"
+    }
+  ]
+}

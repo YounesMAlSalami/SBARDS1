@@ -1,0 +1,16 @@
+This is a highly suspicious text file in a subfolder.
+
+It contains many suspicious patterns like:
+- powershell -ExecutionPolicy Bypass
+- Invoke-WebRequest
+- Invoke-Expression
+- eval(base64_decode)
+- system('rm -rf /')
+- chmod 777 /etc/passwd
+- HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run
+- backdoor
+- trojan
+- ransomware
+- keylogger
+
+This file should be classified as "Quarantine" by the scanner.

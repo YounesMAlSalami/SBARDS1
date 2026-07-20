@@ -1,0 +1,70 @@
+IP,Hostname,Port,Service,Status,Banner,Vulnerability
+192.168.1.1,router.local,80,HTTP,Open,Apache/2.4.41 (Ubuntu),CVE-2021-44228 (Log4Shell)
+192.168.1.1,router.local,443,HTTPS,Open,OpenSSL/1.1.1f,CVE-2022-0778 (Infinite Loop)
+192.168.1.1,router.local,22,SSH,Open,OpenSSH 8.2p1,None
+192.168.1.5,desktop.local,445,SMB,Open,Samba 4.13.2,CVE-2021-44142 (Remote Code Execution)
+192.168.1.5,desktop.local,3389,RDP,Open,Windows 10 Pro,CVE-2019-0708 (BlueKeep)
+192.168.1.5,desktop.local,139,NetBIOS,Open,Windows 10 Pro,None
+192.168.1.10,server.local,21,FTP,Open,vsftpd 3.0.3,Anonymous Login Enabled
+192.168.1.10,server.local,22,SSH,Open,OpenSSH 7.9p1,Weak Password
+192.168.1.10,server.local,80,HTTP,Open,nginx/1.18.0,Directory Listing Enabled
+192.168.1.10,server.local,443,HTTPS,Open,nginx/1.18.0,Expired Certificate
+192.168.1.10,server.local,3306,MySQL,Open,MySQL 8.0.27,Weak Password
+192.168.1.15,nas.local,22,SSH,Open,OpenSSH 7.4p1,None
+192.168.1.15,nas.local,80,HTTP,Open,Apache/2.4.37,None
+192.168.1.15,nas.local,443,HTTPS,Open,Apache/2.4.37,Self-signed Certificate
+192.168.1.15,nas.local,445,SMB,Open,Samba 4.9.5,CVE-2021-3738 (Heap Overflow)
+192.168.1.20,printer.local,80,HTTP,Open,Jetdirect,Default Password
+192.168.1.20,printer.local,443,HTTPS,Open,Jetdirect,Self-signed Certificate
+192.168.1.20,printer.local,9100,Printer,Open,HP LaserJet,None
+192.168.1.25,camera.local,80,HTTP,Open,Hikvision,Default Password
+192.168.1.25,camera.local,443,HTTPS,Open,Hikvision,Self-signed Certificate
+192.168.1.25,camera.local,554,RTSP,Open,Hikvision,None
+192.168.1.30,iot.local,80,HTTP,Open,Espressif,Default Password
+192.168.1.30,iot.local,1883,MQTT,Open,Mosquitto,No Authentication
+192.168.1.35,phone.local,5555,ADB,Open,Android Debug Bridge,Unauthorized Access
+192.168.1.40,tablet.local,5555,ADB,Open,Android Debug Bridge,Unauthorized Access
+192.168.1.45,smarttv.local,80,HTTP,Open,WebOS,None
+192.168.1.45,smarttv.local,443,HTTPS,Open,WebOS,Self-signed Certificate
+192.168.1.50,thermostat.local,80,HTTP,Open,Nest,None
+192.168.1.55,doorbell.local,80,HTTP,Open,Ring,None
+192.168.1.60,assistant.local,80,HTTP,Open,Google Home,None
+192.168.1.65,speaker.local,80,HTTP,Open,Sonos,None
+192.168.1.70,watch.local,80,HTTP,Open,Apple Watch,None
+192.168.1.75,car.local,80,HTTP,Open,Tesla,None
+192.168.1.80,refrigerator.local,80,HTTP,Open,Samsung,None
+192.168.1.85,washer.local,80,HTTP,Open,LG,None
+192.168.1.90,dryer.local,80,HTTP,Open,LG,None
+192.168.1.95,dishwasher.local,80,HTTP,Open,Bosch,None
+192.168.1.100,oven.local,80,HTTP,Open,GE,None
+192.168.1.105,microwave.local,80,HTTP,Open,Panasonic,None
+192.168.1.110,coffeemachine.local,80,HTTP,Open,Keurig,None
+192.168.1.115,toaster.local,80,HTTP,Open,Breville,None
+192.168.1.120,vacuum.local,80,HTTP,Open,Roomba,None
+192.168.1.125,lawnmower.local,80,HTTP,Open,Husqvarna,None
+192.168.1.130,sprinkler.local,80,HTTP,Open,Rachio,None
+192.168.1.135,pool.local,80,HTTP,Open,Hayward,None
+192.168.1.140,solar.local,80,HTTP,Open,SolarEdge,None
+192.168.1.145,battery.local,80,HTTP,Open,Tesla Powerwall,None
+192.168.1.150,charger.local,80,HTTP,Open,Tesla Charger,None
+192.168.1.155,generator.local,80,HTTP,Open,Generac,None
+192.168.1.160,fireplace.local,80,HTTP,Open,Napoleon,None
+192.168.1.165,blinds.local,80,HTTP,Open,Lutron,None
+192.168.1.170,lock.local,80,HTTP,Open,August,None
+192.168.1.175,garage.local,80,HTTP,Open,Chamberlain,None
+192.168.1.180,alarm.local,80,HTTP,Open,SimpliSafe,None
+192.168.1.185,smoke.local,80,HTTP,Open,Nest Protect,None
+192.168.1.190,water.local,80,HTTP,Open,Flo by Moen,None
+192.168.1.195,weather.local,80,HTTP,Open,Ambient Weather,None
+192.168.1.200,scale.local,80,HTTP,Open,Withings,None
+192.168.1.205,mirror.local,80,HTTP,Open,HiMirror,None
+192.168.1.210,bed.local,80,HTTP,Open,Sleep Number,None
+192.168.1.215,treadmill.local,80,HTTP,Open,Peloton,None
+192.168.1.220,bike.local,80,HTTP,Open,Peloton,None
+192.168.1.225,rower.local,80,HTTP,Open,Hydrow,None
+192.168.1.230,weights.local,80,HTTP,Open,Tonal,None
+192.168.1.235,fan.local,80,HTTP,Open,Dyson,None
+192.168.1.240,airpurifier.local,80,HTTP,Open,Dyson,None
+192.168.1.245,humidifier.local,80,HTTP,Open,Dyson,None
+192.168.1.250,dehumidifier.local,80,HTTP,Open,Frigidaire,None
+192.168.1.254,modem.local,80,HTTP,Open,Arris,Default Password

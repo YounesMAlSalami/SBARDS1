@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "timestamp": "2025-05-13T06:28:57.536949",
+    "hostname": "DESKTOP-RND1M49",
+    "scanner_version": "1.0.0",
+    "platform": "win32"
+  },
+  "scan_result": {
+    "file_path": "samples/unauthorized_permissions.sh",
+    "recommendation": "Quarantine",
+    "threats": [
+      "Suspicious file extension: .sh",
+      "Found suspicious patterns: chmod 777, chown, sudo, useradd, /etc/passwd, /etc/shadow, /etc/sudoers, iptables, systemctl, nc , backdoor, hack"
+    ],
+    "file_type": "sh script"
+  }
+}

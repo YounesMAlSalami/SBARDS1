@@ -1,0 +1,103 @@
+{
+  "metadata": {
+    "timestamp": "2025-05-15T03:06:10.451402",
+    "hostname": "DESKTOP-RND1M49",
+    "scanner_version": "1.0.0",
+    "platform": "win32"
+  },
+  "statistics": {
+    "total": 10,
+    "threats": 4,
+    "investigate": 2,
+    "monitor": 3,
+    "safe": 1,
+    "errors": 0,
+    "unknown": 0
+  },
+  "scan_results": [
+    {
+      "file_path": "samples\\completely_safe.txt",
+      "recommendation": "Monitor",
+      "threats": [
+        "Found suspicious patterns: malicious"
+      ],
+      "file_type": "txt file"
+    },
+    {
+      "file_path": "samples\\malicious.exe.txt",
+      "recommendation": "Investigate",
+      "threats": [
+        "Found suspicious patterns: powershell, ExecutionPolicy Bypass, eval(, base64_decode, encrypt, decrypt, malicious, backdoor, trojan, ransomware, keylogger, botnet"
+      ],
+      "file_type": "txt file"
+    },
+    {
+      "file_path": "samples\\malicious_script.ps1",
+      "recommendation": "Quarantine",
+      "threats": [
+        "Suspicious file extension: .ps1",
+        "Found suspicious patterns: powershell, system32, Invoke-WebRequest, Invoke-Expression, Run, http://, encrypt"
+      ],
+      "file_type": "ps1 script"
+    },
+    {
+      "file_path": "samples\\highly_malicious.bat",
+      "recommendation": "Quarantine",
+      "threats": [
+        "Suspicious file extension: .bat",
+        "Found suspicious patterns: powershell, system32, netsh, Invoke-WebRequest, Invoke-Expression, ExecutionPolicy Bypass, Hidden, Run, http://, encrypt"
+      ],
+      "file_type": "bat script"
+    },
+    {
+      "file_path": "samples\\safe_file.txt",
+      "recommendation": "Monitor",
+      "threats": [
+        "Found suspicious patterns: malicious"
+      ],
+      "file_type": "txt file"
+    },
+    {
+      "file_path": "samples\\pure_safe.txt",
+      "recommendation": "Safe",
+      "threats": [
+        "Cannot fully scan due to missing dependencies"
+      ],
+      "file_type": "txt file"
+    },
+    {
+      "file_path": "samples\\unauthorized_permissions.sh",
+      "recommendation": "Quarantine",
+      "threats": [
+        "Suspicious file extension: .sh",
+        "Found suspicious patterns: chmod 777, chown, sudo, useradd, /etc/passwd, /etc/shadow, /etc/sudoers, iptables, systemctl, nc , backdoor, hack"
+      ],
+      "file_type": "sh script"
+    },
+    {
+      "file_path": "samples\\suspicious_script.js",
+      "recommendation": "Quarantine",
+      "threats": [
+        "Suspicious file extension: .js",
+        "Found suspicious patterns: Run, http://, eval(, base64, encrypt, decrypt"
+      ],
+      "file_type": "js script"
+    },
+    {
+      "file_path": "samples\\test_sample.txt",
+      "recommendation": "Investigate",
+      "threats": [
+        "Found suspicious patterns: encrypt, decrypt, malicious, ransomware"
+      ],
+      "file_type": "txt file"
+    },
+    {
+      "file_path": "samples\\suspicious_config.json",
+      "recommendation": "Monitor",
+      "threats": [
+        "Found suspicious patterns: encrypt"
+      ],
+      "file_type": "json file"
+    }
+  ]
+}

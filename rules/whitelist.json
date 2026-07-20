@@ -1,0 +1,31 @@
+{
+  "ExampleRule": [
+    "This is a test file that contains the word malicious",
+    "This file discusses malicious software in an educational context",
+    "Example of malicious patterns for detection",
+    "The word malicious is used in a benign context",
+    "This is a safe file with the word malicious in it"
+  ],
+  "PotentialRansomware": [
+    "This file discusses how to encrypt and decrypt data securely",
+    "Encryption and decryption are important security concepts",
+    "The file also mentions the words encrypt and decrypt to potentially trigger",
+    "This document explains encryption and decryption techniques",
+    "How to encrypt and decrypt files safely"
+  ],
+  "SuspiciousScript": [
+    "This is an example of a script that would be flagged as suspicious",
+    "The script contains commands that might be used in a security context",
+    "This is a demonstration of security scanning capabilities"
+  ],
+  "NetworkScanner": [
+    "This is a legitimate network scanning tool",
+    "Network scanning for educational purposes",
+    "This tool demonstrates network scanning techniques"
+  ],
+  "Base64Encoded": [
+    "This file contains Base64 encoded data for legitimate purposes",
+    "Base64 encoding is used for data transmission",
+    "Example of Base64 encoded content"
+  ]
+}

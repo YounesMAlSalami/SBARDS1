@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "timestamp": "2025-05-13T06:34:31.270132",
+    "hostname": "DESKTOP-RND1M49",
+    "scanner_version": "1.0.0",
+    "platform": "win32"
+  },
+  "scan_result": {
+    "file_path": "samples/malicious_script.ps1",
+    "recommendation": "Quarantine",
+    "threats": [
+      "Suspicious file extension: .ps1",
+      "Found suspicious patterns: powershell, system32, Invoke-WebRequest, Invoke-Expression, Run, http://, encrypt"
+    ],
+    "file_type": "ps1 script"
+  }
+}

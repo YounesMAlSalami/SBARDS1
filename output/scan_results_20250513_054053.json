@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "timestamp": "2025-05-13T05:40:53.714397",
+    "hostname": "DESKTOP-RND1M49",
+    "scanner_version": "1.0.0",
+    "platform": "win32"
+  },
+  "statistics": {
+    "total": 6,
+    "threats": 0,
+    "investigate": 0,
+    "monitor": 0,
+    "safe": 0,
+    "errors": 0,
+    "unknown": 6
+  },
+  "scan_results": [
+    {
+      "file_path": "samples\\highly_malicious.bat",
+      "recommendation": "Unknown (missing dependencies)",
+      "threats": [
+        "Cannot scan due to missing dependencies"
+      ],
+      "file_type": "unknown"
+    },
+    {
+      "file_path": "samples\\malicious.exe.txt",
+      "recommendation": "Unknown (missing dependencies)",
+      "threats": [
+        "Cannot scan due to missing dependencies"
+      ],
+      "file_type": "unknown"
+    },
+    {
+      "file_path": "samples\\safe_file.txt",
+      "recommendation": "Unknown (missing dependencies)",
+      "threats": [
+        "Cannot scan due to missing dependencies"
+      ],
+      "file_type": "unknown"
+    },
+    {
+      "file_path": "samples\\suspicious_config.json",
+      "recommendation": "Unknown (missing dependencies)",
+      "threats": [
+        "Cannot scan due to missing dependencies"
+      ],
+      "file_type": "unknown"
+    },
+    {
+      "file_path": "samples\\suspicious_script.js",
+      "recommendation": "Unknown (missing dependencies)",
+      "threats": [
+        "Cannot scan due to missing dependencies"
+      ],
+      "file_type": "unknown"
+    },
+    {
+      "file_path": "samples\\test_sample.txt",
+      "recommendation": "Unknown (missing dependencies)",
+      "threats": [
+        "Cannot scan due to missing dependencies"
+      ],
+      "file_type": "unknown"
+    }
+  ]
+}

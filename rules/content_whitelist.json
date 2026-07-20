@@ -1,0 +1,54 @@
+{
+  "malicious": [
+    "This is a test file that contains the word malicious",
+    "This file discusses malicious software in an educational context",
+    "Example of malicious patterns for detection",
+    "The word malicious is used in a benign context",
+    "This is a safe file with the word malicious in it",
+    "All of these topics are discussed in a benign context without any malicious intent"
+  ],
+  "encrypt": [
+    "This file discusses how to encrypt and decrypt data securely",
+    "Encryption and decryption are important security concepts",
+    "The file also mentions the words encrypt and decrypt to potentially trigger",
+    "This document explains encryption and decryption techniques",
+    "How to encrypt and decrypt files safely"
+  ],
+  "decrypt": [
+    "This file discusses how to encrypt and decrypt data securely",
+    "Encryption and decryption are important security concepts",
+    "The file also mentions the words encrypt and decrypt to potentially trigger",
+    "This document explains encryption and decryption techniques",
+    "How to encrypt and decrypt files safely"
+  ],
+  "ransomware": [
+    "This document discusses ransomware in an educational context",
+    "Ransomware is a type of malware that encrypts files",
+    "How to protect against ransomware attacks"
+  ],
+  "password": [
+    "This document discusses password security best practices",
+    "How to create strong passwords",
+    "Password management techniques"
+  ],
+  "exploit": [
+    "This document discusses security exploits in an educational context",
+    "How to protect against common exploits",
+    "Understanding security vulnerabilities and exploits"
+  ],
+  "vulnerability": [
+    "This document discusses security vulnerabilities in an educational context",
+    "How to identify and fix vulnerabilities",
+    "Understanding security vulnerabilities and exploits"
+  ],
+  "backdoor": [
+    "This document discusses backdoors in an educational context",
+    "How to protect against backdoors",
+    "Understanding security risks of backdoors"
+  ],
+  "trojan": [
+    "This document discusses trojan malware in an educational context",
+    "How to protect against trojans",
+    "Understanding trojan horse malware"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "timestamp": "2025-05-15T04:48:03.713239",
+    "hostname": "DESKTOP-RND1M49",
+    "scanner_version": "1.0.0",
+    "platform": "win32"
+  },
+  "statistics": {
+    "total": 6,
+    "threats": 0,
+    "investigate": 1,
+    "monitor": 3,
+    "safe": 0,
+    "errors": 0,
+    "unknown": 2
+  },
+  "scan_results": [
+    {
+      "file_path": "samples\\safe\\calculator.c",
+      "recommendation": "Unknown (missing dependencies)",
+      "threats": [
+        "Cannot fully scan due to missing dependencies"
+      ],
+      "file_type": "unknown"
+    },
+    {
+      "file_path": "samples\\safe\\database_schema.sql",
+      "recommendation": "Unknown (missing dependencies)",
+      "threats": [
+        "Cannot fully scan due to missing dependencies"
+      ],
+      "file_type": "unknown"
+    },
+    {
+      "file_path": "samples\\safe\\config.json",
+      "recommendation": "Monitor",
+      "threats": [
+        "Found suspicious patterns: malicious"
+      ],
+      "file_type": "json file"
+    },
+    {
+      "file_path": "samples\\safe\\hello_world.py",
+      "recommendation": "Investigate",
+      "threats": [
+        "Suspicious file extension: .py"
+      ],
+      "file_type": "py script"
+    },
+    {
+      "file_path": "samples\\safe\\project_documentation.docx.txt",
+      "recommendation": "Monitor",
+      "threats": [
+        "Found suspicious patterns: malicious"
+      ],
+      "file_type": "txt file"
+    },
+    {
+      "file_path": "samples\\safe\\readme.txt",
+      "recommendation": "Monitor",
+      "threats": [
+        "Found suspicious patterns: encrypt, malicious"
+      ],
+      "file_type": "txt file"
+    }
+  ]
+}

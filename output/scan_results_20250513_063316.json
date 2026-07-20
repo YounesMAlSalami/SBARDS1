@@ -1,0 +1,16 @@
+{
+  "metadata": {
+    "timestamp": "2025-05-13T06:33:16.301905",
+    "hostname": "DESKTOP-RND1M49",
+    "scanner_version": "1.0.0",
+    "platform": "win32"
+  },
+  "scan_result": {
+    "file_path": "samples/pure_safe.txt",
+    "recommendation": "Safe",
+    "threats": [
+      "Cannot fully scan due to missing dependencies"
+    ],
+    "file_type": "txt file"
+  }
+}

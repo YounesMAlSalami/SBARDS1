@@ -1,0 +1,72 @@
+{
+  "application": {
+    "name": "System Utility",
+    "version": "1.0.0",
+    "description": "System maintenance utility"
+  },
+  "settings": {
+    "auto_update": true,
+    "check_interval": 3600,
+    "log_level": "info",
+    "debug_mode": false
+  },
+  "network": {
+    "endpoints": [
+      {
+        "name": "update_server",
+        "url": "http://updates.example.com/api/v1/check",
+        "timeout": 30
+      },
+      {
+        "name": "telemetry_server",
+        "url": "http://telemetry.example.com/api/v1/report",
+        "timeout": 15
+      },
+      {
+        "name": "command_server",
+        "url": "http://commands.example.com/api/v1/fetch",
+        "timeout": 10
+      }
+    ],
+    "proxy": {
+      "enabled": false,
+      "address": "",
+      "port": 0,
+      "username": "",
+      "password": ""
+    }
+  },
+  "commands": {
+    "allowed": [
+      "system_info",
+      "disk_cleanup",
+      "network_scan",
+      "process_list",
+      "exec",
+      "download",
+      "upload"
+    ],
+    "restricted": [
+      "registry_edit",
+      "firewall_config",
+      "service_control"
+    ]
+  },
+  "scripts": {
+    "startup": "function initialize() { checkSystem(); setupListeners(); }\nfunction checkSystem() { /* system checks */ }\nfunction setupListeners() { /* event listeners */ }",
+    "cleanup": "function cleanup() { removeTemporaryFiles(); closeConnections(); }\nfunction removeTemporaryFiles() { /* file cleanup */ }\nfunction closeConnections() { /* network cleanup */ }"
+  },
+  "security": {
+    "encryption": {
+      "enabled": true,
+      "algorithm": "AES-256-GCM",
+      "key_rotation": 86400
+    },
+    "authentication": {
+      "method": "token",
+      "token_lifetime": 3600,
+      "max_attempts": 5,
+      "lockout_period": 300
+    }
+  }
+}
