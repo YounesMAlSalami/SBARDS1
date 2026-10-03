@@ -35,6 +35,34 @@
 
 ---
 
+<img width="1920" height="1080" alt="‏‏لقطة الشاشة (507)" src="https://github.com/user-attachments/assets/6c549c6e-62a5-44b8-ac5d-29faa8daea20" />
+<img width="1920" height="1080" alt="‏‏لقطة الشاشة (509)" src="https://github.com/user-attachments/assets/2ee856e7-1240-4194-893e-7de2fc51e9a9" />
+
+<img width="1920" height="1080" alt="‏‏لقطة الشاشة (513)" src="https://github.com/user-attachments/assets/9fbb3e42-af1b-44d4-895c-3ed592825f4f" />
+
+<img width="1920" height="1080" alt="‏‏لقطة الشاشة (514)" src="https://github.com/user-attachments/assets/34522255-ae9d-4fdc-af5b-4de24835d4c2" />
+<img width="1920" height="1080" alt="‏‏لقطة الشاشة (516)" src="https://github.com/user-attachments/assets/f9b29c6d-b9f5-48d6-b5e8-b4cb9f156c62" />
+
+<img width="1920" height="1080" alt="‏‏لقطة الشاشة (517)" src="https://github.com/user-attachments/assets/a0384044-804b-41c0-8e7a-341d4e4ba130" />
+
+
+<img width="1920" height="1080" alt="‏‏لقطة الشاشة (518)" src="https://github.com/user-attachments/assets/4ccd7d3d-9140-42dc-9087-7e533fe89bb8" />
+
+<img width="1920" height="1080" alt="‏‏لقطة الشاشة (519)" src="https://github.com/user-attachments/assets/ac19d1fb-c76d-4cf7-9083-87d06954870c" />
+
+<img width="1920" height="1080" alt="‏‏لقطة الشاشة (520)" src="https://github.com/user-attachments/assets/bb7d59d2-4e8d-4678-8a4b-bb860fdc225b" />
+<img width="1920" height="1080" alt="‏‏لقطة الشاشة (521)" src="https://github.com/user-attachments/assets/1b315160-2e5a-4a0a-b40a-54b6de0ccb87" />
+
+<img width="1920" height="1080" alt="‏‏لقطة الشاشة (522)" src="https://github.com/user-attachments/assets/96e6b2cf-3b5a-4327-aaa0-31d8f8153e71" />
+
+
+<img width="1920" height="1080" alt="‏‏لقطة الشاشة (523)" src="https://github.com/user-attachments/assets/468cb25e-ca3d-4055-b071-bc8350a9c71f" />
+
+<img width="1920" height="1080" alt="‏‏لقطة الشاشة (524)" src="https://github.com/user-attachments/assets/db299620-1c1d-4273-bc57-e602f21c9e0e" />
+
+<img width="1920" height="1080" alt="‏‏لقطة الشاشة (525)" src="https://github.com/user-attachments/assets/a3cd89d1-e694-4e4c-a89c-c51046258604" />
+<img width="1920" height="1080" alt="‏‏لقطة الشاشة (526)" src="https://github.com/user-attachments/assets/51a5e1b1-da51-486b-9dfb-1221d1b4c956" />
+
 ## 🚀 **البدء السريع**
 
 ### **📋 المتطلبات الأساسية:**
