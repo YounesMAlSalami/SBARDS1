@@ -16,7 +16,7 @@
 
 ## 🎯 **ما هو SBARDS؟**
 
-**SBARDS (Secure Behavioral Analysis & Real-Time Detection System)** هو نظام أمني شامل متعدد الطبقات يوفر:
+**SBARDS (Smart Behavioral Analysis and Ransomware Defense System)** هو نظام أمني شامل متعدد الطبقات يوفر:
 
 ### **🏆 الميزات الرئيسية:**
 - **🔍 اعتراض فوري للملفات** قبل حفظها على الجهاز (100% معدل نجاح)
