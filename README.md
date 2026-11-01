@@ -58,7 +58,7 @@
 <table>
   <tr>
     <td align="center" width="50%">
-      <img src="Images/507.png" alt="SBARDS screenshot 507" width="100%">
+      <img src="https://github.com/YounesMAlSalami/SBARDS1/blob/main/Images/%E2%80%8F%E2%80%8F507.png" alt="SBARDS screenshot 507" width="100%">
       <br><sub>Screenshot 507</sub>
     </td>
     <td align="center" width="50%">
