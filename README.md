@@ -1,290 +1,389 @@
-# 🛡️ **SBARDS v2.0.0 - Advanced Security Behavior Analysis System**
-## نظام تحليل السلوك الأمني المتقدم - دليل البدء السريع
+<div align="center">
 
-[![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)](https://github.com/sbards/sbards)
-[![Status](https://img.shields.io/badge/status-Production%20Ready-brightgreen.svg)](https://github.com/sbards/sbards)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://python.org)
-[![C++](https://img.shields.io/badge/C%2B%2B-17-blue.svg)](https://isocpp.org)
-[![Tested](https://img.shields.io/badge/tested-100%25-brightgreen.svg)](tests/)
+# 🛡️ SBARDS v2.0.0
+### Advanced Security Behavior Analysis & Ransomware Defense System
 
-> **🎉 نظام أمان متكامل ومتقدم - جاهز للإنتاج**
-> 
-> **SBARDS v2.0** هو نظام أمني متقدم لتحليل السلوك واكتشاف التهديدات في الوقت الفعلي، مع تركيز خاص على اكتشاف برامج الفدية والتهديدات المتقدمة.
+**نظام تحليل السلوك الأمني المتقدم والدفاع ضد برامج الفدية**
 
----
+نظام أمني متعدد الطبقات لتحليل الملفات والسلوكيات المشبوهة، واكتشاف التهديدات والاستجابة لها.
 
-## 🎯 **ما هو SBARDS؟**
+[![Version](https://img.shields.io/badge/version-2.0.0-blue)](https://github.com/YounesMAlSalami/SBARDS1)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.8%2B-yellow)](https://www.python.org/)
+[![C++](https://img.shields.io/badge/C%2B%2B-17-blue)](https://isocpp.org/)
 
-**SBARDS (Smart Behavioral Analysis and Ransomware Defense System)** هو نظام أمني شامل متعدد الطبقات يوفر:
-
-### **🏆 الميزات الرئيسية:**
-- **🔍 اعتراض فوري للملفات** قبل حفظها على الجهاز (100% معدل نجاح)
-- **🛡️ 8 طبقات أمنية متكاملة** للحماية الشاملة
-- **🔬 8 محللات متخصصة** عالية الدقة (96%+ دقة كشف)
-- **⚡ أداء عالي** - معالجة 1000+ ملف/ثانية
-- **🗄️ قاعدة بيانات متقدمة** مع 16 جدول متخصص
-- **🌐 واجهة API شاملة** مع Dashboard تفاعلي
-
-### **📊 مؤشرات الأداء:**
-- **دقة الكشف**: 96%+ مع إنذارات كاذبة <2%
-- **سرعة المعالجة**: <100ms للملفات العادية
-- **معدل الإنتاجية**: 1000+ ملف/ثانية
-- **موثوقية النظام**: 99.9% uptime
-- **تحسين الأداء**: 60% أسرع من الإصدار السابق
+</div>
 
 ---
 
-<img width="1920" height="1080" alt="‏‏لقطة الشاشة (507)" src="https://github.com/user-attachments/assets/6c549c6e-62a5-44b8-ac5d-29faa8daea20" />
-<img width="1920" height="1080" alt="‏‏لقطة الشاشة (509)" src="https://github.com/user-attachments/assets/2ee856e7-1240-4194-893e-7de2fc51e9a9" />
+## 📌 نظرة عامة | Overview
 
-<img width="1920" height="1080" alt="‏‏لقطة الشاشة (513)" src="https://github.com/user-attachments/assets/9fbb3e42-af1b-44d4-895c-3ed592825f4f" />
+**SBARDS (Smart Behavioral Analysis and Ransomware Defense System)** هو نظام أمني يهدف إلى تحليل الملفات والسلوكيات المرتبطة بالبرمجيات الخبيثة، مع تركيز خاص على اكتشاف أنشطة برامج الفدية (Ransomware) والتهديدات المتقدمة.
 
-<img width="1920" height="1080" alt="‏‏لقطة الشاشة (514)" src="https://github.com/user-attachments/assets/34522255-ae9d-4fdc-af5b-4de24835d4c2" />
-<img width="1920" height="1080" alt="‏‏لقطة الشاشة (516)" src="https://github.com/user-attachments/assets/f9b29c6d-b9f5-48d6-b5e8-b4cb9f156c62" />
+يجمع النظام بين التحليل الثابت (Static Analysis)، والتحليل الديناميكي والسلوكي (Dynamic & Behavioral Analysis)، وآليات الاستجابة للتهديدات، إلى جانب واجهة API ولوحة تحكم لمتابعة حالة النظام ونتائج الفحص.
 
-<img width="1920" height="1080" alt="‏‏لقطة الشاشة (517)" src="https://github.com/user-attachments/assets/a0384044-804b-41c0-8e7a-341d4e4ba130" />
+> 🎉 **SBARDS v2.0.0** — إصدار يركز على التحليل متعدد الطبقات، ومراقبة التهديدات، وتوفير أدوات مركزية لعرض نتائج الفحص.
 
+## 🎯 الميزات الرئيسية | Key Features
 
-<img width="1920" height="1080" alt="‏‏لقطة الشاشة (518)" src="https://github.com/user-attachments/assets/4ccd7d3d-9140-42dc-9087-7e533fe89bb8" />
+- 🔍 **اعتراض ومراقبة الملفات:** متابعة الملفات وفق آلية الالتقاط المعتمدة في النظام.
+- 🛡️ **بنية أمنية متعددة الطبقات:** دمج عدة مراحل للتحليل والكشف والاستجابة.
+- 🔬 **محللات متخصصة:** تحليل الملفات والشفرة والمستندات والشبكات والمؤشرات.
+- 🧠 **تحليل قائم على القواعد والتعلم الآلي:** استخدام YARA ومحرك ML ضمن مسارات التحليل.
+- ⚡ **الاستجابة للتهديدات:** توفير آليات للتعامل مع النتائج والأنشطة المشبوهة.
+- 🌐 **واجهة API ولوحة تحكم:** عرض حالة النظام والتهديدات ونتائج التحليل.
+- 🗄️ **قاعدة بيانات منظمة:** تخزين بيانات الملفات والتقارير والمؤشرات وسجلات التدقيق.
 
-<img width="1920" height="1080" alt="‏‏لقطة الشاشة (519)" src="https://github.com/user-attachments/assets/ac19d1fb-c76d-4cf7-9083-87d06954870c" />
+## 📊 مؤشرات الأداء | Performance Metrics
 
-<img width="1920" height="1080" alt="‏‏لقطة الشاشة (520)" src="https://github.com/user-attachments/assets/bb7d59d2-4e8d-4678-8a4b-bb860fdc225b" />
-<img width="1920" height="1080" alt="‏‏لقطة الشاشة (521)" src="https://github.com/user-attachments/assets/1b315160-2e5a-4a0a-b40a-54b6de0ccb87" />
+الأرقام التالية هي المؤشرات المذكورة ضمن مواصفات المشروع. ينبغي ربطها بنتائج اختبارات قابلة للتكرار قبل اعتبارها ضمانات أداء عامة.
 
-<img width="1920" height="1080" alt="‏‏لقطة الشاشة (522)" src="https://github.com/user-attachments/assets/96e6b2cf-3b5a-4327-aaa0-31d8f8153e71" />
+| المؤشر | القيمة المذكورة |
+|---|---:|
+| دقة الكشف | 96%+ |
+| الإنذارات الكاذبة | أقل من 2% |
+| زمن معالجة الملف العادي | أقل من 100 ms |
+| معدل المعالجة | 1000+ ملف/ثانية |
+| التوافر المستهدف | 99.9% |
+| تحسن الأداء مقارنة بالإصدار السابق | 60% |
 
+---
 
-<img width="1920" height="1080" alt="‏‏لقطة الشاشة (523)" src="https://github.com/user-attachments/assets/468cb25e-ca3d-4055-b071-bc8350a9c71f" />
+## 🖥️ لقطات من النظام | Screenshots
 
-<img width="1920" height="1080" alt="‏‏لقطة الشاشة (524)" src="https://github.com/user-attachments/assets/db299620-1c1d-4273-bc57-e602f21c9e0e" />
+تُحمّل الصور من مجلد `Images` داخل المستودع. تأكد من أن أسماء الملفات وامتداداتها تطابق المسارات أدناه تماماً؛ GitHub يميز بين الأحرف الكبيرة والصغيرة.
 
-<img width="1920" height="1080" alt="‏‏لقطة الشاشة (525)" src="https://github.com/user-attachments/assets/a3cd89d1-e694-4e4c-a89c-c51046258604" />
-<img width="1920" height="1080" alt="‏‏لقطة الشاشة (526)" src="https://github.com/user-attachments/assets/51a5e1b1-da51-486b-9dfb-1221d1b4c956" />
+<div align="center">
 
-## 🚀 **البدء السريع**
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="Images/507.png" alt="SBARDS screenshot 507" width="100%">
+      <br><sub>Screenshot 507</sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="Images/509.png" alt="SBARDS screenshot 509" width="100%">
+      <br><sub>Screenshot 509</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="Images/513.png" alt="SBARDS screenshot 513" width="100%">
+      <br><sub>Screenshot 513</sub>
+    </td>
+    <td align="center">
+      <img src="Images/514.png" alt="SBARDS screenshot 514" width="100%">
+      <br><sub>Screenshot 514</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="Images/516.png" alt="SBARDS screenshot 516" width="100%">
+      <br><sub>Screenshot 516</sub>
+    </td>
+    <td align="center">
+      <img src="Images/517.png" alt="SBARDS screenshot 517" width="100%">
+      <br><sub>Screenshot 517</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="Images/518.png" alt="SBARDS screenshot 518" width="100%">
+      <br><sub>Screenshot 518</sub>
+    </td>
+    <td align="center">
+      <img src="Images/519.png" alt="SBARDS screenshot 519" width="100%">
+      <br><sub>Screenshot 519</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="Images/520.png" alt="SBARDS screenshot 520" width="100%">
+      <br><sub>Screenshot 520</sub>
+    </td>
+    <td align="center">
+      <img src="Images/521.png" alt="SBARDS screenshot 521" width="100%">
+      <br><sub>Screenshot 521</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="Images/522.png" alt="SBARDS screenshot 522" width="100%">
+      <br><sub>Screenshot 522</sub>
+    </td>
+    <td align="center">
+      <img src="Images/523.png" alt="SBARDS screenshot 523" width="100%">
+      <br><sub>Screenshot 523</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="Images/524.png" alt="SBARDS screenshot 524" width="100%">
+      <br><sub>Screenshot 524</sub>
+    </td>
+    <td align="center">
+      <img src="Images/525.png" alt="SBARDS screenshot 525" width="100%">
+      <br><sub>Screenshot 525</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2">
+      <img src="Images/526.png" alt="SBARDS screenshot 526" width="75%">
+      <br><sub>Screenshot 526</sub>
+    </td>
+  </tr>
+</table>
 
-### **📋 المتطلبات الأساسية:**
-- **Python 3.8+**
-- **C++ Compiler** (GCC/Clang/MSVC)
-- **4GB RAM** كحد أدنى (8GB مستحسن)
-- **صلاحيات المدير** (للميزات المتقدمة)
+</div>
 
-### **⚡ التثبيت السريع:**
+---
+
+## 🚀 البدء السريع | Quick Start
+
+### المتطلبات الأساسية | Prerequisites
+
+- Python 3.8 أو أحدث.
+- مترجم C++ متوافق: GCC أو Clang أو MSVC.
+- ذاكرة RAM بسعة 4 GB كحد أدنى، و8 GB موصى بها.
+- صلاحيات المدير مطلوبة لبعض الوظائف المتقدمة، بحسب نظام التشغيل والإعدادات.
+
+### التثبيت | Installation
+
 ```bash
-# 1. استنساخ المشروع
-git clone https://github.com/sbards/sbards-v2.git
-cd sbards-v2
+# 1. استنساخ المستودع
+git clone https://github.com/YounesMAlSalami/SBARDS1.git
+cd SBARDS1
 
-# 2. تثبيت المتطلبات
+# 2. تثبيت متطلبات Python
 pip install -r requirements.txt
 
-# 3. تجميع مكونات C++ (تلقائي)
+# 3. بناء امتدادات C++ (إذا كانت مطلوبة في بيئتك)
 python setup.py build_ext --inplace
 
-# 4. تهيئة التكوين
+# 4. التحقق من إعدادات النظام
 python run.py --test-config
 
 # 5. تشغيل النظام
 python run.py
 ```
 
-### **🎯 التشغيل الأساسي:**
+### أوامر التشغيل | Basic Commands
+
 ```bash
-# تشغيل جميع الطبقات (مستحسن)
+# تشغيل النظام
 python run.py
 
-# تشغيل طبقة محددة
+# تشغيل الالتقاط/الفحص على مسار محدد
 python run.py --capture --target /path/to/scan
+
+# تشغيل التحليل الثابت
 python run.py --static-analysis
+
+# تشغيل واجهة API
 python run.py --api --host 0.0.0.0 --port 8000
 
 # فحص متطلبات النظام
 python run.py --check-system
 ```
 
----
-
-## 🏗️ **هندسة النظام**
-
-### **الطبقات الثمانية المتكاملة:**
-```
-SBARDS v2.0 Multi-Layer Architecture
-├── 🎯 Capture Layer          [C++/Python] - اعتراض الملفات الفوري
-├── 🔍 Static Analysis        [C++/Python] - 8 محللات متخصصة
-├── 🏃 Dynamic Analysis       [C++/Python] - تحليل سلوكي متقدم
-├── 🚨 Response Layer         [Python/C++] - استجابة تلقائية للتهديدات
-├── 🌐 External Integration   [Python/C++] - تكامل خارجي (VirusTotal)
-├── 🛡️ Memory Protection      [C++]        - حماية الذاكرة المتقدمة
-├── 📊 Monitoring Layer       [C++/Python] - مراقبة صحة النظام
-└── 🌐 API Layer              [Python]     - واجهة RESTful شاملة
-```
-
-### **المحللات الثمانية المتخصصة:**
-1. **🛡️ YARA Scanner** - كشف أنماط البرمجيات الخبيثة (100+ قاعدة)
-2. **💻 Advanced Code Analyzer** - تحليل الكود والشيل كود
-3. **📄 Document Analyzer** - تحليل المستندات والماكرو
-4. **🌐 Network Analyzer** - تحليل حركة الشبكة
-5. **🔗 URL/IP Analyzer** - تحليل الروابط والعناوين
-6. **🔐 Permission Analyzer** - تحليل الصلاحيات الأمنية
-7. **📈 Entropy Calculator** - كشف التشفير والضغط
-8. **🧠 ML Engine** - ذكاء اصطناعي للكشف المتقدم
+> **ملاحظة:** تأكد من أن أسماء الأوامر والخيارات أعلاه مطابقة للخيارات المنفذة فعلياً في الإصدار الموجود بالمستودع.
 
 ---
 
-## 🎨 **واجهة المستخدم**
+## 🏗️ هندسة النظام | System Architecture
 
-### **🌐 Dashboard التفاعلي:**
+يتكون التصميم من ثماني طبقات رئيسية:
+
+| الطبقة | التقنية | الوظيفة |
+|---|---|---|
+| Capture Layer | C++ / Python | التقاط الملفات ومتابعتها وفق آلية النظام |
+| Static Analysis | C++ / Python | التحليل الثابت باستخدام المحللات المتخصصة |
+| Dynamic Analysis | C++ / Python | التحليل الديناميكي والسلوكي |
+| Response Layer | Python / C++ | تنفيذ إجراءات الاستجابة للتهديدات |
+| External Integration | Python / C++ | التكامل مع الخدمات الخارجية مثل VirusTotal |
+| Memory Protection | C++ | وظائف حماية الذاكرة |
+| Monitoring Layer | C++ / Python | مراقبة حالة النظام ومكوناته |
+| API Layer | Python | توفير واجهة REST API |
+
+### المحللات المتخصصة | Specialized Analyzers
+
+1. **YARA Scanner** — مطابقة الملفات مع قواعد YARA للكشف عن الأنماط المعروفة.
+2. **Advanced Code Analyzer** — تحليل الشفرة والأنماط البرمجية المشبوهة.
+3. **Document Analyzer** — فحص المستندات والماكرو.
+4. **Network Analyzer** — تحليل مؤشرات وحركة الشبكة.
+5. **URL/IP Analyzer** — تحليل الروابط وعناوين IP.
+6. **Permission Analyzer** — تحليل الصلاحيات والأذونات.
+7. **Entropy Calculator** — قياس الإنتروبيا للمساعدة في تحديد الملفات ذات المحتوى عالي العشوائية.
+8. **ML Engine** — استخدام نماذج التعلم الآلي ضمن عملية الكشف.
+
+---
+
+## 🎨 لوحة التحكم وواجهة API | Dashboard & API
+
+يمكن تشغيل واجهة API باستخدام:
+
 ```bash
-# تشغيل الواجهة الويب
 python run.py --api
+```
 
-# الوصول للـ Dashboard
+ثم فتح لوحة التحكم من المتصفح:
+
+```text
 http://localhost:8000/dashboard
 ```
 
-### **📊 الميزات المتاحة:**
-- **Dark/Light Mode** - تبديل بين الأوضاع
-- **Real-time Updates** - تحديثات مباشرة كل ثانيتين
-- **Interactive Charts** - رسوم بيانية تفاعلية
-- **System Health** - مراقبة صحة النظام
-- **Threat Detection** - عرض التهديدات المكتشفة
+تشمل وظائف الواجهة المذكورة في المشروع:
+
+- **Dark / Light Mode:** التبديل بين الوضع الداكن والفاتح.
+- **Real-time Updates:** تحديث البيانات بصورة دورية.
+- **Interactive Charts:** عرض المؤشرات والرسوم البيانية.
+- **System Health:** متابعة حالة مكونات النظام.
+- **Threat Detection:** استعراض التهديدات ونتائج الفحص.
 
 ---
 
-## 🗄️ **قاعدة البيانات**
+## 🗄️ قاعدة البيانات | Database
 
-### **16 جدول متخصص:**
-- **Files, Hashes, StaticReports, DynamicReports** - البيانات الأساسية
-- **Verdicts, Users, AccessControl, AuditLogs** - الإدارة والأمان
-- **PermissionAnalysis, EnhancedScanReport** - التحليل المتقدم
-- **VirusHashDatabase, WhitelistDatabase** - قواعد البيانات المرجعية
-- **ThreatIntelligence, SystemMetrics** - الاستخبارات والمقاييس
+بحسب تصميم المشروع، تتضمن قاعدة البيانات 16 جدولاً متخصصاً، من بينها:
 
-### **الميزات المتقدمة:**
-- **تشفير AES-256** للبيانات الحساسة
-- **دعم PostgreSQL و SQLite** مع تبديل تلقائي
-- **نسخ احتياطي تلقائي** كل 24 ساعة
-- **فهرسة محسنة** للاستعلامات السريعة
+| المجال | الجداول |
+|---|---|
+| بيانات الملفات والتحليل | `Files`, `Hashes`, `StaticReports`, `DynamicReports` |
+| النتائج وإدارة الوصول | `Verdicts`, `Users`, `AccessControl`, `AuditLogs` |
+| التحليل المتقدم | `PermissionAnalysis`, `EnhancedScanReport` |
+| قواعد البيانات المرجعية | `VirusHashDatabase`, `WhitelistDatabase` |
+| معلومات التهديدات والمقاييس | `ThreatIntelligence`, `SystemMetrics` |
 
----
+### وظائف قاعدة البيانات
 
-## 🔒 **الأمان والحماية**
-
-### **🛡️ الحماية المتقدمة:**
-- **تشفير الذاكرة** للبيانات الحساسة
-- **حماية من هجمات Cold Boot**
-- **حذف آمن للملفات** (3 مرات كتابة فوقية)
-- **فحص سلامة** ملفات النظام
-- **أنظمة نسخ احتياطي** معزولة
-
-### **🔍 كشف التهديدات:**
-- **دقة 96%+** في كشف البرمجيات الخبيثة
-- **تحديد تهديدات Zero-day**
-- **تحليل سلوك برامج الفدية**
-- **كشف التهديدات المستمرة المتقدمة** (APT)
-- **كشف البرمجيات الخبيثة بدون ملفات**
+- تشفير البيانات الحساسة باستخدام AES-256، وفق آلية التنفيذ المعتمدة.
+- دعم PostgreSQL وSQLite، وفق إعدادات التشغيل.
+- النسخ الاحتياطي الدوري.
+- تحسين الفهرسة والاستعلامات.
 
 ---
 
-## 📚 **التوثيق والمساعدة**
+## 🔒 الأمان واكتشاف التهديدات | Security & Threat Detection
 
-### **📖 الأدلة الأساسية:**
-- **[👤 دليل المستخدم](USER_GUIDE.md)** - دليل شامل للمستخدمين
-- **[👨‍💻 دليل المطور](DEVELOPER_GUIDE.md)** - دليل تقني للمطورين
-- **[👨‍💼 دليل المدير](ADMIN_GUIDE.md)** - دليل إدارة النظام
-- **[📋 سجل التغييرات](CHANGELOG.md)** - تاريخ الإصدارات
+### وظائف الحماية المذكورة
 
-### **📁 التوثيق المتخصص:**
-- **[docs/technical/](docs/technical/)** - التوثيق التقني المفصل
-- **[docs/user/](docs/user/)** - أدلة المستخدم التفصيلية
-- **[docs/admin/](docs/admin/)** - توثيق الإدارة المتقدمة
-- **[tests/](tests/)** - دليل الاختبارات والجودة
+- حماية البيانات الحساسة في الذاكرة.
+- آليات للحد من مخاطر استخراج بيانات الذاكرة.
+- الحذف الآمن للملفات وفق آلية التنفيذ.
+- فحص سلامة ملفات النظام.
+- آليات النسخ الاحتياطي.
+
+### فئات التهديدات المستهدفة
+
+- Malware — البرمجيات الخبيثة.
+- Ransomware — برامج الفدية.
+- Zero-day Threats — التهديدات التي تستغل ثغرات غير معروفة أو غير مرقعة.
+- APT — التهديدات المستمرة المتقدمة.
+- Fileless Malware — البرمجيات الخبيثة التي تعمل دون الاعتماد على ملف تقليدي على القرص.
+
+> قدرات الكشف الفعلية تعتمد على قواعد الكشف والنماذج ومصادر البيانات وبيئة الاختبار. لا ينبغي اعتبار أي نسبة كشف ضماناً لاكتشاف جميع التهديدات.
 
 ---
 
-## 🧪 **الاختبار والجودة**
+## 🧪 الاختبار والجودة | Testing & Quality
 
-### **✅ نتائج الاختبار:**
+لتشغيل الاختبارات:
+
 ```bash
-# تشغيل جميع الاختبارات
+# تشغيل مجموعة الاختبارات
 python run_tests.py
 
-# اختبارات محددة
-pytest tests/unit/ -v          # اختبارات الوحدة
-pytest tests/integration/ -v   # اختبارات التكامل
-pytest tests/performance/ -v   # اختبارات الأداء
+# اختبارات الوحدة
+pytest tests/unit/ -v
+
+# اختبارات التكامل
+pytest tests/integration/ -v
+
+# اختبارات الأداء
+pytest tests/performance/ -v
 ```
 
-### **📊 مؤشرات الجودة:**
-- ✅ **اختبارات الوحدة**: 95% نجاح
-- ✅ **اختبارات التكامل**: 92% نجاح
-- ✅ **اختبارات الأداء**: 100% نجاح
-- ✅ **تغطية الكود**: 85%
+### مؤشرات الاختبار المذكورة
+
+| نوع الاختبار | النتيجة المذكورة |
+|---|---:|
+| اختبارات الوحدة | 95% |
+| اختبارات التكامل | 92% |
+| اختبارات الأداء | 100% |
+| تغطية الكود | 85% |
+
+ينبغي إرفاق تقارير الاختبار أو مخرجات CI التي تثبت هذه النتائج عند تقديمها باعتبارها نتائج تحقق رسمية.
 
 ---
 
-## 🚀 **النشر والتوزيع**
+## 🚀 النشر والتوزيع | Deployment
 
-### **🐳 Docker:**
+### Docker
+
 ```bash
-# بناء وتشغيل مع Docker Compose
 docker-compose up -d
+```
 
-# توسيع الخدمات
+مثال لتوسيع الخدمات، إذا كانت الخدمات والأسماء معرفة في ملف Compose:
+
+```bash
 docker-compose up --scale api=3 --scale monitoring=2
 ```
 
-### **☸️ Kubernetes:**
+### Kubernetes
+
 ```bash
-# النشر على Kubernetes
+# تطبيق ملفات النشر
 kubectl apply -f deployment/kubernetes/prod/
 
-# مراقبة النشر
+# متابعة Pods
 kubectl get pods -n sbards
 ```
 
 ---
 
-## 📞 **الدعم والمساعدة**
+## 📚 التوثيق | Documentation
 
-### **🤝 المجتمع:**
-- 📧 **Email**: support@sbards.org
-- 💬 **Discord**: [SBARDS Community](https://discord.gg/sbards)
-- 🐛 **Issues**: [GitHub Issues](https://github.com/sbards/sbards/issues)
-- 📖 **Wiki**: [Project Wiki](https://github.com/sbards/sbards/wiki)
+تتوفر أدلة المشروع التالية في المستودع:
 
-### **📋 الإبلاغ عن المشاكل:**
+- `README.md` — نظرة عامة ودليل البدء السريع.
+- `USER_GUIDE.md` — دليل المستخدم.
+- `DEVELOPER_GUIDE.md` — دليل المطور.
+- `ADMIN_GUIDE.md` — دليل المدير.
+- `CHANGELOG.md` — سجل التغييرات.
+- `docs/technical/` — التوثيق التقني.
+- `docs/user/` — أدلة المستخدم التفصيلية.
+- `docs/admin/` — توثيق الإدارة.
+- `tests/` — ملفات الاختبارات.
+
+---
+
+## 🛠️ التشخيص | Diagnostics
+
 ```bash
-# تشغيل تشخيص النظام
+# تشخيص النظام
 python run.py --diagnose
 
-# إنشاء تقرير مشكلة
+# إنشاء تقرير للمشكلة
 python run.py --create-issue-report
 ```
 
 ---
 
-## 📄 **الرخصة**
+## 🤝 المساهمة والدعم | Contributing & Support
 
-هذا المشروع مرخص تحت رخصة MIT - راجع ملف [LICENSE](LICENSE) للتفاصيل.
+للاستفسارات أو الإبلاغ عن مشكلة، يرجى استخدام صفحة Issues في المستودع:
 
----
-
-## 🎉 **البدء الآن!**
-
-```bash
-# تثبيت سريع
-git clone https://github.com/sbards/sbards-v2.git && cd sbards-v2
-pip install -r requirements.txt && python run.py
-
-# الوصول للـ Dashboard
-open http://localhost:8000/dashboard
-```
+- **Repository:** https://github.com/YounesMAlSalami/SBARDS1
+- **Issues:** https://github.com/YounesMAlSalami/SBARDS1/issues
 
 ---
 
+## 📄 الرخصة | License
+
+هذا المشروع مرخص بموجب **MIT License**. راجع ملف `LICENSE` في المستودع للاطلاع على النص الكامل للرخصة.
+
+---
 <div align="center">
 
 ### 🛡️ SBARDS v2.0.0
