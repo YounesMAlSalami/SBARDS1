@@ -287,9 +287,10 @@ open http://localhost:8000/dashboard
 
 <div align="center">
 
-**🛡️ SBARDS v2.0.0 - Protecting Your Digital World 🛡️**
+### 🛡️ SBARDS v2.0.0
+**Protecting Your Digital World**
 
-*Made with ❤️ by Osama Al-khtri and the SBARDS Team*
+Developed by **Younes Al-Salami** and the SBARDS team.
 
 [![Star History Chart](https://api.star-history.com/svg?repos=sbards/sbards&type=Date)](https://star-history.com/#sbards/sbards&Date)
 
